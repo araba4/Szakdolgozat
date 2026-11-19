@@ -1,0 +1,338 @@
+{
+  "mlp_american": {
+    "n_epochs_p10": 25,
+    "n_epochs_p30": 45,
+    "n_common_epochs": 25,
+    "columns": {
+      "train_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "val_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "lr": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      }
+    },
+    "bitwise_identical": true,
+    "first_differing_epoch": null
+  },
+  "mlp_european": {
+    "n_epochs_p10": 35,
+    "n_epochs_p30": 153,
+    "n_common_epochs": 35,
+    "columns": {
+      "train_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "val_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "lr": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      }
+    },
+    "bitwise_identical": true,
+    "first_differing_epoch": null
+  },
+  "deep_mlp_american": {
+    "n_epochs_p10": 14,
+    "n_epochs_p30": 66,
+    "n_common_epochs": 14,
+    "columns": {
+      "train_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "val_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "lr": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      }
+    },
+    "bitwise_identical": true,
+    "first_differing_epoch": null
+  },
+  "deep_mlp_european": {
+    "n_epochs_p10": 12,
+    "n_epochs_p30": 75,
+    "n_common_epochs": 12,
+    "columns": {
+      "train_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "val_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "lr": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      }
+    },
+    "bitwise_identical": true,
+    "first_differing_epoch": null
+  },
+  "dense_mlp_american": {
+    "n_epochs_p10": 77,
+    "n_epochs_p30": 97,
+    "n_common_epochs": 77,
+    "columns": {
+      "train_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "val_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "lr": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      }
+    },
+    "bitwise_identical": true,
+    "first_differing_epoch": null
+  },
+  "dense_mlp_european": {
+    "n_epochs_p10": 105,
+    "n_epochs_p30": 125,
+    "n_common_epochs": 105,
+    "columns": {
+      "train_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "val_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "lr": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      }
+    },
+    "bitwise_identical": true,
+    "first_differing_epoch": null
+  },
+  "resnet_american": {
+    "n_epochs_p10": 76,
+    "n_epochs_p30": 200,
+    "n_common_epochs": 76,
+    "columns": {
+      "train_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "val_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "lr": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      }
+    },
+    "bitwise_identical": true,
+    "first_differing_epoch": null
+  },
+  "resnet_european": {
+    "n_epochs_p10": 49,
+    "n_epochs_p30": 167,
+    "n_common_epochs": 49,
+    "columns": {
+      "train_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "val_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "lr": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      }
+    },
+    "bitwise_identical": true,
+    "first_differing_epoch": null
+  },
+  "gelu_resnet_american": {
+    "n_epochs_p10": 34,
+    "n_epochs_p30": 54,
+    "n_common_epochs": 34,
+    "columns": {
+      "train_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "val_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "lr": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      }
+    },
+    "bitwise_identical": true,
+    "first_differing_epoch": null
+  },
+  "gelu_resnet_european": {
+    "n_epochs_p10": 27,
+    "n_epochs_p30": 47,
+    "n_common_epochs": 27,
+    "columns": {
+      "train_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "val_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "lr": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      }
+    },
+    "bitwise_identical": true,
+    "first_differing_epoch": null
+  },
+  "highway_american": {
+    "n_epochs_p10": 74,
+    "n_epochs_p30": 94,
+    "n_common_epochs": 74,
+    "columns": {
+      "train_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "val_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "lr": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      }
+    },
+    "bitwise_identical": true,
+    "first_differing_epoch": null
+  },
+  "highway_european": {
+    "n_epochs_p10": 88,
+    "n_epochs_p30": 108,
+    "n_common_epochs": 88,
+    "columns": {
+      "train_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "val_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "lr": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      }
+    },
+    "bitwise_identical": true,
+    "first_differing_epoch": null
+  },
+  "finn_american": {
+    "n_epochs_p10": 24,
+    "n_epochs_p30": 44,
+    "n_common_epochs": 24,
+    "columns": {
+      "train_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "val_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "lr": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      }
+    },
+    "bitwise_identical": true,
+    "first_differing_epoch": null
+  },
+  "finn_european": {
+    "n_epochs_p10": 25,
+    "n_epochs_p30": 45,
+    "n_common_epochs": 25,
+    "columns": {
+      "train_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "val_loss": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      },
+      "lr": {
+        "n_differing": 0,
+        "first_differing_epoch": null,
+        "max_abs_diff": 0.0
+      }
+    },
+    "bitwise_identical": true,
+    "first_differing_epoch": null
+  }
+}

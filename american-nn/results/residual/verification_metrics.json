@@ -1,0 +1,83 @@
+{
+  "rows": [
+    {
+      "arch": "mlp",
+      "direct_max_rel_diff_vs_levels_table": 0.0,
+      "residual_param_count_match": true,
+      "residual_param_count_eq_direct": true,
+      "residual_hparams_bitwise_equal": true,
+      "residual_model_kwargs_eq_direct": true,
+      "residual_val_recheck_rel_diff": 1.2008449087876894e-09,
+      "direct_bitwise_equal_011_metrics_json_csv_roundtrip": true
+    },
+    {
+      "arch": "deep_mlp",
+      "direct_max_rel_diff_vs_levels_table": 0.0,
+      "residual_param_count_match": true,
+      "residual_param_count_eq_direct": true,
+      "residual_hparams_bitwise_equal": true,
+      "residual_model_kwargs_eq_direct": true,
+      "residual_val_recheck_rel_diff": 9.138092097628245e-10,
+      "direct_bitwise_equal_011_metrics_json_csv_roundtrip": true
+    },
+    {
+      "arch": "dense_mlp",
+      "direct_max_rel_diff_vs_levels_table": 0.0,
+      "residual_param_count_match": true,
+      "residual_param_count_eq_direct": true,
+      "residual_hparams_bitwise_equal": true,
+      "residual_model_kwargs_eq_direct": true,
+      "residual_val_recheck_rel_diff": 3.7613189782105025e-10,
+      "direct_bitwise_equal_011_metrics_json_csv_roundtrip": true
+    },
+    {
+      "arch": "resnet",
+      "direct_max_rel_diff_vs_levels_table": 0.0,
+      "residual_param_count_match": true,
+      "residual_param_count_eq_direct": true,
+      "residual_hparams_bitwise_equal": true,
+      "residual_model_kwargs_eq_direct": true,
+      "residual_val_recheck_rel_diff": 4.055311120518658e-09,
+      "direct_bitwise_equal_011_metrics_json_csv_roundtrip": true
+    },
+    {
+      "arch": "gelu_resnet",
+      "direct_max_rel_diff_vs_levels_table": 0.0,
+      "residual_param_count_match": true,
+      "residual_param_count_eq_direct": true,
+      "residual_hparams_bitwise_equal": true,
+      "residual_model_kwargs_eq_direct": true,
+      "residual_val_recheck_rel_diff": 2.285168848632941e-09,
+      "direct_bitwise_equal_011_metrics_json_csv_roundtrip": true
+    },
+    {
+      "arch": "highway",
+      "direct_max_rel_diff_vs_levels_table": 0.0,
+      "residual_param_count_match": true,
+      "residual_param_count_eq_direct": true,
+      "residual_hparams_bitwise_equal": true,
+      "residual_model_kwargs_eq_direct": true,
+      "residual_val_recheck_rel_diff": 9.116330386185117e-09,
+      "direct_bitwise_equal_011_metrics_json_csv_roundtrip": true
+    },
+    {
+      "arch": "finn",
+      "direct_max_rel_diff_vs_levels_table": 0.0,
+      "residual_param_count_match": true,
+      "residual_param_count_eq_direct": true,
+      "residual_hparams_bitwise_equal": true,
+      "residual_model_kwargs_eq_direct": true,
+      "residual_val_recheck_rel_diff": 8.659495257480988e-09,
+      "direct_bitwise_equal_011_metrics_json_csv_roundtrip": true
+    }
+  ],
+  "all_direct_bitwise_equal_011_metrics_json": true,
+  "max_direct_rel_diff_vs_levels_table": 0.0,
+  "all_direct_bitwise_equal_levels_table": true,
+  "csv_parsing": "pd.read_csv(float_precision='round_trip') -- az alapértelmezett gyors parser nem bitre pontos",
+  "all_residual_param_count_match": true,
+  "all_residual_hparams_bitwise_equal": true,
+  "all_residual_model_kwargs_eq_direct": true,
+  "max_residual_val_recheck_rel_diff": 9.116330386185117e-09,
+  "levels_table": "american-nn/results/retune/levels_table.csv"
+}

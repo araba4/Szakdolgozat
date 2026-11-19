@@ -1,0 +1,123 @@
+{
+  "run": "dense_mlp_residual_retune_p30",
+  "arch": "dense_mlp",
+  "model_class": "DenseMLPPricer",
+  "target": "american_minus_bs",
+  "target_col": "american_minus_bs_norm",
+  "target_definition": "(american_put_price - european_put_price) / K",
+  "prediction": "american_put_price/K = european_put_price/K (BS) + NN(x)",
+  "residual_scaling": null,
+  "level": "residual_retune_p30",
+  "direct_pair": "dense_mlp_american_retune_p30",
+  "patience": 30,
+  "max_epochs": 200,
+  "seed": 42,
+  "hyperparameters": {
+    "lr": 0.0019005869060715655,
+    "weight_decay": 2.257815289394274e-06,
+    "dropout": 0.16210742571888953,
+    "batch_size": 4096
+  },
+  "hyperparameter_source_json": "american-nn/results/retune/best_params_dense_mlp.json",
+  "hyperparameter_source_study": "american-nn/optuna_studies/retune/dense_mlp.db",
+  "hyperparameter_source_trial": 16,
+  "hyperparameters_bitwise_equal_retune": true,
+  "model_kwargs": {
+    "input_dim": 4,
+    "hidden_dim": 128,
+    "n_layers": 4,
+    "dropout": 0.16210742571888953
+  },
+  "param_count": 101381,
+  "param_count_match": true,
+  "param_count_check": {
+    "arch": "dense_mlp",
+    "model_kwargs": {
+      "input_dim": 4,
+      "hidden_dim": 128,
+      "n_layers": 4,
+      "dropout": 0.16210742571888953
+    },
+    "param_count": 101381,
+    "onlab_v1_checkpoint": "Önlab eredmények/models/dense_mlp_best.pt",
+    "onlab_v1_param_count": 101381,
+    "hpo_p30_param_count_check": "hpo/results/p30/param_count_check_dense_mlp.json",
+    "hpo_p30_param_count": 101381,
+    "retune_param_count_check": "american-nn/results/retune/param_count_check_dense_mlp_american_retune_p30.json",
+    "retune_param_count": 101381,
+    "retune_checkpoint": "american-nn/models/retune/dense_mlp_american_retune_p30_best.pt",
+    "retune_model_kwargs": {
+      "input_dim": 4,
+      "hidden_dim": 128,
+      "n_layers": 4,
+      "dropout": 0.16210742571888953
+    },
+    "size_kwargs_equal_baseline_arch_kwargs": true,
+    "model_kwargs_equal_retune_checkpoint": true,
+    "param_count_match": true,
+    "all_ok": true
+  },
+  "checkpoint": "american-nn/models/residual/dense_mlp_residual_retune_p30_best.pt",
+  "data_files": {
+    "train": "american-options/data/train.parquet",
+    "val": "american-options/data/val.parquet",
+    "test": "american-options/data/test.parquet"
+  },
+  "best_epoch": 14,
+  "n_epochs_run": 44,
+  "hit_max_epochs": false,
+  "best_val_loss": 9.585104650080514e-06,
+  "best_val_loss_scale": "reziduum (american − BS)/K",
+  "train_seconds": 351.7513208389282,
+  "mean_epoch_seconds": 7.994132101535797,
+  "checkpoint_target_col": "american_minus_bs_norm",
+  "checkpoint_model_kwargs": {
+    "input_dim": 4,
+    "hidden_dim": 128,
+    "n_layers": 4,
+    "dropout": 0.16210742571888953
+  },
+  "checkpoint_feature_cols": [
+    "moneyness_norm",
+    "T_norm",
+    "r_norm",
+    "sigma_norm"
+  ],
+  "val_recheck": {
+    "checkpoint_val_loss": 9.585104650080514e-06,
+    "checkpoint_best_epoch": 14,
+    "reloaded_val_mse": 9.585104653685778e-06,
+    "rel_diff": 3.7613189782105025e-10,
+    "scale": "reziduum (american − BS)/K",
+    "loader": "Önlab src/evaluate.py load_model + PricingDataset"
+  },
+  "val_mse_price": 9.585104591338566e-06,
+  "val_mse_price_note": "a rekonstruált ár (BS/K + NN) MSE-je az american/K float32 célon, a direkt modellek val_recheck.reloaded_val_mse-jével azonos képlettel",
+  "test_metrics": {
+    "RMSE": 0.0031061589252203703,
+    "MAE": 0.0015861612046137452,
+    "MAPE (%)": 242715.771484375,
+    "max_error": 0.03311695158481598,
+    "R2": 0.999605119228363,
+    "MSE": 9.648223268726166e-06
+  },
+  "test_metrics_usd": {
+    "RMSE": 0.39027405414558025,
+    "MAE": 0.15950985947848118,
+    "max_error": 7.7340731384175,
+    "R2": 0.9997899986820374
+  },
+  "test_metrics_residual_scale": {
+    "RMSE": 0.0031061589252203703,
+    "MAE": 0.0015861610881984234,
+    "max_error": 0.03311694413423538,
+    "R2": 0.8924395442008972,
+    "MSE": 9.648223268726166e-06
+  },
+  "test_sign": {
+    "share_nn_lt0": 0.19494,
+    "share_target_lt0": 0.05021333333333333,
+    "nn_min": -0.0033686794340610504,
+    "nn_max": 0.08243262022733688
+  }
+}

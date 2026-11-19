@@ -1,0 +1,37 @@
+{
+  "arch": "mlp",
+  "model_class": "MLPPricer",
+  "architecture_size_fixed_baseline": {
+    "input_dim": 4,
+    "hidden_dim": 100,
+    "n_layers": 4
+  },
+  "lr": 0.0013901193085065577,
+  "weight_decay": 1.362943618738406e-06,
+  "dropout": null,
+  "search_best_val_loss": 1.46433747488724e-06,
+  "search_best_trial_number": 15,
+  "n_trials_completed": 25,
+  "n_trials_target": 25,
+  "final_retrain_best_epoch": 199,
+  "final_retrain_best_val_loss": 9.014658192306039e-07,
+  "baseline_val_loss": 2.060655468298743e-05,
+  "improvement_pct_vs_baseline_val_loss": 95.62534429894365,
+  "param_count_match": true,
+  "param_count": 30901,
+  "baseline_test_metrics": {
+    "RMSE": 0.004602072760462761,
+    "MAE": 0.0027880033012479544,
+    "MAPE (%)": 66822.39990234375,
+    "max_error": 0.08169036358594894,
+    "R2": 0.9994487762451172
+  },
+  "hpo_test_metrics": {
+    "RMSE": 0.0009781861444935203,
+    "MAE": 0.0006194747984409332,
+    "MAPE (%)": 127971.69189453125,
+    "max_error": 0.03474678844213486,
+    "R2": 0.9999750852584839
+  },
+  "retrain_seconds": 1693.3727881908417
+}

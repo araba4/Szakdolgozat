@@ -1,0 +1,225 @@
+{
+  "definition": "(american_put_price - european_put_price) / K",
+  "splits": {
+    "train": {
+      "n": 700000,
+      "residual_norm": {
+        "min": -0.00020465820300509294,
+        "max": 0.09381996213631785,
+        "mean": 0.005269509223984804,
+        "median": 0.0017449332991463801,
+        "std": 0.0094775185705848,
+        "q00": -0.00020465820300509294,
+        "q01": -6.151145098296082e-06,
+        "q05": -1.1418566659905459e-16,
+        "q25": 0.000324287426590798,
+        "q50": 0.0017449332991463801,
+        "q75": 0.005773992107516163,
+        "q95": 0.02308794258406565,
+        "q99": 0.05013408719982556,
+        "q100": 0.09381996213631785
+      },
+      "residual_usd": {
+        "min": -0.024220377283114658,
+        "max": 26.27963463664236,
+        "median": 0.11402486043562088,
+        "mean": 0.5982207567226845
+      },
+      "negative": {
+        "n_lt0": 35151,
+        "share_lt0": 0.05021571428571429,
+        "n_lt_minus1e-6": 14308,
+        "share_lt_minus1e-6": 0.02044,
+        "min_norm": -0.00020465820300509294,
+        "min_usd": -0.024220377283114658,
+        "median_of_negatives_norm": -4.230398334521777e-07,
+        "median_of_negatives_usd": -2.0067523645999957e-05,
+        "mean_of_negatives_usd": -0.00041235689054405815,
+        "moneyness_median_of_negatives": 1.354664368817458,
+        "T_median_of_negatives": 0.2653491257538932,
+        "share_negatives_otm": 0.9370145941793975,
+        "share_negatives_short_T": 0.4844243407015448
+      },
+      "american_norm": {
+        "min": 0.0,
+        "max": 0.6356615503448303,
+        "mean": 0.2129367784486746,
+        "median": 0.1998261761864141,
+        "std": 0.15640747497180071
+      },
+      "scale_vs_american": {
+        "std_ratio_residual_over_american": 0.0605950487487477,
+        "mean_abs_ratio": 0.024749726405612776,
+        "max_ratio": 0.14759420651669572,
+        "mean_square_ratio": 0.0016845564457527546,
+        "note": "A reziduum varianciája az ár/K-énak ennyiszerese; az MSE-veszteség és a gradiensek skálája ennyivel kisebb (a hiperparaméterek az árra hangolódtak)."
+      },
+      "residual_minus_premium": {
+        "definition": "(american - BS)/K - premium/K = (crr_european - BS)/K",
+        "max_abs_norm": 0.00025429103527450117,
+        "max_abs_usd": 0.043422490582856084,
+        "median_abs_usd": 0.0015826232146736337,
+        "check_vs_crr_eu_minus_bs_max_abs_usd": 3.74873743158588e-15
+      },
+      "premium_norm": {
+        "min": 0.0,
+        "max": 0.09382015336386586,
+        "median": 0.0017220534713752768
+      },
+      "reconstruction": {
+        "formula": "european_put_price/K + target == american_put_price/K (float64)",
+        "max_abs_diff_norm": 1.1102230246251565e-16,
+        "n_not_bitwise_equal": 173572,
+        "allclose_rtol0_atol1e-15": true,
+        "float32_target_reconstruction_max_abs_diff": 3.722078534273976e-09
+      }
+    },
+    "val": {
+      "n": 150000,
+      "residual_norm": {
+        "min": -0.00017833512983584895,
+        "max": 0.09362471687575602,
+        "mean": 0.005296468884004271,
+        "median": 0.0017523690362435517,
+        "std": 0.009526712278966521,
+        "q00": -0.00017833512983584895,
+        "q01": -5.851379559410939e-06,
+        "q05": 3.2563493224164012e-118,
+        "q25": 0.0003236913591457014,
+        "q50": 0.0017523690362435517,
+        "q75": 0.00582683088719502,
+        "q95": 0.023053203154324096,
+        "q99": 0.050646941275471875,
+        "q100": 0.09362471687575602
+      },
+      "residual_usd": {
+        "min": -0.022454618064500664,
+        "max": 24.538997298611434,
+        "median": 0.11430127122198108,
+        "mean": 0.6005404673271408
+      },
+      "negative": {
+        "n_lt0": 7441,
+        "share_lt0": 0.04960666666666667,
+        "n_lt_minus1e-6": 2997,
+        "share_lt_minus1e-6": 0.01998,
+        "min_norm": -0.00017833512983584895,
+        "min_usd": -0.022454618064500664,
+        "median_of_negatives_norm": -3.8653656190094086e-07,
+        "median_of_negatives_usd": -1.882139776009789e-05,
+        "mean_of_negatives_usd": -0.0004174960086337942,
+        "moneyness_median_of_negatives": 1.3543381062414372,
+        "T_median_of_negatives": 0.2707664647339879,
+        "share_negatives_otm": 0.938314742642118,
+        "share_negatives_short_T": 0.47628006988308025
+      },
+      "american_norm": {
+        "min": 0.0,
+        "max": 0.6316290697253721,
+        "mean": 0.21352470380844835,
+        "median": 0.2005875522819872,
+        "std": 0.15642353337012
+      },
+      "scale_vs_american": {
+        "std_ratio_residual_over_american": 0.0609033185334395,
+        "mean_abs_ratio": 0.02480782422257411,
+        "max_ratio": 0.14822737166999517,
+        "mean_square_ratio": 0.001695816851213729,
+        "note": "A reziduum varianciája az ár/K-énak ennyiszerese; az MSE-veszteség és a gradiensek skálája ennyivel kisebb (a hiperparaméterek az árra hangolódtak)."
+      },
+      "residual_minus_premium": {
+        "definition": "(american - BS)/K - premium/K = (crr_european - BS)/K",
+        "max_abs_norm": 0.0002438731011510897,
+        "max_abs_usd": 0.03821302510135629,
+        "median_abs_usd": 0.0015693715067878183,
+        "check_vs_crr_eu_minus_bs_max_abs_usd": 3.3738203203403927e-15
+      },
+      "premium_norm": {
+        "min": 0.0,
+        "max": 0.09362818963470892,
+        "median": 0.0017277637058342526
+      },
+      "reconstruction": {
+        "formula": "european_put_price/K + target == american_put_price/K (float64)",
+        "max_abs_diff_norm": 1.1102230246251565e-16,
+        "n_not_bitwise_equal": 37206,
+        "allclose_rtol0_atol1e-15": true,
+        "float32_target_reconstruction_max_abs_diff": 3.7187393997495377e-09
+      }
+    },
+    "test": {
+      "n": 150000,
+      "residual_norm": {
+        "min": -0.00017576412777699617,
+        "max": 0.09216946484549306,
+        "mean": 0.005286128709690085,
+        "median": 0.0017612835152863806,
+        "std": 0.009471032169473344,
+        "q00": -0.00017576412777699617,
+        "q01": -6.109807675060417e-06,
+        "q05": -1.0025323195786748e-16,
+        "q25": 0.00032496642583511244,
+        "q50": 0.0017612835152863806,
+        "q75": 0.0057934131212761695,
+        "q95": 0.023077009709524213,
+        "q99": 0.049851325208955945,
+        "q100": 0.09216946484549306
+      },
+      "residual_usd": {
+        "min": -0.023877161898084864,
+        "max": 23.52304672707716,
+        "median": 0.11401561581990728,
+        "mean": 0.6000843910819001
+      },
+      "negative": {
+        "n_lt0": 7532,
+        "share_lt0": 0.05021333333333333,
+        "n_lt_minus1e-6": 3068,
+        "share_lt_minus1e-6": 0.020453333333333334,
+        "min_norm": -0.00017576412777699617,
+        "min_usd": -0.023877161898084864,
+        "median_of_negatives_norm": -4.244350101929287e-07,
+        "median_of_negatives_usd": -2.0507354738850015e-05,
+        "mean_of_negatives_usd": -0.00040620928944434527,
+        "moneyness_median_of_negatives": 1.356510953731748,
+        "T_median_of_negatives": 0.26976874699039854,
+        "share_negatives_otm": 0.9375995751460435,
+        "share_negatives_short_T": 0.4808815719596389
+      },
+      "american_norm": {
+        "min": 0.0,
+        "max": 0.6331105410188919,
+        "mean": 0.2128350228004106,
+        "median": 0.19909421027080587,
+        "std": 0.15631702397156377
+      },
+      "scale_vs_american": {
+        "std_ratio_residual_over_american": 0.06058861619062205,
+        "mean_abs_ratio": 0.02483956473340775,
+        "max_ratio": 0.14558194639621827,
+        "mean_square_ratio": 0.0016870395189232386,
+        "note": "A reziduum varianciája az ár/K-énak ennyiszerese; az MSE-veszteség és a gradiensek skálája ennyivel kisebb (a hiperparaméterek az árra hangolódtak)."
+      },
+      "residual_minus_premium": {
+        "definition": "(american - BS)/K - premium/K = (crr_european - BS)/K",
+        "max_abs_norm": 0.00024539187331728586,
+        "max_abs_usd": 0.03600577870628288,
+        "median_abs_usd": 0.0015764840022833835,
+        "check_vs_crr_eu_minus_bs_max_abs_usd": 3.5385970277015608e-15
+      },
+      "premium_norm": {
+        "min": 0.0,
+        "max": 0.092177087121784,
+        "median": 0.0017385950449480068
+      },
+      "reconstruction": {
+        "formula": "european_put_price/K + target == american_put_price/K (float64)",
+        "max_abs_diff_norm": 1.1102230246251565e-16,
+        "n_not_bitwise_equal": 37215,
+        "allclose_rtol0_atol1e-15": true,
+        "float32_target_reconstruction_max_abs_diff": 3.7162363741849447e-09
+      }
+    }
+  },
+  "all_reconstruction_ok": true
+}

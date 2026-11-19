@@ -1,0 +1,266 @@
+{
+  "note": "Kendall tau a rangsorok kozott (7 architektura, egy seed: tajekoztato).",
+  "call_source": "hpo/results/p30/best_params_*.json (hpo_test_metrics.RMSE, final_retrain_best_val_loss)",
+  "pairs": [
+    {
+      "metric": "test_rmse",
+      "a": "american uniform_p30",
+      "b": "european uniform_p30",
+      "order_a": [
+        "resnet",
+        "mlp",
+        "deep_mlp",
+        "gelu_resnet",
+        "finn",
+        "highway",
+        "dense_mlp"
+      ],
+      "order_b": [
+        "resnet",
+        "mlp",
+        "finn",
+        "gelu_resnet",
+        "deep_mlp",
+        "highway",
+        "dense_mlp"
+      ],
+      "tau": 0.7142857142857143,
+      "p_value": 0.03015873015873016,
+      "n": 7
+    },
+    {
+      "metric": "test_rmse",
+      "a": "american transfer_p30",
+      "b": "european transfer_p30",
+      "order_a": [
+        "mlp",
+        "finn",
+        "resnet",
+        "deep_mlp",
+        "gelu_resnet",
+        "dense_mlp",
+        "highway"
+      ],
+      "order_b": [
+        "mlp",
+        "gelu_resnet",
+        "finn",
+        "resnet",
+        "dense_mlp",
+        "deep_mlp",
+        "highway"
+      ],
+      "tau": 0.6190476190476191,
+      "p_value": 0.06904761904761905,
+      "n": 7
+    },
+    {
+      "metric": "test_rmse",
+      "a": "american transfer_p30",
+      "b": "european_call hpo_p30",
+      "order_a": [
+        "mlp",
+        "finn",
+        "resnet",
+        "deep_mlp",
+        "gelu_resnet",
+        "dense_mlp",
+        "highway"
+      ],
+      "order_b": [
+        "mlp",
+        "dense_mlp",
+        "resnet",
+        "deep_mlp",
+        "highway",
+        "finn",
+        "gelu_resnet"
+      ],
+      "tau": 0.23809523809523814,
+      "p_value": 0.5619047619047619,
+      "n": 7
+    },
+    {
+      "metric": "test_rmse",
+      "a": "european transfer_p30",
+      "b": "european_call hpo_p30",
+      "order_a": [
+        "mlp",
+        "gelu_resnet",
+        "finn",
+        "resnet",
+        "dense_mlp",
+        "deep_mlp",
+        "highway"
+      ],
+      "order_b": [
+        "mlp",
+        "dense_mlp",
+        "resnet",
+        "deep_mlp",
+        "highway",
+        "finn",
+        "gelu_resnet"
+      ],
+      "tau": 0.04761904761904762,
+      "p_value": 1.0,
+      "n": 7
+    },
+    {
+      "metric": "test_rmse",
+      "a": "american uniform_p30",
+      "b": "american transfer_p30",
+      "order_a": [
+        "resnet",
+        "mlp",
+        "deep_mlp",
+        "gelu_resnet",
+        "finn",
+        "highway",
+        "dense_mlp"
+      ],
+      "order_b": [
+        "mlp",
+        "finn",
+        "resnet",
+        "deep_mlp",
+        "gelu_resnet",
+        "dense_mlp",
+        "highway"
+      ],
+      "tau": 0.5238095238095238,
+      "p_value": 0.1361111111111111,
+      "n": 7
+    },
+    {
+      "metric": "best_val_mse",
+      "a": "american uniform_p30",
+      "b": "european uniform_p30",
+      "order_a": [
+        "resnet",
+        "mlp",
+        "deep_mlp",
+        "gelu_resnet",
+        "finn",
+        "highway",
+        "dense_mlp"
+      ],
+      "order_b": [
+        "resnet",
+        "mlp",
+        "finn",
+        "gelu_resnet",
+        "deep_mlp",
+        "highway",
+        "dense_mlp"
+      ],
+      "tau": 0.7142857142857143,
+      "p_value": 0.03015873015873016,
+      "n": 7
+    },
+    {
+      "metric": "best_val_mse",
+      "a": "american transfer_p30",
+      "b": "european transfer_p30",
+      "order_a": [
+        "mlp",
+        "finn",
+        "resnet",
+        "deep_mlp",
+        "gelu_resnet",
+        "dense_mlp",
+        "highway"
+      ],
+      "order_b": [
+        "mlp",
+        "gelu_resnet",
+        "finn",
+        "resnet",
+        "dense_mlp",
+        "deep_mlp",
+        "highway"
+      ],
+      "tau": 0.6190476190476191,
+      "p_value": 0.06904761904761905,
+      "n": 7
+    },
+    {
+      "metric": "best_val_mse",
+      "a": "american transfer_p30",
+      "b": "european_call hpo_p30",
+      "order_a": [
+        "mlp",
+        "finn",
+        "resnet",
+        "deep_mlp",
+        "gelu_resnet",
+        "dense_mlp",
+        "highway"
+      ],
+      "order_b": [
+        "mlp",
+        "resnet",
+        "dense_mlp",
+        "deep_mlp",
+        "highway",
+        "finn",
+        "gelu_resnet"
+      ],
+      "tau": 0.33333333333333337,
+      "p_value": 0.3813492063492063,
+      "n": 7
+    },
+    {
+      "metric": "best_val_mse",
+      "a": "european transfer_p30",
+      "b": "european_call hpo_p30",
+      "order_a": [
+        "mlp",
+        "gelu_resnet",
+        "finn",
+        "resnet",
+        "dense_mlp",
+        "deep_mlp",
+        "highway"
+      ],
+      "order_b": [
+        "mlp",
+        "resnet",
+        "dense_mlp",
+        "deep_mlp",
+        "highway",
+        "finn",
+        "gelu_resnet"
+      ],
+      "tau": 0.14285714285714288,
+      "p_value": 0.7726190476190476,
+      "n": 7
+    },
+    {
+      "metric": "best_val_mse",
+      "a": "american uniform_p30",
+      "b": "american transfer_p30",
+      "order_a": [
+        "resnet",
+        "mlp",
+        "deep_mlp",
+        "gelu_resnet",
+        "finn",
+        "highway",
+        "dense_mlp"
+      ],
+      "order_b": [
+        "mlp",
+        "finn",
+        "resnet",
+        "deep_mlp",
+        "gelu_resnet",
+        "dense_mlp",
+        "highway"
+      ],
+      "tau": 0.5238095238095238,
+      "p_value": 0.1361111111111111,
+      "n": 7
+    }
+  ]
+}

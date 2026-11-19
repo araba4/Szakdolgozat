@@ -1,0 +1,22 @@
+{
+  "arch": "deep_mlp",
+  "target": "american",
+  "model_kwargs": {
+    "input_dim": 4,
+    "hidden_dim": 256,
+    "n_layers": 4,
+    "dropout": 0.01640900283977826
+  },
+  "param_count": 267265,
+  "onlab_v1_checkpoint": "Önlab eredmények/models/deep_mlp_best.pt",
+  "onlab_v1_param_count": 267265,
+  "hpo_p30_param_count_check": "hpo/results/p30/param_count_check_deep_mlp.json",
+  "hpo_p30_param_count": 267265,
+  "uniform_p30_metrics": "american-nn/results/uniform/metrics_deep_mlp_american_p30.json",
+  "uniform_p30_param_count": 267265,
+  "transfer_p30_metrics": "american-nn/results/transfer/metrics_deep_mlp_american_transfer_p30.json",
+  "transfer_p30_param_count": 267265,
+  "size_kwargs_equal_baseline_arch_kwargs": true,
+  "param_count_match": true,
+  "all_ok": true
+}

@@ -1,0 +1,23 @@
+{
+  "arch": "finn",
+  "target": "american",
+  "model_kwargs": {
+    "input_dim": 4,
+    "approx_dim": 64,
+    "resnet_dim": 256,
+    "n_blocks": 3,
+    "dropout": 0.03907562167043877
+  },
+  "param_count": 402882,
+  "onlab_v1_checkpoint": "Önlab eredmények/models/finn_best.pt",
+  "onlab_v1_param_count": 402882,
+  "hpo_p30_param_count_check": "hpo/results/p30/param_count_check_finn.json",
+  "hpo_p30_param_count": 402882,
+  "uniform_p30_metrics": "american-nn/results/uniform/metrics_finn_american_p30.json",
+  "uniform_p30_param_count": 402882,
+  "transfer_p30_metrics": "american-nn/results/transfer/metrics_finn_american_transfer_p30.json",
+  "transfer_p30_param_count": 402882,
+  "size_kwargs_equal_baseline_arch_kwargs": true,
+  "param_count_match": true,
+  "all_ok": true
+}

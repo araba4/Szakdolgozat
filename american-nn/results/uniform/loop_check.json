@@ -1,0 +1,47 @@
+{
+  "arch": "dense_mlp",
+  "n_epochs": 3,
+  "data": "Önlab eredmények/data (call_price_norm)",
+  "dataset_tensors_bitwise_equal": true,
+  "train_loss": {
+    "onlab_train_model": [
+      0.005310263823185648,
+      0.0014213422484642693,
+      0.0008801030412954944
+    ],
+    "train_loop": [
+      0.005310263823185648,
+      0.0014213422484642693,
+      0.0008801030412954944
+    ],
+    "bitwise_equal": true
+  },
+  "val_loss": {
+    "onlab_train_model": [
+      0.0013362767253071069,
+      0.0005311762548921009,
+      0.00035799471195787193
+    ],
+    "train_loop": [
+      0.0013362767253071069,
+      0.0005311762548921009,
+      0.00035799471195787193
+    ],
+    "bitwise_equal": true
+  },
+  "lr": {
+    "onlab_train_model": [
+      0.001,
+      0.001,
+      0.001
+    ],
+    "train_loop": [
+      0.001,
+      0.001,
+      0.001
+    ],
+    "bitwise_equal": true
+  },
+  "state_dict_bitwise_equal": true,
+  "all_equal": true
+}

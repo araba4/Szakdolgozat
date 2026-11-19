@@ -1,0 +1,103 @@
+{
+  "run": "resnet_european_transfer_p30",
+  "arch": "resnet",
+  "model_class": "ResNetPricer",
+  "target": "european",
+  "target_col": "european_put_price_norm",
+  "target_definition": "european_put_price / K",
+  "level": "transfer_p30",
+  "patience": 30,
+  "max_epochs": 200,
+  "seed": 42,
+  "hyperparameters": {
+    "lr": 0.0045001609717867435,
+    "weight_decay": 0.0002896188492437527,
+    "dropout": 0.3252627452605708,
+    "batch_size": 4096
+  },
+  "hyperparameter_source_json": "hpo/results/p30/best_params_resnet.json",
+  "hyperparameter_source_search": "hpo/results/best_params_resnet.json",
+  "source_european_call_p30_val_loss": 3.995346991699383e-06,
+  "model_kwargs": {
+    "input_dim": 4,
+    "hidden_dim": 256,
+    "n_blocks": 3,
+    "dropout": 0.3252627452605708
+  },
+  "param_count": 399873,
+  "param_count_match": true,
+  "param_count_check": {
+    "arch": "resnet",
+    "target": "european",
+    "model_kwargs": {
+      "input_dim": 4,
+      "hidden_dim": 256,
+      "n_blocks": 3,
+      "dropout": 0.3252627452605708
+    },
+    "param_count": 399873,
+    "onlab_v1_checkpoint": "Önlab eredmények/models/resnet_best.pt",
+    "onlab_v1_param_count": 399873,
+    "hpo_p30_param_count_check": "hpo/results/p30/param_count_check_resnet.json",
+    "hpo_p30_param_count": 399873,
+    "hpo_p30_checkpoint": "hpo/models/resnet_hpo_p30_best.pt",
+    "hpo_p30_model_kwargs": {
+      "input_dim": 4,
+      "hidden_dim": 256,
+      "n_blocks": 3,
+      "dropout": 0.3252627452605708
+    },
+    "uniform_p30_metrics": "american-nn/results/uniform/metrics_resnet_european_p30.json",
+    "uniform_p30_param_count": 399873,
+    "size_kwargs_equal_baseline_arch_kwargs": true,
+    "model_kwargs_equal_hpo_p30_checkpoint": true,
+    "param_count_match": true,
+    "all_ok": true
+  },
+  "checkpoint": "american-nn/models/transfer/resnet_european_transfer_p30_best.pt",
+  "data_files": {
+    "train": "american-options/data/train.parquet",
+    "val": "american-options/data/val.parquet",
+    "test": "american-options/data/test.parquet"
+  },
+  "best_epoch": 138,
+  "n_epochs_run": 168,
+  "hit_max_epochs": false,
+  "best_val_loss": 4.363178845499836e-06,
+  "train_seconds": 1009.9412438869476,
+  "mean_epoch_seconds": 6.011438551403227,
+  "val_recheck": {
+    "checkpoint_val_loss": 4.363178845499836e-06,
+    "checkpoint_best_epoch": 138,
+    "reloaded_val_mse": 4.363178872010769e-06,
+    "rel_diff": 6.0760591385756505e-09,
+    "loader": "Önlab src/evaluate.py load_model + PricingDataset"
+  },
+  "test_metrics": {
+    "RMSE": 0.002125594997778535,
+    "MAE": 0.0014071614714339375,
+    "MAPE (%)": 304584.08203125,
+    "max_error": 0.059123069047927856,
+    "R2": 0.9998058676719666,
+    "MSE": 4.51815409458113e-06
+  },
+  "test_metrics_usd": {
+    "RMSE": 0.2195729918715032,
+    "MAE": 0.12692758871989218,
+    "max_error": 6.7684808661962945,
+    "R2": 0.9999297120643107
+  },
+  "checkpoint_target_col": "european_put_price_norm",
+  "checkpoint_model_kwargs": {
+    "input_dim": 4,
+    "hidden_dim": 256,
+    "n_blocks": 3,
+    "dropout": 0.3252627452605708
+  },
+  "checkpoint_feature_cols": [
+    "moneyness_norm",
+    "T_norm",
+    "r_norm",
+    "sigma_norm"
+  ]
+}

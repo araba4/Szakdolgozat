@@ -1,0 +1,141 @@
+{
+  "invocations": [
+    {
+      "started": "2026-10-13 22:48:11",
+      "argv": [
+        "--all",
+        "--skip-done"
+      ],
+      "max_epochs_override": null
+    },
+    {
+      "started": "2026-10-14 01:50:53",
+      "argv": [
+        "--all",
+        "--skip-done"
+      ],
+      "max_epochs_override": null,
+      "finished": "2026-10-14 02:12:37",
+      "wall_seconds": 1303.9992563724518,
+      "n_trained": 1,
+      "n_skipped": 13,
+      "n_errors": 0
+    }
+  ],
+  "env": {
+    "python": "3.13.7",
+    "torch": "2.6.0+cu124",
+    "cuda_available": true,
+    "cuda_version": "12.4",
+    "cudnn_version": 90100,
+    "numpy": "2.3.3",
+    "pandas": "3.0.1",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU"
+  },
+  "experiment": "HPO transfer",
+  "transferred_hyperparameters": {
+    "mlp": {
+      "lr": 0.0013901193085065577,
+      "weight_decay": 1.362943618738406e-06,
+      "dropout": null,
+      "batch_size": 4096,
+      "max_epochs": 200,
+      "seed": 42,
+      "patience": 30,
+      "source_json": "hpo/results/p30/best_params_mlp.json",
+      "source_search": "hpo/results/best_params_mlp.json",
+      "source_european_call_p30_val_loss": 9.014658192306039e-07
+    },
+    "deep_mlp": {
+      "lr": 0.0014967532544189995,
+      "weight_decay": 1.3843702561891026e-06,
+      "dropout": 0.018004535925741725,
+      "batch_size": 4096,
+      "max_epochs": 200,
+      "seed": 42,
+      "patience": 30,
+      "source_json": "hpo/results/p30/best_params_deep_mlp.json",
+      "source_search": "hpo/results/best_params_deep_mlp.json",
+      "source_european_call_p30_val_loss": 4.556064656790113e-06
+    },
+    "dense_mlp": {
+      "lr": 0.003051542173518812,
+      "weight_decay": 1.0769800699354738e-06,
+      "dropout": 0.012211737490805619,
+      "batch_size": 4096,
+      "max_epochs": 200,
+      "seed": 42,
+      "patience": 30,
+      "source_json": "hpo/results/p30/best_params_dense_mlp.json",
+      "source_search": "hpo/results/best_params_dense_mlp.json",
+      "source_european_call_p30_val_loss": 4.030238107273666e-06
+    },
+    "resnet": {
+      "lr": 0.0045001609717867435,
+      "weight_decay": 0.0002896188492437527,
+      "dropout": 0.3252627452605708,
+      "batch_size": 4096,
+      "max_epochs": 200,
+      "seed": 42,
+      "patience": 30,
+      "source_json": "hpo/results/p30/best_params_resnet.json",
+      "source_search": "hpo/results/best_params_resnet.json",
+      "source_european_call_p30_val_loss": 3.995346991699383e-06
+    },
+    "gelu_resnet": {
+      "lr": 0.00023916381648760214,
+      "weight_decay": 1.0969817626356427e-06,
+      "dropout": 0.122244124092866,
+      "batch_size": 4096,
+      "max_epochs": 200,
+      "seed": 42,
+      "patience": 30,
+      "source_json": "hpo/results/p30/best_params_gelu_resnet.json",
+      "source_search": "hpo/results/best_params_gelu_resnet.json",
+      "source_european_call_p30_val_loss": 1.4779457620267445e-05
+    },
+    "highway": {
+      "lr": 0.0022091690943683057,
+      "weight_decay": 1.0158715496491554e-06,
+      "dropout": 0.4062738450307539,
+      "batch_size": 4096,
+      "max_epochs": 200,
+      "seed": 42,
+      "patience": 30,
+      "source_json": "hpo/results/p30/best_params_highway.json",
+      "source_search": "hpo/results/best_params_highway.json",
+      "source_european_call_p30_val_loss": 8.526690297682459e-06
+    },
+    "finn": {
+      "lr": 0.0033675087178186808,
+      "weight_decay": 1.0667517217054886e-06,
+      "dropout": 0.02703444514824562,
+      "batch_size": 4096,
+      "max_epochs": 200,
+      "seed": 42,
+      "patience": 30,
+      "source_json": "hpo/results/p30/best_params_finn.json",
+      "source_search": "hpo/results/best_params_finn.json",
+      "source_european_call_p30_val_loss": 8.673012522631325e-06
+    }
+  },
+  "scheduler": "ReduceLROnPlateau(mode='min', factor=0.5, patience=5, min_lr=1e-6)",
+  "optimizer": "Adam",
+  "loss": "MSELoss",
+  "feature_cols": [
+    "moneyness_norm",
+    "T_norm",
+    "r_norm",
+    "sigma_norm"
+  ],
+  "patience": 30,
+  "targets": {
+    "american": "american_put_price / K",
+    "european": "european_put_price / K"
+  },
+  "machine": {
+    "processor": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD"
+  }
+}

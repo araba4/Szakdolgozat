@@ -1,0 +1,171 @@
+{
+  "checked_at": "2026-10-14 14:28:02",
+  "direct_formula": {
+    "train:american": true,
+    "train:european": true,
+    "val:american": true,
+    "val:european": true,
+    "test:american": true,
+    "test:european": true
+  },
+  "retune_models": [
+    {
+      "run": "mlp_american_retune_p30",
+      "reloaded_val_mse_now": 5.2486456268989e-07,
+      "reloaded_val_mse_011": 5.2486456268989e-07,
+      "val_bitwise_equal": true,
+      "test_rmse_now": 0.0007472617435269058,
+      "test_rmse_011": 0.0007472617435269058,
+      "test_rmse_bitwise_equal": true,
+      "target_col": "american_put_price_norm",
+      "target_col_expected": "american_put_price_norm"
+    },
+    {
+      "run": "mlp_european_retune_p30",
+      "reloaded_val_mse_now": 5.87903844223864e-07,
+      "reloaded_val_mse_011": 5.87903844223864e-07,
+      "val_bitwise_equal": true,
+      "test_rmse_now": 0.0007865182706154883,
+      "test_rmse_011": 0.0007865182706154883,
+      "test_rmse_bitwise_equal": true,
+      "target_col": "european_put_price_norm",
+      "target_col_expected": "european_put_price_norm"
+    },
+    {
+      "run": "deep_mlp_american_retune_p30",
+      "reloaded_val_mse_now": 6.250007396885889e-06,
+      "reloaded_val_mse_011": 6.250007396885889e-06,
+      "val_bitwise_equal": true,
+      "test_rmse_now": 0.002495026448741555,
+      "test_rmse_011": 0.002495026448741555,
+      "test_rmse_bitwise_equal": true,
+      "target_col": "american_put_price_norm",
+      "target_col_expected": "american_put_price_norm"
+    },
+    {
+      "run": "deep_mlp_european_retune_p30",
+      "reloaded_val_mse_now": 5.257394971126749e-06,
+      "reloaded_val_mse_011": 5.257394971126749e-06,
+      "val_bitwise_equal": true,
+      "test_rmse_now": 0.0022977199405431747,
+      "test_rmse_011": 0.0022977199405431747,
+      "test_rmse_bitwise_equal": true,
+      "target_col": "european_put_price_norm",
+      "target_col_expected": "european_put_price_norm"
+    },
+    {
+      "run": "dense_mlp_american_retune_p30",
+      "reloaded_val_mse_now": 1.4644458657189257e-05,
+      "reloaded_val_mse_011": 1.4644458657189257e-05,
+      "val_bitwise_equal": true,
+      "test_rmse_now": 0.0038592591881752014,
+      "test_rmse_011": 0.0038592591881752014,
+      "test_rmse_bitwise_equal": true,
+      "target_col": "american_put_price_norm",
+      "target_col_expected": "american_put_price_norm"
+    },
+    {
+      "run": "dense_mlp_european_retune_p30",
+      "reloaded_val_mse_now": 1.4768533007725924e-05,
+      "reloaded_val_mse_011": 1.4768533007725924e-05,
+      "val_bitwise_equal": true,
+      "test_rmse_now": 0.0038635360542684793,
+      "test_rmse_011": 0.0038635360542684793,
+      "test_rmse_bitwise_equal": true,
+      "target_col": "european_put_price_norm",
+      "target_col_expected": "european_put_price_norm"
+    },
+    {
+      "run": "resnet_american_retune_p30",
+      "reloaded_val_mse_now": 5.0978927251428425e-06,
+      "reloaded_val_mse_011": 5.0978927251428425e-06,
+      "val_bitwise_equal": true,
+      "test_rmse_now": 0.002288278890773654,
+      "test_rmse_011": 0.002288278890773654,
+      "test_rmse_bitwise_equal": true,
+      "target_col": "american_put_price_norm",
+      "target_col_expected": "american_put_price_norm"
+    },
+    {
+      "run": "resnet_european_retune_p30",
+      "reloaded_val_mse_now": 6.5206987111150755e-06,
+      "reloaded_val_mse_011": 6.5206987111150755e-06,
+      "val_bitwise_equal": true,
+      "test_rmse_now": 0.002595345489680767,
+      "test_rmse_011": 0.002595345489680767,
+      "test_rmse_bitwise_equal": true,
+      "target_col": "european_put_price_norm",
+      "target_col_expected": "european_put_price_norm"
+    },
+    {
+      "run": "gelu_resnet_american_retune_p30",
+      "reloaded_val_mse_now": 3.3660955203741862e-06,
+      "reloaded_val_mse_011": 3.3660955203741862e-06,
+      "val_bitwise_equal": true,
+      "test_rmse_now": 0.0018537462456151843,
+      "test_rmse_011": 0.0018537462456151843,
+      "test_rmse_bitwise_equal": true,
+      "target_col": "american_put_price_norm",
+      "target_col_expected": "american_put_price_norm"
+    },
+    {
+      "run": "gelu_resnet_european_retune_p30",
+      "reloaded_val_mse_now": 2.9302851757656477e-06,
+      "reloaded_val_mse_011": 2.9302851757656477e-06,
+      "val_bitwise_equal": true,
+      "test_rmse_now": 0.0017336057499051094,
+      "test_rmse_011": 0.0017336057499051094,
+      "test_rmse_bitwise_equal": true,
+      "target_col": "european_put_price_norm",
+      "target_col_expected": "european_put_price_norm"
+    },
+    {
+      "run": "highway_american_retune_p30",
+      "reloaded_val_mse_now": 6.715525561621405e-06,
+      "reloaded_val_mse_011": 6.715525561621405e-06,
+      "val_bitwise_equal": true,
+      "test_rmse_now": 0.0026174827944487333,
+      "test_rmse_011": 0.0026174827944487333,
+      "test_rmse_bitwise_equal": true,
+      "target_col": "american_put_price_norm",
+      "target_col_expected": "american_put_price_norm"
+    },
+    {
+      "run": "highway_european_retune_p30",
+      "reloaded_val_mse_now": 6.120041507643435e-06,
+      "reloaded_val_mse_011": 6.120041507643435e-06,
+      "val_bitwise_equal": true,
+      "test_rmse_now": 0.0024983033072203398,
+      "test_rmse_011": 0.0024983033072203398,
+      "test_rmse_bitwise_equal": true,
+      "target_col": "european_put_price_norm",
+      "target_col_expected": "european_put_price_norm"
+    },
+    {
+      "run": "finn_american_retune_p30",
+      "reloaded_val_mse_now": 1.361390633064761e-06,
+      "reloaded_val_mse_011": 1.361390633064761e-06,
+      "val_bitwise_equal": true,
+      "test_rmse_now": 0.0011798199266195297,
+      "test_rmse_011": 0.0011798199266195297,
+      "test_rmse_bitwise_equal": true,
+      "target_col": "american_put_price_norm",
+      "target_col_expected": "american_put_price_norm"
+    },
+    {
+      "run": "finn_european_retune_p30",
+      "reloaded_val_mse_now": 1.1766412466886895e-06,
+      "reloaded_val_mse_011": 1.1766412466886895e-06,
+      "val_bitwise_equal": true,
+      "test_rmse_now": 0.00109555060043931,
+      "test_rmse_011": 0.00109555060043931,
+      "test_rmse_bitwise_equal": true,
+      "target_col": "european_put_price_norm",
+      "target_col_expected": "european_put_price_norm"
+    }
+  ],
+  "all_direct_formula_equal": true,
+  "all_val_bitwise_equal": true,
+  "all_test_bitwise_equal": true,
+  "all_ok": true
+}

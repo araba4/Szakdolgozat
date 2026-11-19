@@ -1,0 +1,19 @@
+{
+  "arch": "resnet",
+  "baseline_checkpoint": "Önlab eredmények/models/resnet_best.pt",
+  "baseline_model_kwargs": {
+    "input_dim": 4,
+    "hidden_dim": 256,
+    "n_blocks": 3,
+    "dropout": 0.1
+  },
+  "random_model_kwargs": {
+    "input_dim": 4,
+    "hidden_dim": 256,
+    "n_blocks": 3,
+    "dropout": 0.03177917514301182
+  },
+  "baseline_param_count": 399873,
+  "random_param_count": 399873,
+  "match": true
+}

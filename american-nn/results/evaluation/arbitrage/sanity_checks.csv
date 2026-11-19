@@ -1,0 +1,601 @@
+run,arch,target,level,set,check,tol_name,tol,region,n_points,n_viol,rate,max_norm,mean_norm,max_usd,mean_usd
+label_crr500,címke,american,címke,test,c1_intrinsic,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",7396,1161,0.1569767441860465,2.220446049250313e-16,5.745954004493031e-17,6.418168922862604e-14,7.266648665846137e-15
+label_crr500,címke,american,címke,test,c1_intrinsic,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,1892,0.08278638312768005,2.220446049250313e-16,5.762362633096743e-17,5.872339192106084e-14,7.382601634719311e-15
+label_crr500,címke,american,címke,test,c1_intrinsic,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,1801,0.06054595575875748,1.6653345369377348e-16,5.764560277082729e-17,3.97853918063812e-14,7.420921915482119e-15
+label_crr500,címke,american,címke,test,c1_intrinsic,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,56,0.015110631408526714,1.942890293094024e-16,8.190372983004782e-17,2.4429518944448088e-14,6.476444476148197e-15
+label_crr500,címke,american,címke,test,c1_intrinsic,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,76,0.006867883607446231,2.0122792321330962e-16,7.824515889011178e-17,2.8241961907707977e-14,6.4196447787439964e-15
+label_crr500,címke,american,címke,test,c1_intrinsic,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,68,0.004423051905815012,1.8041124150158794e-16,6.500110907042506e-17,2.7834697205642148e-14,6.132859867798466e-15
+label_crr500,címke,american,címke,test,c1_intrinsic,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1_intrinsic,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1_intrinsic,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1_intrinsic,0,0.0,összes,150000,5054,0.03369333333333333,2.220446049250313e-16,5.827215551316472e-17,6.418168922862604e-14,7.328284552548226e-15
+label_crr500,címke,american,címke,test,c1_intrinsic,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",7396,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1_intrinsic,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1_intrinsic,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1_intrinsic,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1_intrinsic,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1_intrinsic,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1_intrinsic,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1_intrinsic,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1_intrinsic,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1_intrinsic,1e-6,1e-06,összes,150000,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1e_eu_lower,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",7396,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1e_eu_lower,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1e_eu_lower,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1e_eu_lower,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1e_eu_lower,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1e_eu_lower,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1e_eu_lower,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1e_eu_lower,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1e_eu_lower,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1e_eu_lower,0,0.0,összes,150000,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1e_eu_lower,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",7396,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1e_eu_lower,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1e_eu_lower,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1e_eu_lower,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1e_eu_lower,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1e_eu_lower,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1e_eu_lower,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1e_eu_lower,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1e_eu_lower,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,0,0.0,,,,
+label_crr500,címke,american,címke,test,c1e_eu_lower,1e-6,1e-06,összes,150000,0,0.0,,,,
+label_crr500,címke,american,címke,test,c3_le_K,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",7396,0,0.0,,,,
+label_crr500,címke,american,címke,test,c3_le_K,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,0,0.0,,,,
+label_crr500,címke,american,címke,test,c3_le_K,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,0,0.0,,,,
+label_crr500,címke,american,címke,test,c3_le_K,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,
+label_crr500,címke,american,címke,test,c3_le_K,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,
+label_crr500,címke,american,címke,test,c3_le_K,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,
+label_crr500,címke,american,címke,test,c3_le_K,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,0,0.0,,,,
+label_crr500,címke,american,címke,test,c3_le_K,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,0,0.0,,,,
+label_crr500,címke,american,címke,test,c3_le_K,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,0,0.0,,,,
+label_crr500,címke,american,címke,test,c3_le_K,0,0.0,összes,150000,0,0.0,,,,
+label_crr500,címke,american,címke,test,c3_le_K,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",7396,0,0.0,,,,
+label_crr500,címke,american,címke,test,c3_le_K,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,0,0.0,,,,
+label_crr500,címke,american,címke,test,c3_le_K,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,0,0.0,,,,
+label_crr500,címke,american,címke,test,c3_le_K,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,
+label_crr500,címke,american,címke,test,c3_le_K,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,
+label_crr500,címke,american,címke,test,c3_le_K,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,
+label_crr500,címke,american,címke,test,c3_le_K,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,0,0.0,,,,
+label_crr500,címke,american,címke,test,c3_le_K,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,0,0.0,,,,
+label_crr500,címke,american,címke,test,c3_le_K,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,0,0.0,,,,
+label_crr500,címke,american,címke,test,c3_le_K,1e-6,1e-06,összes,150000,0,0.0,,,,
+label_crr500,címke,american,címke,test,c2_am_ge_bs,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",7396,22,0.0029745808545159546,3.552537481937845e-05,8.617564897089869e-06,0.006839760111194972,0.0009786941682847288
+label_crr500,címke,american,címke,test,c2_am_ge_bs,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,53,0.0023190688719698957,7.485237168702863e-05,2.603346896458283e-05,0.008949155791755,0.002904150589538594
+label_crr500,címke,american,címke,test,c2_am_ge_bs,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,57,0.001916224030121697,0.00011285474563249576,3.967886323922436e-05,0.023877161898103353,0.00482041895297479
+label_crr500,címke,american,címke,test,c2_am_ge_bs,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,192,0.05180787911494873,4.30169486561327e-05,5.306738073170204e-06,0.0036794018380871965,0.00039201749729665756
+label_crr500,címke,american,címke,test,c2_am_ge_bs,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,87,0.007861919392734501,0.00010183773249372585,2.3406509428256255e-05,0.009270865960657954,0.0018738745415896804
+label_crr500,címke,american,címke,test,c2_am_ge_bs,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,59,0.003837647977104202,0.00014760806054914255,4.144462093967533e-05,0.012132300874594078,0.002942845956645522
+label_crr500,címke,american,címke,test,c2_am_ge_bs,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,3408,0.4614134849715678,6.56627989213468e-05,3.1804370841015016e-06,0.006931126835358026,0.00019197937044394722
+label_crr500,címke,american,címke,test,c2_am_ge_bs,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,2643,0.11721140627078806,0.00012305940305851193,5.583252223308616e-06,0.01145823943322443,0.0003494381241173842
+label_crr500,címke,american,címke,test,c2_am_ge_bs,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,1011,0.0337867192460649,0.00017576412777700612,1.0009138392828281e-05,0.013991830298235046,0.0006128587757377367
+label_crr500,címke,american,címke,test,c2_am_ge_bs,0,0.0,összes,150000,7532,0.05021333333333333,0.00017576412777700612,5.98064953229082e-06,0.023877161898103353,0.00040620928944434267
+label_crr500,címke,american,címke,test,c2_am_ge_bs,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",7396,21,0.0028393726338561383,3.552537481937845e-05,9.008524855945246e-06,0.006839760111194972,0.0010248607184996862
+label_crr500,címke,american,címke,test,c2_am_ge_bs,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,50,0.0021878008226131093,7.485237168702863e-05,2.756753314138938e-05,0.008949155791755,0.003073547642311375
+label_crr500,címke,american,címke,test,c2_am_ge_bs,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,55,0.001848988099240234,0.00011285474563249576,4.1096317914860664e-05,0.023877161898103353,0.004994928177517947
+label_crr500,címke,american,címke,test,c2_am_ge_bs,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,106,0.028602266594711278,4.30169486561327e-05,9.422714361619467e-06,0.0036794018380871965,0.0006956520649159325
+label_crr500,címke,american,címke,test,c2_am_ge_bs,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,80,0.0072293511657328755,0.00010183773249372585,2.5427984188969358e-05,0.009270865960657954,0.002036136877376114
+label_crr500,címke,american,címke,test,c2_am_ge_bs,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,58,0.003772603096136334,0.00014760806054914255,4.214762075378403e-05,0.012132300874594078,0.002992076725432517
+label_crr500,címke,american,címke,test,c2_am_ge_bs,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,1453,0.1967235310046033,6.56627989213468e-05,7.197461290995963e-06,0.006931126835358026,0.0004343596710051239
+label_crr500,címke,american,címke,test,c2_am_ge_bs,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,859,0.03809481573462238,0.00012305940305851193,1.6900848461373487e-05,0.01145823943322443,0.0010587323391562423
+label_crr500,címke,american,címke,test,c2_am_ge_bs,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,386,0.012899776091969389,0.00017576412777700612,2.6028743320546586e-05,0.013991830298235046,0.0015944452540113596
+label_crr500,címke,american,címke,test,c2_am_ge_bs,1e-6,1e-06,összes,150000,3068,0.020453333333333334,0.00017576412777700612,1.4448597337483143e-05,0.023877161898103353,0.0009830908003480626
+label_crr500,címke,american,címke,test,c2c_am_ge_crr_eu,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",7396,0,0.0,,,,
+label_crr500,címke,american,címke,test,c2c_am_ge_crr_eu,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,0,0.0,,,,
+label_crr500,címke,american,címke,test,c2c_am_ge_crr_eu,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,0,0.0,,,,
+label_crr500,címke,american,címke,test,c2c_am_ge_crr_eu,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,
+label_crr500,címke,american,címke,test,c2c_am_ge_crr_eu,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,
+label_crr500,címke,american,címke,test,c2c_am_ge_crr_eu,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,
+label_crr500,címke,american,címke,test,c2c_am_ge_crr_eu,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,0,0.0,,,,
+label_crr500,címke,american,címke,test,c2c_am_ge_crr_eu,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,0,0.0,,,,
+label_crr500,címke,american,címke,test,c2c_am_ge_crr_eu,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,0,0.0,,,,
+label_crr500,címke,american,címke,test,c2c_am_ge_crr_eu,0,0.0,összes,150000,0,0.0,,,,
+label_crr500,címke,american,címke,test,c2c_am_ge_crr_eu,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",7396,0,0.0,,,,
+label_crr500,címke,american,címke,test,c2c_am_ge_crr_eu,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,0,0.0,,,,
+label_crr500,címke,american,címke,test,c2c_am_ge_crr_eu,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,0,0.0,,,,
+label_crr500,címke,american,címke,test,c2c_am_ge_crr_eu,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,
+label_crr500,címke,american,címke,test,c2c_am_ge_crr_eu,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,
+label_crr500,címke,american,címke,test,c2c_am_ge_crr_eu,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,
+label_crr500,címke,american,címke,test,c2c_am_ge_crr_eu,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,0,0.0,,,,
+label_crr500,címke,american,címke,test,c2c_am_ge_crr_eu,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,0,0.0,,,,
+label_crr500,címke,american,címke,test,c2c_am_ge_crr_eu,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,0,0.0,,,,
+label_crr500,címke,american,címke,test,c2c_am_ge_crr_eu,1e-6,1e-06,összes,150000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c1_intrinsic,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",7396,4764,0.644131963223364,0.012106703966047183,0.0026199396646815975,3.1811618796257233,0.3280549096540129
+bs_put_model,BS,european,zárt alak,test,c1_intrinsic,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,9012,0.39432922026778683,0.04851381364456031,0.012596827699144051,12.571547149139716,1.591472024385724
+bs_put_model,BS,european,zárt alak,test,c1_intrinsic,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,9330,0.31365561756202515,0.09216946484549304,0.028699113339775036,23.523046727077126,3.633872598954516
+bs_put_model,BS,european,zárt alak,test,c1_intrinsic,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,186,0.05018888289260658,0.011714740039852733,0.001994722422137788,1.558801366085012,0.1597148521196129
+bs_put_model,BS,european,zárt alak,test,c1_intrinsic,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,306,0.02765226820892825,0.04169032405228523,0.008554762399800167,4.547982401892693,0.736047066959407
+bs_put_model,BS,european,zárt alak,test,c1_intrinsic,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,377,0.02452192012488617,0.05552195723898923,0.015344031060167351,8.21569017891622,1.4127886851265588
+bs_put_model,BS,european,zárt alak,test,c1_intrinsic,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,21,0.002843216896831844,1.1102230246251565e-16,1.1102230246251565e-16,1.2664881292030214e-14,6.1465635758038836e-15
+bs_put_model,BS,european,zárt alak,test,c1_intrinsic,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,14,0.0006208701051044392,1.1102230246251565e-16,1.1102230246251565e-16,1.16855396077925e-14,7.04707245154805e-15
+bs_put_model,BS,european,zárt alak,test,c1_intrinsic,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c1_intrinsic,0,0.0,összes,150000,24010,0.16006666666666666,0.09216946484549304,0.016765522974671803,23.523046727077126,2.10732151273961
+bs_put_model,BS,european,zárt alak,test,c1_intrinsic,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",7396,4763,0.6439967550027041,0.012106703966047183,0.0026204896649117855,3.1811618796257233,0.32812377221395556
+bs_put_model,BS,european,zárt alak,test,c1_intrinsic,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,9012,0.39432922026778683,0.04851381364456031,0.012596827699144051,12.571547149139716,1.591472024385724
+bs_put_model,BS,european,zárt alak,test,c1_intrinsic,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,9330,0.31365561756202515,0.09216946484549304,0.028699113339775036,23.523046727077126,3.633872598954516
+bs_put_model,BS,european,zárt alak,test,c1_intrinsic,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,185,0.049919050188882895,0.011714740039852733,0.0020055047055006943,1.558801366085012,0.1605781756445837
+bs_put_model,BS,european,zárt alak,test,c1_intrinsic,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,306,0.02765226820892825,0.04169032405228523,0.008554762399800167,4.547982401892693,0.736047066959407
+bs_put_model,BS,european,zárt alak,test,c1_intrinsic,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,377,0.02452192012488617,0.05552195723898923,0.015344031060167351,8.21569017891622,1.4127886851265588
+bs_put_model,BS,european,zárt alak,test,c1_intrinsic,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c1_intrinsic,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c1_intrinsic,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c1_intrinsic,1e-6,1e-06,összes,150000,23973,0.15982,0.09216946484549304,0.016791398921007034,23.523046727077126,2.110573956465248
+bs_put_model,BS,european,zárt alak,test,c1e_eu_lower,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",7396,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c1e_eu_lower,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c1e_eu_lower,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c1e_eu_lower,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,1,0.0002698327037236913,1.1102230246251565e-16,1.1102230246251565e-16,1.352615540771095e-14,1.352615540771095e-14
+bs_put_model,BS,european,zárt alak,test,c1e_eu_lower,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c1e_eu_lower,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c1e_eu_lower,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,21,0.002843216896831844,1.1102230246251565e-16,1.1102230246251565e-16,1.2664881292030214e-14,6.1465635758038836e-15
+bs_put_model,BS,european,zárt alak,test,c1e_eu_lower,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,14,0.0006208701051044392,1.1102230246251565e-16,1.1102230246251565e-16,1.16855396077925e-14,7.04707245154805e-15
+bs_put_model,BS,european,zárt alak,test,c1e_eu_lower,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c1e_eu_lower,0,0.0,összes,150000,36,0.00024,1.1102230246251565e-16,1.1102230246251565e-16,1.352615540771095e-14,6.701750133924035e-15
+bs_put_model,BS,european,zárt alak,test,c1e_eu_lower,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",7396,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c1e_eu_lower,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c1e_eu_lower,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c1e_eu_lower,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c1e_eu_lower,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c1e_eu_lower,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c1e_eu_lower,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c1e_eu_lower,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c1e_eu_lower,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c1e_eu_lower,1e-6,1e-06,összes,150000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c3_le_K,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",7396,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c3_le_K,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c3_le_K,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c3_le_K,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c3_le_K,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c3_le_K,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c3_le_K,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c3_le_K,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c3_le_K,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c3_le_K,0,0.0,összes,150000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c3_le_K,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",7396,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c3_le_K,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c3_le_K,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c3_le_K,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c3_le_K,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c3_le_K,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c3_le_K,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c3_le_K,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c3_le_K,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c3_le_K,1e-6,1e-06,összes,150000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c2_am_ge_bs,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",7396,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c2_am_ge_bs,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c2_am_ge_bs,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c2_am_ge_bs,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c2_am_ge_bs,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c2_am_ge_bs,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c2_am_ge_bs,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c2_am_ge_bs,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c2_am_ge_bs,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c2_am_ge_bs,0,0.0,összes,150000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c2_am_ge_bs,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",7396,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c2_am_ge_bs,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c2_am_ge_bs,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c2_am_ge_bs,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c2_am_ge_bs,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c2_am_ge_bs,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c2_am_ge_bs,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c2_am_ge_bs,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c2_am_ge_bs,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c2_am_ge_bs,1e-6,1e-06,összes,150000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4a_mono_S,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",7205,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4a_mono_S,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",22268,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4a_mono_S,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29005,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4a_mono_S,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,1,0.0002698327037236913,1.1102230246251565e-16,1.1102230246251565e-16,1.352615540771095e-14,1.352615540771095e-14
+bs_put_model,BS,european,zárt alak,test,c4a_mono_S,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4a_mono_S,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4a_mono_S,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",7200,26,0.003611111111111111,1.1102230246251565e-16,1.1102230246251565e-16,1.2664881292030214e-14,5.902246193267691e-15
+bs_put_model,BS,european,zárt alak,test,c4a_mono_S,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",21961,20,0.0009107053412868266,3.3306690738754696e-16,1.4988010832439614e-16,2.722629328176205e-14,9.069272864780908e-15
+bs_put_model,BS,european,zárt alak,test,c4a_mono_S,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29158,1,3.429590506893477e-05,1.1102230246251565e-16,1.1102230246251565e-16,2.519969078773562e-15,2.519969078773562e-15
+bs_put_model,BS,european,zárt alak,test,c4a_mono_S,0,0.0,összes,146943,48,0.00032665727527000265,3.3306690738754696e-16,1.2721305490496585e-16,2.722629328176205e-14,7.310207975147139e-15
+bs_put_model,BS,european,zárt alak,test,c4a_mono_S,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",7205,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4a_mono_S,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",22268,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4a_mono_S,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29005,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4a_mono_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4a_mono_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4a_mono_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4a_mono_S,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",7200,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4a_mono_S,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",21961,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4a_mono_S,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29158,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4a_mono_S,1e-6,1e-06,összes,146943,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4b_delta_ge_m1,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",7205,899,0.12477446217904233,8.673617379884035e-18,8.673617379884035e-18,2.486862228939083e-15,1.0904534465066935e-15
+bs_put_model,BS,european,zárt alak,test,c4b_delta_ge_m1,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",22268,431,0.01935512843542303,8.673617379884035e-18,8.673617379884035e-18,2.515860786210273e-15,1.2397857002350172e-15
+bs_put_model,BS,european,zárt alak,test,c4b_delta_ge_m1,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29005,75,0.0025857610756766076,8.673617379884035e-18,8.673617379884035e-18,2.496852982269447e-15,1.2846632159330608e-15
+bs_put_model,BS,european,zárt alak,test,c4b_delta_ge_m1,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,1,0.0002698327037236913,8.673617379884035e-18,8.673617379884035e-18,1.0746149475415326e-15,1.0746149475415326e-15
+bs_put_model,BS,european,zárt alak,test,c4b_delta_ge_m1,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4b_delta_ge_m1,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4b_delta_ge_m1,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",7200,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4b_delta_ge_m1,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",21961,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4b_delta_ge_m1,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29158,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4b_delta_ge_m1,0,0.0,összes,146943,1406,0.009568336021450494,8.673617379884035e-18,8.673617379884035e-18,2.515860786210273e-15,1.1465786922854417e-15
+bs_put_model,BS,european,zárt alak,test,c4b_delta_ge_m1,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",7205,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4b_delta_ge_m1,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",22268,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4b_delta_ge_m1,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29005,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4b_delta_ge_m1,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4b_delta_ge_m1,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4b_delta_ge_m1,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4b_delta_ge_m1,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",7200,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4b_delta_ge_m1,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",21961,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4b_delta_ge_m1,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29158,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c4b_delta_ge_m1,1e-6,1e-06,összes,146943,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c5_mono_T,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",7396,3982,0.5383991346673878,0.0004974058555543559,0.0002255113791900866,0.13573792766855225,0.027850209322613513
+bs_put_model,BS,european,zárt alak,test,c5_mono_T,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,7085,0.3100113765642776,0.0004921002315207978,0.00020432234625334154,0.13431147729458653,0.025788239620297214
+bs_put_model,BS,european,zárt alak,test,c5_mono_T,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29467,7473,0.253605728441986,0.00047213784613220344,0.00017462654369270988,0.12588415734417677,0.0222872444091396
+bs_put_model,BS,european,zárt alak,test,c5_mono_T,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,125,0.03372908796546142,0.00048387963208351703,0.00018038099283205878,0.0677081630965528,0.014363434755033388
+bs_put_model,BS,european,zárt alak,test,c5_mono_T,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,243,0.02195915416591361,0.0004554347072709408,9.971895419049674e-05,0.07450552540362622,0.0087215215372704
+bs_put_model,BS,european,zárt alak,test,c5_mono_T,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15228,423,0.027777777777777776,0.00029431717588190853,5.126749954772677e-05,0.03540806557333644,0.00466119031738188
+bs_put_model,BS,european,zárt alak,test,c5_mono_T,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,18,0.002437043054427295,1.1102230246251565e-16,1.1102230246251565e-16,1.179391302091692e-14,7.0197012730914795e-15
+bs_put_model,BS,european,zárt alak,test,c5_mono_T,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,21,0.0009313051576566588,2.220446049250313e-16,1.2688263138573217e-16,1.7104766653298006e-14,7.709473174469312e-15
+bs_put_model,BS,european,zárt alak,test,c5_mono_T,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29643,2,6.746955436359343e-05,1.1102230246251565e-16,1.1102230246251565e-16,2.519969078773562e-15,2.4540777975681405e-15
+bs_put_model,BS,european,zárt alak,test,c5_mono_T,0,0.0,összes,149295,19372,0.12975652232157808,0.0004974058555543559,0.00019198119855649715,0.13573792766855225,0.024057827342770066
+bs_put_model,BS,european,zárt alak,test,c5_mono_T,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",7396,3971,0.5369118442401298,0.0004974058555543559,0.0002261342310356935,0.13573792766855225,0.027927088455105293
+bs_put_model,BS,european,zárt alak,test,c5_mono_T,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,7066,0.3091800122516846,0.0004921002315207978,0.00020487027393086243,0.13431147729458653,0.025857414542858483
+bs_put_model,BS,european,zárt alak,test,c5_mono_T,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29467,7444,0.2526215766789968,0.00047213784613220344,0.00017530457673570226,0.12588415734417677,0.0223737710157455
+bs_put_model,BS,european,zárt alak,test,c5_mono_T,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,125,0.03372908796546142,0.00048387963208351703,0.00018038099283205878,0.0677081630965528,0.014363434755033388
+bs_put_model,BS,european,zárt alak,test,c5_mono_T,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,240,0.021688053497198625,0.0004554347072709408,0.00010096026497278995,0.07450552540362622,0.00883016900944088
+bs_put_model,BS,european,zárt alak,test,c5_mono_T,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15228,412,0.027055424218544784,0.00029431717588190853,5.262702784953451e-05,0.03540806557333644,0.004784597367158396
+bs_put_model,BS,european,zárt alak,test,c5_mono_T,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c5_mono_T,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c5_mono_T,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29643,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c5_mono_T,1e-6,1e-06,összes,149295,19258,0.1289929334539,0.0004974058555543559,0.00019311559245146256,0.13573792766855225,0.02419998104051225
+bs_put_model,BS,european,zárt alak,test,c6_convex_S,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",7205,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c6_convex_S,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",22268,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c6_convex_S,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29005,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c6_convex_S,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c6_convex_S,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c6_convex_S,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c6_convex_S,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",7200,31,0.0043055555555555555,4.440892098500626e-16,1.862309589693811e-16,3.827363949258221e-14,9.66286328170481e-15
+bs_put_model,BS,european,zárt alak,test,c6_convex_S,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",21961,25,0.0011383816766085332,4.440892098500626e-16,2.042810365310288e-16,4.2124922691393144e-14,1.1695913668687112e-14
+bs_put_model,BS,european,zárt alak,test,c6_convex_S,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29158,1,3.429590506893477e-05,2.220446049250313e-16,2.220446049250313e-16,4.776373032725438e-15,4.776373032725438e-15
+bs_put_model,BS,european,zárt alak,test,c6_convex_S,0,0.0,összes,146943,57,0.0003879055143831281,4.440892098500626e-16,1.947759692324836e-16,4.2124922691393144e-14,1.0468824148820216e-14
+bs_put_model,BS,european,zárt alak,test,c6_convex_S,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",7205,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c6_convex_S,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",22268,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c6_convex_S,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29005,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c6_convex_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c6_convex_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c6_convex_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c6_convex_S,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",7200,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c6_convex_S,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",21961,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c6_convex_S,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29158,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,test,c6_convex_S,1e-6,1e-06,összes,146943,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c1_intrinsic,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",3000,1473,0.491,0.010172902404668505,0.0030316656294835055,1.0172902404668505,0.30316656294834815
+bs_put_model,BS,european,zárt alak,grid,c1_intrinsic,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,2855,0.31722222222222224,0.04651468002861647,0.01788464295848309,4.651468002861647,1.7884642958483037
+bs_put_model,BS,european,zárt alak,grid,c1_intrinsic,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,3414,0.27095238095238094,0.09516258196404048,0.04263232825278327,9.51625819640405,4.263232825278324
+bs_put_model,BS,european,zárt alak,grid,c1_intrinsic,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,122,0.08133333333333333,0.010172842818733763,0.002766184151281783,1.0172842818733763,0.2766184151281785
+bs_put_model,BS,european,zárt alak,grid,c1_intrinsic,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,285,0.06333333333333334,0.04388896158625588,0.015818163853837972,4.388896158625588,1.5818163853837977
+bs_put_model,BS,european,zárt alak,grid,c1_intrinsic,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,399,0.06333333333333334,0.07205676228179236,0.029294515465254755,7.205676228179236,2.9294515465254767
+bs_put_model,BS,european,zárt alak,grid,c1_intrinsic,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",3075,9,0.002926829268292683,1.1102230246251565e-16,1.1102230246251565e-16,1.1102230246251565e-14,1.1102230246251565e-14
+bs_put_model,BS,european,zárt alak,grid,c1_intrinsic,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9225,22,0.0023848238482384824,2.220446049250313e-16,1.1606877075626636e-16,2.220446049250313e-14,1.1606877075626637e-14
+bs_put_model,BS,european,zárt alak,grid,c1_intrinsic,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12915,18,0.0013937282229965157,1.1102230246251565e-16,1.1102230246251565e-16,1.1102230246251565e-14,1.1102230246251565e-14
+bs_put_model,BS,european,zárt alak,grid,c1_intrinsic,0,0.0,összes,62115,8597,0.13840457216453353,0.09516258196404048,0.025311996115986665,9.51625819640405,2.531199611598663
+bs_put_model,BS,european,zárt alak,grid,c1_intrinsic,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",3000,1473,0.491,0.010172902404668505,0.0030316656294835055,1.0172902404668505,0.30316656294834815
+bs_put_model,BS,european,zárt alak,grid,c1_intrinsic,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,2855,0.31722222222222224,0.04651468002861647,0.01788464295848309,4.651468002861647,1.7884642958483037
+bs_put_model,BS,european,zárt alak,grid,c1_intrinsic,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,3414,0.27095238095238094,0.09516258196404048,0.04263232825278327,9.51625819640405,4.263232825278324
+bs_put_model,BS,european,zárt alak,grid,c1_intrinsic,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,122,0.08133333333333333,0.010172842818733763,0.002766184151281783,1.0172842818733763,0.2766184151281785
+bs_put_model,BS,european,zárt alak,grid,c1_intrinsic,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,285,0.06333333333333334,0.04388896158625588,0.015818163853837972,4.388896158625588,1.5818163853837977
+bs_put_model,BS,european,zárt alak,grid,c1_intrinsic,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,399,0.06333333333333334,0.07205676228179236,0.029294515465254755,7.205676228179236,2.9294515465254767
+bs_put_model,BS,european,zárt alak,grid,c1_intrinsic,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",3075,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c1_intrinsic,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9225,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c1_intrinsic,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12915,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c1_intrinsic,1e-6,1e-06,összes,62115,8548,0.13761571279079127,0.09516258196404048,0.02545709295848589,9.51625819640405,2.5457092958485847
+bs_put_model,BS,european,zárt alak,grid,c1e_eu_lower,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",3000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c1e_eu_lower,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c1e_eu_lower,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c1e_eu_lower,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c1e_eu_lower,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c1e_eu_lower,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c1e_eu_lower,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",3075,9,0.002926829268292683,1.1102230246251565e-16,1.1102230246251565e-16,1.1102230246251565e-14,1.1102230246251565e-14
+bs_put_model,BS,european,zárt alak,grid,c1e_eu_lower,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9225,22,0.0023848238482384824,2.220446049250313e-16,1.1606877075626636e-16,2.220446049250313e-14,1.1606877075626637e-14
+bs_put_model,BS,european,zárt alak,grid,c1e_eu_lower,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12915,18,0.0013937282229965157,1.1102230246251565e-16,1.1102230246251565e-16,1.1102230246251565e-14,1.1102230246251565e-14
+bs_put_model,BS,european,zárt alak,grid,c1e_eu_lower,0,0.0,összes,62115,49,0.0007888593737422523,2.220446049250313e-16,1.1328806373726087e-16,2.220446049250313e-14,1.1328806373726088e-14
+bs_put_model,BS,european,zárt alak,grid,c1e_eu_lower,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",3000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c1e_eu_lower,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c1e_eu_lower,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c1e_eu_lower,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c1e_eu_lower,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c1e_eu_lower,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c1e_eu_lower,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",3075,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c1e_eu_lower,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9225,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c1e_eu_lower,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12915,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c1e_eu_lower,1e-6,1e-06,összes,62115,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c3_le_K,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",3000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c3_le_K,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c3_le_K,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c3_le_K,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c3_le_K,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c3_le_K,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c3_le_K,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",3075,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c3_le_K,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9225,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c3_le_K,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12915,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c3_le_K,0,0.0,összes,62115,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c3_le_K,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",3000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c3_le_K,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c3_le_K,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c3_le_K,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c3_le_K,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c3_le_K,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c3_le_K,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",3075,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c3_le_K,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9225,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c3_le_K,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12915,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c3_le_K,1e-6,1e-06,összes,62115,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c2_am_ge_bs,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",3000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c2_am_ge_bs,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c2_am_ge_bs,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c2_am_ge_bs,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c2_am_ge_bs,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c2_am_ge_bs,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c2_am_ge_bs,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",3075,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c2_am_ge_bs,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9225,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c2_am_ge_bs,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12915,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c2_am_ge_bs,0,0.0,összes,62115,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c2_am_ge_bs,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",3000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c2_am_ge_bs,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c2_am_ge_bs,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c2_am_ge_bs,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c2_am_ge_bs,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c2_am_ge_bs,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c2_am_ge_bs,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",3075,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c2_am_ge_bs,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9225,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c2_am_ge_bs,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12915,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c2_am_ge_bs,1e-6,1e-06,összes,62115,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4a_mono_S,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",3000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4a_mono_S,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4a_mono_S,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4a_mono_S,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4a_mono_S,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4a_mono_S,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4a_mono_S,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",3000,10,0.0033333333333333335,1.1102230246251565e-16,1.1102230246251565e-16,1.1102230246251565e-14,1.1102230246251565e-14
+bs_put_model,BS,european,zárt alak,grid,c4a_mono_S,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9000,42,0.004666666666666667,2.220446049250313e-16,1.2159585507799335e-16,2.220446049250313e-14,1.2159585507799333e-14
+bs_put_model,BS,european,zárt alak,grid,c4a_mono_S,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12600,28,0.0022222222222222222,2.220446049250313e-16,1.3877787807814457e-16,2.220446049250313e-14,1.3877787807814457e-14
+bs_put_model,BS,european,zárt alak,grid,c4a_mono_S,0,0.0,összes,61500,80,0.0013008130081300813,2.220446049250313e-16,1.2628786905111155e-16,2.220446049250313e-14,1.2628786905111156e-14
+bs_put_model,BS,european,zárt alak,grid,c4a_mono_S,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",3000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4a_mono_S,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4a_mono_S,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4a_mono_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4a_mono_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4a_mono_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4a_mono_S,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",3000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4a_mono_S,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4a_mono_S,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12600,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4a_mono_S,1e-6,1e-06,összes,61500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4b_delta_ge_m1,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",3000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4b_delta_ge_m1,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4b_delta_ge_m1,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4b_delta_ge_m1,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4b_delta_ge_m1,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4b_delta_ge_m1,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4b_delta_ge_m1,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",3000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4b_delta_ge_m1,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4b_delta_ge_m1,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12600,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4b_delta_ge_m1,0,0.0,összes,61500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4b_delta_ge_m1,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",3000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4b_delta_ge_m1,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4b_delta_ge_m1,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4b_delta_ge_m1,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4b_delta_ge_m1,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4b_delta_ge_m1,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4b_delta_ge_m1,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",3000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4b_delta_ge_m1,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4b_delta_ge_m1,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12600,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c4b_delta_ge_m1,1e-6,1e-06,összes,61500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c5_mono_T,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",3000,1170,0.39,0.0024900206055713525,0.0016583351824963476,0.24900206055713525,0.16583351824963447
+bs_put_model,BS,european,zárt alak,grid,c5_mono_T,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,2338,0.2597777777777778,0.0024591659205688288,0.0015149767813824365,0.24591659205688288,0.15149767813824414
+bs_put_model,BS,european,zárt alak,grid,c5_mono_T,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12000,2826,0.2355,0.0023688769587463243,0.0013274961072952272,0.23688769587463243,0.13274961072952188
+bs_put_model,BS,european,zárt alak,grid,c5_mono_T,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,98,0.06533333333333333,0.0024900206055713525,0.0015268852765991342,0.24900206055713525,0.15268852765991345
+bs_put_model,BS,european,zárt alak,grid,c5_mono_T,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,312,0.06933333333333333,0.002456132808823508,0.0009340384276485586,0.2456132808823508,0.09340384276485592
+bs_put_model,BS,european,zárt alak,grid,c5_mono_T,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6000,538,0.08966666666666667,0.0017854590332652132,0.00039919749043256447,0.17854590332652132,0.03991974904325647
+bs_put_model,BS,european,zárt alak,grid,c5_mono_T,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",3075,3,0.000975609756097561,1.1102230246251565e-16,1.1102230246251565e-16,1.1102230246251565e-14,1.1102230246251565e-14
+bs_put_model,BS,european,zárt alak,grid,c5_mono_T,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9225,39,0.004227642276422764,3.3306690738754696e-16,1.25255930983351e-16,3.3306690738754696e-14,1.2525593098335099e-14
+bs_put_model,BS,european,zárt alak,grid,c5_mono_T,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12300,31,0.0025203252032520327,2.220446049250313e-16,1.181850316536457e-16,2.220446049250313e-14,1.181850316536457e-14
+bs_put_model,BS,european,zárt alak,grid,c5_mono_T,0,0.0,összes,60600,7355,0.12136963696369638,0.0024900206055713525,0.0013446084125078135,0.24900206055713525,0.13446084125078114
+bs_put_model,BS,european,zárt alak,grid,c5_mono_T,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",3000,1170,0.39,0.0024900206055713525,0.0016583351824963476,0.24900206055713525,0.16583351824963447
+bs_put_model,BS,european,zárt alak,grid,c5_mono_T,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,2338,0.2597777777777778,0.0024591659205688288,0.0015149767813824365,0.24591659205688288,0.15149767813824414
+bs_put_model,BS,european,zárt alak,grid,c5_mono_T,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12000,2824,0.23533333333333334,0.0023688769587463243,0.0013284361636981881,0.23688769587463243,0.13284361636981795
+bs_put_model,BS,european,zárt alak,grid,c5_mono_T,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,98,0.06533333333333333,0.0024900206055713525,0.0015268852765991342,0.24900206055713525,0.15268852765991345
+bs_put_model,BS,european,zárt alak,grid,c5_mono_T,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,311,0.06911111111111111,0.002456132808823508,0.0009370411632980466,0.2456132808823508,0.09370411632980472
+bs_put_model,BS,european,zárt alak,grid,c5_mono_T,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6000,528,0.088,0.0017854590332652132,0.00040674801601305255,0.17854590332652132,0.04067480160130528
+bs_put_model,BS,european,zárt alak,grid,c5_mono_T,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",3075,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c5_mono_T,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9225,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c5_mono_T,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12300,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c5_mono_T,1e-6,1e-06,összes,60600,7269,0.11995049504950495,0.0024900206055713525,0.0013605157677842683,0.24900206055713525,0.1360515767784266
+bs_put_model,BS,european,zárt alak,grid,c6_convex_S,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",2925,60,0.020512820512820513,1.1102230246251565e-16,1.1102230246251565e-16,1.1102230246251565e-14,1.1102230246251565e-14
+bs_put_model,BS,european,zárt alak,grid,c6_convex_S,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",8775,82,0.009344729344729345,1.1102230246251565e-16,1.1102230246251565e-16,1.1102230246251565e-14,1.1102230246251565e-14
+bs_put_model,BS,european,zárt alak,grid,c6_convex_S,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12285,40,0.003256003256003256,1.1102230246251565e-16,1.1102230246251565e-16,1.1102230246251565e-14,1.1102230246251565e-14
+bs_put_model,BS,european,zárt alak,grid,c6_convex_S,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,3,0.002,1.1102230246251565e-16,1.1102230246251565e-16,1.1102230246251565e-14,1.1102230246251565e-14
+bs_put_model,BS,european,zárt alak,grid,c6_convex_S,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c6_convex_S,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c6_convex_S,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",3000,14,0.004666666666666667,3.3306690738754696e-16,1.427429603089487e-16,3.3306690738754696e-14,1.427429603089487e-14
+bs_put_model,BS,european,zárt alak,grid,c6_convex_S,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9000,66,0.007333333333333333,4.440892098500626e-16,1.6653345369377348e-16,4.440892098500626e-14,1.6653345369377348e-14
+bs_put_model,BS,european,zárt alak,grid,c6_convex_S,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12600,37,0.0029365079365079364,4.440892098500626e-16,2.220446049250313e-16,4.440892098500626e-14,2.220446049250313e-14
+bs_put_model,BS,european,zárt alak,grid,c6_convex_S,0,0.0,összes,60885,302,0.00496017081382935,4.440892098500626e-16,1.3822644280101286e-16,4.440892098500626e-14,1.3822644280101287e-14
+bs_put_model,BS,european,zárt alak,grid,c6_convex_S,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",2925,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c6_convex_S,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",8775,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c6_convex_S,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12285,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c6_convex_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c6_convex_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c6_convex_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c6_convex_S,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",3000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c6_convex_S,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9000,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c6_convex_S,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12600,0,0.0,,,,
+bs_put_model,BS,european,zárt alak,grid,c6_convex_S,1e-6,1e-06,összes,60885,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1_intrinsic,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",200,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1_intrinsic,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",600,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1_intrinsic,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",840,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1_intrinsic,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",100,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1_intrinsic,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",300,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1_intrinsic,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",420,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1_intrinsic,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",205,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1_intrinsic,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",615,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1_intrinsic,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",861,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1_intrinsic,0,0.0,összes,4141,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1_intrinsic,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",200,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1_intrinsic,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",600,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1_intrinsic,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",840,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1_intrinsic,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",100,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1_intrinsic,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",300,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1_intrinsic,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",420,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1_intrinsic,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",205,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1_intrinsic,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",615,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1_intrinsic,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",861,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1_intrinsic,1e-6,1e-06,összes,4141,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1e_eu_lower,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",200,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1e_eu_lower,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",600,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1e_eu_lower,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",840,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1e_eu_lower,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",100,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1e_eu_lower,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",300,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1e_eu_lower,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",420,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1e_eu_lower,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",205,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1e_eu_lower,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",615,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1e_eu_lower,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",861,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1e_eu_lower,0,0.0,összes,4141,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1e_eu_lower,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",200,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1e_eu_lower,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",600,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1e_eu_lower,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",840,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1e_eu_lower,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",100,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1e_eu_lower,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",300,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1e_eu_lower,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",420,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1e_eu_lower,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",205,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1e_eu_lower,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",615,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1e_eu_lower,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",861,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c1e_eu_lower,1e-6,1e-06,összes,4141,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c3_le_K,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",200,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c3_le_K,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",600,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c3_le_K,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",840,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c3_le_K,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",100,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c3_le_K,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",300,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c3_le_K,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",420,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c3_le_K,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",205,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c3_le_K,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",615,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c3_le_K,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",861,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c3_le_K,0,0.0,összes,4141,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c3_le_K,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",200,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c3_le_K,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",600,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c3_le_K,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",840,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c3_le_K,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",100,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c3_le_K,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",300,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c3_le_K,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",420,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c3_le_K,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",205,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c3_le_K,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",615,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c3_le_K,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",861,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c3_le_K,1e-6,1e-06,összes,4141,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2_am_ge_bs,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",200,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2_am_ge_bs,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",600,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2_am_ge_bs,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",840,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2_am_ge_bs,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",100,8,0.08,1.4571503990308044e-07,7.2495972168023e-08,1.4571503990308044e-05,7.249597216802299e-06
+crr500_slice,CRR,american,címke,crr_slice,c2_am_ge_bs,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",300,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2_am_ge_bs,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",420,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2_am_ge_bs,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",205,110,0.5365853658536586,1.369807485986313e-06,1.8507833146997927e-07,0.0001369807485986313,1.8507833146997926e-05
+crr500_slice,CRR,american,címke,crr_slice,c2_am_ge_bs,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",615,16,0.026016260162601626,1.0367255423906748e-06,3.3184237594480514e-07,0.00010367255423906748,3.3184237594480514e-05
+crr500_slice,CRR,american,címke,crr_slice,c2_am_ge_bs,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",861,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2_am_ge_bs,0,0.0,összes,4141,134,0.03235933349432504,1.369807485986313e-06,1.9588106159819988e-07,0.0001369807485986313,1.9588106159819985e-05
+crr500_slice,CRR,american,címke,crr_slice,c2_am_ge_bs,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",200,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2_am_ge_bs,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",600,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2_am_ge_bs,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",840,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2_am_ge_bs,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",100,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2_am_ge_bs,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",300,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2_am_ge_bs,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",420,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2_am_ge_bs,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",205,2,0.00975609756097561,1.369807485986313e-06,1.3027269960217818e-06,0.0001369807485986313,0.00013027269960217818
+crr500_slice,CRR,american,címke,crr_slice,c2_am_ge_bs,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",615,1,0.0016260162601626016,1.0367255423906748e-06,1.0367255423906748e-06,0.00010367255423906748,0.00010367255423906748
+crr500_slice,CRR,american,címke,crr_slice,c2_am_ge_bs,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",861,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2_am_ge_bs,1e-6,1e-06,összes,4141,3,0.0007244626901714562,1.369807485986313e-06,1.2140598448114129e-06,0.0001369807485986313,0.00012140598448114128
+crr500_slice,CRR,american,címke,crr_slice,c2c_am_ge_crr_eu,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",200,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2c_am_ge_crr_eu,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",600,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2c_am_ge_crr_eu,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",840,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2c_am_ge_crr_eu,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",100,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2c_am_ge_crr_eu,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",300,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2c_am_ge_crr_eu,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",420,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2c_am_ge_crr_eu,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",205,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2c_am_ge_crr_eu,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",615,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2c_am_ge_crr_eu,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",861,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2c_am_ge_crr_eu,0,0.0,összes,4141,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2c_am_ge_crr_eu,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",200,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2c_am_ge_crr_eu,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",600,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2c_am_ge_crr_eu,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",840,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2c_am_ge_crr_eu,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",100,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2c_am_ge_crr_eu,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",300,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2c_am_ge_crr_eu,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",420,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2c_am_ge_crr_eu,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",205,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2c_am_ge_crr_eu,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",615,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2c_am_ge_crr_eu,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",861,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c2c_am_ge_crr_eu,1e-6,1e-06,összes,4141,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4a_mono_S,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",200,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4a_mono_S,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",600,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4a_mono_S,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",840,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4a_mono_S,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",100,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4a_mono_S,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",300,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4a_mono_S,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",420,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4a_mono_S,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",200,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4a_mono_S,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",600,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4a_mono_S,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",840,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4a_mono_S,0,0.0,összes,4100,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4a_mono_S,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",200,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4a_mono_S,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",600,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4a_mono_S,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",840,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4a_mono_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",100,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4a_mono_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",300,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4a_mono_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",420,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4a_mono_S,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",200,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4a_mono_S,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",600,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4a_mono_S,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",840,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4a_mono_S,1e-6,1e-06,összes,4100,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4b_delta_ge_m1,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",200,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4b_delta_ge_m1,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",600,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4b_delta_ge_m1,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",840,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4b_delta_ge_m1,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",100,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4b_delta_ge_m1,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",300,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4b_delta_ge_m1,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",420,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4b_delta_ge_m1,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",200,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4b_delta_ge_m1,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",600,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4b_delta_ge_m1,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",840,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4b_delta_ge_m1,0,0.0,összes,4100,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4b_delta_ge_m1,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",200,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4b_delta_ge_m1,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",600,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4b_delta_ge_m1,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",840,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4b_delta_ge_m1,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",100,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4b_delta_ge_m1,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",300,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4b_delta_ge_m1,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",420,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4b_delta_ge_m1,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",200,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4b_delta_ge_m1,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",600,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4b_delta_ge_m1,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",840,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c4b_delta_ge_m1,1e-6,1e-06,összes,4100,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c5_mono_T,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",200,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c5_mono_T,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",600,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c5_mono_T,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",800,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c5_mono_T,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",100,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c5_mono_T,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",300,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c5_mono_T,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",400,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c5_mono_T,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",205,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c5_mono_T,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",615,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c5_mono_T,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",820,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c5_mono_T,0,0.0,összes,4040,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c5_mono_T,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",200,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c5_mono_T,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",600,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c5_mono_T,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",800,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c5_mono_T,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",100,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c5_mono_T,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",300,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c5_mono_T,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",400,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c5_mono_T,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",205,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c5_mono_T,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",615,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c5_mono_T,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",820,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c5_mono_T,1e-6,1e-06,összes,4040,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c6_convex_S,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",195,12,0.06153846153846154,1.1102230246251565e-16,1.1102230246251565e-16,1.1102230246251565e-14,1.1102230246251565e-14
+crr500_slice,CRR,american,címke,crr_slice,c6_convex_S,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",585,30,0.05128205128205128,1.1102230246251565e-16,1.1102230246251565e-16,1.1102230246251565e-14,1.1102230246251565e-14
+crr500_slice,CRR,american,címke,crr_slice,c6_convex_S,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",819,42,0.05128205128205128,1.1102230246251565e-16,1.1102230246251565e-16,1.1102230246251565e-14,1.1102230246251565e-14
+crr500_slice,CRR,american,címke,crr_slice,c6_convex_S,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",100,1,0.01,1.1102230246251565e-16,1.1102230246251565e-16,1.1102230246251565e-14,1.1102230246251565e-14
+crr500_slice,CRR,american,címke,crr_slice,c6_convex_S,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",300,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c6_convex_S,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",420,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c6_convex_S,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",200,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c6_convex_S,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",600,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c6_convex_S,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",840,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c6_convex_S,0,0.0,összes,4059,85,0.02094111850209411,1.1102230246251565e-16,1.1102230246251565e-16,1.1102230246251565e-14,1.1102230246251565e-14
+crr500_slice,CRR,american,címke,crr_slice,c6_convex_S,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",195,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c6_convex_S,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",585,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c6_convex_S,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",819,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c6_convex_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",100,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c6_convex_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",300,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c6_convex_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",420,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c6_convex_S,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",200,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c6_convex_S,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",600,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c6_convex_S,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",840,0,0.0,,,,
+crr500_slice,CRR,american,címke,crr_slice,c6_convex_S,1e-6,1e-06,összes,4059,0,0.0,,,,

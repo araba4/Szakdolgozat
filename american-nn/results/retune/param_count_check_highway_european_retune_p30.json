@@ -1,0 +1,22 @@
+{
+  "arch": "highway",
+  "target": "european",
+  "model_kwargs": {
+    "input_dim": 4,
+    "hidden_dim": 256,
+    "n_blocks": 4,
+    "dropout": 0.1282731110548368
+  },
+  "param_count": 527873,
+  "onlab_v1_checkpoint": "Önlab eredmények/models/highway_best.pt",
+  "onlab_v1_param_count": 527873,
+  "hpo_p30_param_count_check": "hpo/results/p30/param_count_check_highway.json",
+  "hpo_p30_param_count": 527873,
+  "uniform_p30_metrics": "american-nn/results/uniform/metrics_highway_european_p30.json",
+  "uniform_p30_param_count": 527873,
+  "transfer_p30_metrics": "american-nn/results/transfer/metrics_highway_european_transfer_p30.json",
+  "transfer_p30_param_count": 527873,
+  "size_kwargs_equal_baseline_arch_kwargs": true,
+  "param_count_match": true,
+  "all_ok": true
+}

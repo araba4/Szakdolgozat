@@ -1,0 +1,288 @@
+{
+  "script": "american-nn/benchmark_speed.py",
+  "date": "2026-10-14 14:12:49",
+  "seconds": 434.45078134536743,
+  "env": {
+    "python": "3.13.7",
+    "torch": "2.6.0+cu124",
+    "cuda_available": true,
+    "cuda_version": "12.4",
+    "cudnn_version": 90100,
+    "numpy": "2.3.3",
+    "pandas": "3.0.1",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "torch_num_threads": 8,
+    "processor": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD"
+  },
+  "torch_num_threads_used": 8,
+  "machine_state_before": {
+    "tag": "előtte",
+    "time": "2026-10-14 14:05:35",
+    "cpu": {
+      "Name": "AMD Ryzen 7 7735HS with Radeon Graphics        ",
+      "NumberOfCores": 8,
+      "NumberOfLogicalProcessors": 16,
+      "MaxClockSpeed": 3201,
+      "CurrentClockSpeed": 3201,
+      "LoadPercentage": 7
+    },
+    "ram_total_mb": 15610.91015625,
+    "ram_free_mb": 5949.87109375,
+    "cpu_load_pct_3x1s": [
+      0.0,
+      3.0,
+      4.0
+    ],
+    "battery": {
+      "BatteryStatus": 2,
+      "EstimatedChargeRemaining": 80
+    },
+    "battery_note": "BatteryStatus 2 = hálózati tápról",
+    "power_scheme": "Power Scheme GUID: 27fa6203-3987-4dcc-918d-748559d549ec  (Performance)",
+    "top_processes_by_memory": [
+      {
+        "ProcessName": "pycharm64",
+        "Id": 8964,
+        "WS_MB": 1478,
+        "CPU": 1039.625
+      },
+      {
+        "ProcessName": "python",
+        "Id": 8752,
+        "WS_MB": 504,
+        "CPU": 3.046875
+      },
+      {
+        "ProcessName": "claude",
+        "Id": 14228,
+        "WS_MB": 399,
+        "CPU": 354.03125
+      },
+      {
+        "ProcessName": "Memory Compression",
+        "Id": 5012,
+        "WS_MB": 336,
+        "CPU": null
+      },
+      {
+        "ProcessName": "claude",
+        "Id": 15964,
+        "WS_MB": 329,
+        "CPU": 20.609375
+      },
+      {
+        "ProcessName": "MsMpEng",
+        "Id": 6928,
+        "WS_MB": 285,
+        "CPU": null
+      },
+      {
+        "ProcessName": "ChatGPT",
+        "Id": 23196,
+        "WS_MB": 216,
+        "CPU": 25.015625
+      },
+      {
+        "ProcessName": "claude",
+        "Id": 8272,
+        "WS_MB": 200,
+        "CPU": 109.703125
+      },
+      {
+        "ProcessName": "ChatGPT",
+        "Id": 22220,
+        "WS_MB": 198,
+        "CPU": 141.6875
+      },
+      {
+        "ProcessName": "explorer",
+        "Id": 14616,
+        "WS_MB": 168,
+        "CPU": 114.640625
+      }
+    ],
+    "nvidia_smi": "NVIDIA GeForce RTX 4060 Laptop GPU, 610.74, 8188 MiB, 0 MiB, 0 %, P0, 2250 MHz, 3105 MHz, 18.88 W, 47"
+  },
+  "machine_state_after": {
+    "tag": "utána",
+    "time": "2026-10-14 14:12:40",
+    "cpu": {
+      "Name": "AMD Ryzen 7 7735HS with Radeon Graphics        ",
+      "NumberOfCores": 8,
+      "NumberOfLogicalProcessors": 16,
+      "MaxClockSpeed": 3201,
+      "CurrentClockSpeed": 3201,
+      "LoadPercentage": 3
+    },
+    "ram_total_mb": 15610.91015625,
+    "ram_free_mb": 5638.52734375,
+    "cpu_load_pct_3x1s": [
+      4.0,
+      4.0,
+      1.0
+    ],
+    "battery": {
+      "BatteryStatus": 2,
+      "EstimatedChargeRemaining": 80
+    },
+    "battery_note": "BatteryStatus 2 = hálózati tápról",
+    "power_scheme": "Power Scheme GUID: 27fa6203-3987-4dcc-918d-748559d549ec  (Performance)",
+    "top_processes_by_memory": [
+      {
+        "ProcessName": "pycharm64",
+        "Id": 8964,
+        "WS_MB": 1480,
+        "CPU": 1063.65625
+      },
+      {
+        "ProcessName": "python",
+        "Id": 8752,
+        "WS_MB": 960,
+        "CPU": 1919.21875
+      },
+      {
+        "ProcessName": "claude",
+        "Id": 14228,
+        "WS_MB": 382,
+        "CPU": 372.53125
+      },
+      {
+        "ProcessName": "claude",
+        "Id": 15964,
+        "WS_MB": 330,
+        "CPU": 20.71875
+      },
+      {
+        "ProcessName": "Memory Compression",
+        "Id": 5012,
+        "WS_MB": 322,
+        "CPU": null
+      },
+      {
+        "ProcessName": "MsMpEng",
+        "Id": 6928,
+        "WS_MB": 279,
+        "CPU": null
+      },
+      {
+        "ProcessName": "ChatGPT",
+        "Id": 23196,
+        "WS_MB": 216,
+        "CPU": 25.171875
+      },
+      {
+        "ProcessName": "claude",
+        "Id": 8272,
+        "WS_MB": 200,
+        "CPU": 113.359375
+      },
+      {
+        "ProcessName": "ChatGPT",
+        "Id": 22220,
+        "WS_MB": 200,
+        "CPU": 143.421875
+      },
+      {
+        "ProcessName": "explorer",
+        "Id": 14616,
+        "WS_MB": 168,
+        "CPU": 115.34375
+      }
+    ],
+    "nvidia_smi": "NVIDIA GeForce RTX 4060 Laptop GPU, 610.74, 8188 MiB, 127 MiB, 0 %, P8, 210 MHz, 3105 MHz, 2.10 W, 51"
+  },
+  "settings": {
+    "batches": [
+      1,
+      1000,
+      100000,
+      1000000
+    ],
+    "reps_gpu": {
+      "1": 300,
+      "1000": 200,
+      "100000": 30,
+      "1000000": 10
+    },
+    "reps_cpu": {
+      "1": 300,
+      "1000": 100,
+      "100000": 10,
+      "1000000": 3
+    },
+    "reps_bs": {
+      "1": 300,
+      "1000": 200,
+      "100000": 20,
+      "1000000": 5
+    },
+    "warmup": 20,
+    "cpu_chunk": 100000,
+    "cpu_max_act_bytes": 2000000000.0,
+    "n_crr": 1000,
+    "n_lsm": 20,
+    "lsm": {
+      "n_paths": 100000,
+      "degree": 3,
+      "antithetic": true
+    },
+    "seed": 42,
+    "inference": "model.eval() + torch.inference_mode(), float32"
+  },
+  "comparison_with_earlier": {
+    "crr_ms_per_row_now": 12.390979199997673,
+    "crr_ms_per_row_end_of_run": 12.373120699998253,
+    "crr_ms_per_row_generation_meta": 8.290927936300001,
+    "crr_ratio_now_vs_generation": 1.4945226029219842,
+    "crr_eu_ms_per_row_now_1000": 0.915771500000119,
+    "crr_eu_ms_per_row_generation_meta": 1.073313717400073,
+    "lsm_s_per_row_now_mean": 0.5501076949994967,
+    "lsm_s_per_row_generation_meta": 0.3689560299500008,
+    "lsm_mean_n_steps_now": 52.8,
+    "lsm_note": "A generálási átlag 2000 QA-soron készült (n_steps = round(50·T)); a 20 soros minta átlagos lépésszáma eltérhet, ezért a pálya×lépésre vetített idő is szerepel.",
+    "n_gen_qa": 2000,
+    "lsm_mean_n_steps_test_qa": 51.04727272727273,
+    "lsm_s_per_row_now_scaled_to_qa_steps": 0.5318465442426262,
+    "lsm_ratio_now_scaled_vs_generation": 1.441490316108127
+  },
+  "accuracy": {
+    "crr_vs_label_max_abs_usd": 3.055333763768431e-12,
+    "crr1000_seconds_per_row": 0.03563166600000841,
+    "crr500_vs_crr1000_rmse_usd": 0.004729671384932174,
+    "crr500_vs_crr1000_max_abs_usd": 0.02199435570192776,
+    "crr500_vs_crr1000_n": 200,
+    "lsm_timing": {
+      "n": 20,
+      "mean_s_per_row": 0.5501076949994967,
+      "median_s_per_row": 0.5546593499984738,
+      "mean_n_steps": 52.8,
+      "us_per_1000_path_steps": 104.18706344687438
+    },
+    "lsm_qa_test_rmse_usd": 0.04500578633735764,
+    "lsm_qa_test_n": 275,
+    "lsm_rerun_vs_parquet_max_abs_usd": 0.1920165680432575,
+    "bs_as_american_rmse_usd": 1.5258278102810487,
+    "nn_test_usd_rmse": {
+      "mlp": 0.0755085604525114,
+      "deep_mlp": 0.3097258396446403,
+      "dense_mlp": 0.3871982041342131,
+      "resnet": 0.2427919853718022,
+      "gelu_resnet": 0.1868138373267237,
+      "highway": 0.286982804360573,
+      "finn": 0.1265488099212633
+    },
+    "source_nn": "american-nn/results/retune/levels_table.csv"
+  },
+  "models": [
+    "american-nn/models/retune/mlp_american_retune_p30_best.pt",
+    "american-nn/models/retune/deep_mlp_american_retune_p30_best.pt",
+    "american-nn/models/retune/dense_mlp_american_retune_p30_best.pt",
+    "american-nn/models/retune/resnet_american_retune_p30_best.pt",
+    "american-nn/models/retune/gelu_resnet_american_retune_p30_best.pt",
+    "american-nn/models/retune/highway_american_retune_p30_best.pt",
+    "american-nn/models/retune/finn_american_retune_p30_best.pt"
+  ],
+  "fairness_note": "A CRR nem optimalizált: Python-ciklus az időlépéseken, soronkénti hívás, egy szál. A gyorsulás „ehhez az implementációhoz képest” érvényes."
+}

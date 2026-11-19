@@ -1,0 +1,265 @@
+{
+  "note": "Kendall tau-b az amerikai put rangsorai kozott (uniform/transfer/retune p30, R1); egy seed, tajekoztato.",
+  "levels": [
+    "uniform_p30",
+    "transfer_p30",
+    "retune_p30",
+    "r1"
+  ],
+  "level_labels": {
+    "uniform_p30": "uniform p30",
+    "transfer_p30": "transfer p30",
+    "retune_p30": "retune p30",
+    "r1": "R1 (BS + NN)"
+  },
+  "source": "hpo/results/ranking/american_ranking_table.csv",
+  "n": 7,
+  "pairs": [
+    {
+      "metric": "test_rmse",
+      "a": "uniform_p30",
+      "b": "transfer_p30",
+      "a_label": "uniform p30",
+      "b_label": "transfer p30",
+      "tau": 0.5238095238095238,
+      "p_value": 0.1361111111111111
+    },
+    {
+      "metric": "test_rmse",
+      "a": "uniform_p30",
+      "b": "retune_p30",
+      "a_label": "uniform p30",
+      "b_label": "retune p30",
+      "tau": 0.4285714285714286,
+      "p_value": 0.2388888888888889
+    },
+    {
+      "metric": "test_rmse",
+      "a": "uniform_p30",
+      "b": "r1",
+      "a_label": "uniform p30",
+      "b_label": "R1 (BS + NN)",
+      "tau": 0.5238095238095238,
+      "p_value": 0.1361111111111111
+    },
+    {
+      "metric": "test_rmse",
+      "a": "transfer_p30",
+      "b": "retune_p30",
+      "a_label": "transfer p30",
+      "b_label": "retune p30",
+      "tau": 0.7142857142857143,
+      "p_value": 0.03015873015873016
+    },
+    {
+      "metric": "test_rmse",
+      "a": "transfer_p30",
+      "b": "r1",
+      "a_label": "transfer p30",
+      "b_label": "R1 (BS + NN)",
+      "tau": 0.4285714285714286,
+      "p_value": 0.2388888888888889
+    },
+    {
+      "metric": "test_rmse",
+      "a": "retune_p30",
+      "b": "r1",
+      "a_label": "retune p30",
+      "b_label": "R1 (BS + NN)",
+      "tau": 0.5238095238095238,
+      "p_value": 0.1361111111111111
+    },
+    {
+      "metric": "val_mse",
+      "a": "uniform_p30",
+      "b": "transfer_p30",
+      "a_label": "uniform p30",
+      "b_label": "transfer p30",
+      "tau": 0.5238095238095238,
+      "p_value": 0.1361111111111111
+    },
+    {
+      "metric": "val_mse",
+      "a": "uniform_p30",
+      "b": "retune_p30",
+      "a_label": "uniform p30",
+      "b_label": "retune p30",
+      "tau": 0.4285714285714286,
+      "p_value": 0.2388888888888889
+    },
+    {
+      "metric": "val_mse",
+      "a": "uniform_p30",
+      "b": "r1",
+      "a_label": "uniform p30",
+      "b_label": "R1 (BS + NN)",
+      "tau": 0.5238095238095238,
+      "p_value": 0.1361111111111111
+    },
+    {
+      "metric": "val_mse",
+      "a": "transfer_p30",
+      "b": "retune_p30",
+      "a_label": "transfer p30",
+      "b_label": "retune p30",
+      "tau": 0.7142857142857143,
+      "p_value": 0.03015873015873016
+    },
+    {
+      "metric": "val_mse",
+      "a": "transfer_p30",
+      "b": "r1",
+      "a_label": "transfer p30",
+      "b_label": "R1 (BS + NN)",
+      "tau": 0.4285714285714286,
+      "p_value": 0.2388888888888889
+    },
+    {
+      "metric": "val_mse",
+      "a": "retune_p30",
+      "b": "r1",
+      "a_label": "retune p30",
+      "b_label": "R1 (BS + NN)",
+      "tau": 0.5238095238095238,
+      "p_value": 0.1361111111111111
+    }
+  ],
+  "within_level_test_vs_val": [
+    {
+      "level": "uniform_p30",
+      "tau": 1.0,
+      "p_value": 0.0003968253968253968
+    },
+    {
+      "level": "transfer_p30",
+      "tau": 1.0,
+      "p_value": 0.0003968253968253968
+    },
+    {
+      "level": "retune_p30",
+      "tau": 1.0,
+      "p_value": 0.0003968253968253968
+    },
+    {
+      "level": "r1",
+      "tau": 1.0,
+      "p_value": 0.0003968253968253968
+    }
+  ],
+  "param_count_vs_error": [
+    {
+      "level": "uniform_p30",
+      "metric": "test_rmse",
+      "kendall_tau": 0.23809523809523814,
+      "kendall_p": 0.5619047619047619,
+      "spearman_rho": 0.21428571428571433,
+      "spearman_p": 0.6445115810207203
+    },
+    {
+      "level": "transfer_p30",
+      "metric": "test_rmse",
+      "kendall_tau": 0.14285714285714288,
+      "kendall_p": 0.7726190476190476,
+      "spearman_rho": 0.3214285714285715,
+      "spearman_p": 0.4820720382996778
+    },
+    {
+      "level": "retune_p30",
+      "metric": "test_rmse",
+      "kendall_tau": 0.04761904761904762,
+      "kendall_p": 1.0,
+      "spearman_rho": 0.14285714285714288,
+      "spearman_p": 0.7599453002180927
+    },
+    {
+      "level": "r1",
+      "metric": "test_rmse",
+      "kendall_tau": 0.33333333333333337,
+      "kendall_p": 0.3813492063492063,
+      "spearman_rho": 0.3571428571428572,
+      "spearman_p": 0.431611352038328
+    }
+  ],
+  "orders": {
+    "uniform_p30": {
+      "test_rmse": [
+        "resnet",
+        "mlp",
+        "deep_mlp",
+        "gelu_resnet",
+        "finn",
+        "highway",
+        "dense_mlp"
+      ],
+      "val_mse": [
+        "resnet",
+        "mlp",
+        "deep_mlp",
+        "gelu_resnet",
+        "finn",
+        "highway",
+        "dense_mlp"
+      ]
+    },
+    "transfer_p30": {
+      "test_rmse": [
+        "mlp",
+        "finn",
+        "resnet",
+        "deep_mlp",
+        "gelu_resnet",
+        "dense_mlp",
+        "highway"
+      ],
+      "val_mse": [
+        "mlp",
+        "finn",
+        "resnet",
+        "deep_mlp",
+        "gelu_resnet",
+        "dense_mlp",
+        "highway"
+      ]
+    },
+    "retune_p30": {
+      "test_rmse": [
+        "mlp",
+        "finn",
+        "gelu_resnet",
+        "resnet",
+        "deep_mlp",
+        "highway",
+        "dense_mlp"
+      ],
+      "val_mse": [
+        "mlp",
+        "finn",
+        "gelu_resnet",
+        "resnet",
+        "deep_mlp",
+        "highway",
+        "dense_mlp"
+      ]
+    },
+    "r1": {
+      "test_rmse": [
+        "deep_mlp",
+        "mlp",
+        "gelu_resnet",
+        "finn",
+        "resnet",
+        "highway",
+        "dense_mlp"
+      ],
+      "val_mse": [
+        "deep_mlp",
+        "mlp",
+        "gelu_resnet",
+        "finn",
+        "resnet",
+        "highway",
+        "dense_mlp"
+      ]
+    }
+  }
+}

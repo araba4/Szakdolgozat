@@ -1,0 +1,37 @@
+{
+  "arch": "resnet",
+  "model_class": "ResNetPricer",
+  "architecture_size_fixed_baseline": {
+    "input_dim": 4,
+    "hidden_dim": 256,
+    "n_blocks": 3
+  },
+  "lr": 0.0045001609717867435,
+  "weight_decay": 0.0002896188492437527,
+  "dropout": 0.3252627452605708,
+  "search_best_val_loss": 1.0434370335230293e-05,
+  "search_best_trial_number": 35,
+  "n_trials_completed": 40,
+  "n_trials_target": 40,
+  "final_retrain_best_epoch": 29,
+  "final_retrain_best_val_loss": 1.807980308289795e-05,
+  "baseline_val_loss": 3.846234431723133e-05,
+  "improvement_pct_vs_baseline_val_loss": 52.99349687637708,
+  "param_count_match": true,
+  "param_count": 399873,
+  "baseline_test_metrics": {
+    "RMSE": 0.0062165530398488045,
+    "MAE": 0.004771844949573278,
+    "MAPE (%)": 2217483.3984375,
+    "max_error": 0.06277793645858765,
+    "R2": 0.9989942312240601
+  },
+  "hpo_test_metrics": {
+    "RMSE": 0.004282673820853233,
+    "MAE": 0.0031880030874162912,
+    "MAPE (%)": 1758340.8203125,
+    "max_error": 0.06824932247400284,
+    "R2": 0.9995226263999939
+  },
+  "retrain_seconds": 365.90980529785156
+}

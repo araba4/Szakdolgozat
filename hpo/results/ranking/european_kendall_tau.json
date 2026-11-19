@@ -1,0 +1,426 @@
+{
+  "note": "Kendall tau-b (scipy.stats.kendalltau) a 7 architektura rangsorai kozott; egy seed, tajekoztato. Elsodleges metrika: test_rmse.",
+  "levels": [
+    "onlab_v1",
+    "onlab_best",
+    "tpe_p10",
+    "tpe_p30",
+    "rs_p30"
+  ],
+  "level_labels": {
+    "onlab_v1": "Önlab v1",
+    "onlab_best": "Önlab legjobb",
+    "tpe_p10": "TPE p10",
+    "tpe_p30": "TPE p30",
+    "rs_p30": "RS p30"
+  },
+  "source": "hpo/results/ranking/european_ranking_table.csv",
+  "capacity_limit_refutation": [
+    {
+      "arch": "dense_mlp",
+      "param_count": 101381,
+      "v1_test": 0.018042145296931267,
+      "v1_val": 0.00032282644992694256,
+      "v1_rank_test": 7,
+      "v1_rank_val": 7,
+      "tpe_p10_test": 0.002041273983195424,
+      "tpe_p10_val": 4.0593225682581155e-06,
+      "tpe_p10_rank_test": 2,
+      "tpe_p10_rank_val": 2,
+      "tpe_p30_test": 0.002034768695011735,
+      "tpe_p30_val": 4.030238107273666e-06,
+      "tpe_p30_rank_test": 2,
+      "tpe_p30_rank_val": 3,
+      "rs_p30_test": 0.004373347386717796,
+      "rs_p30_val": 1.8591735319932922e-05,
+      "rs_p30_rank_test": 7,
+      "rs_p30_rank_val": 7,
+      "impr_test_rmse_tpe_p10": 88.6860794567339,
+      "impr_test_rmse_tpe_p30": 88.72213552477142,
+      "impr_test_rmse_rs_p30": 75.7603804051969,
+      "impr_val_mse_tpe_p10": 98.74256816032987,
+      "impr_val_mse_tpe_p30": 98.75157747818194,
+      "impr_val_mse_rs_p30": 94.24095041650388
+    },
+    {
+      "arch": "highway",
+      "param_count": 527873,
+      "v1_test": 0.014884491451084614,
+      "v1_val": 0.00021953723330050707,
+      "v1_rank_test": 6,
+      "v1_rank_val": 6,
+      "tpe_p10_test": 0.002951303031295538,
+      "tpe_p10_val": 8.553786329575815e-06,
+      "tpe_p10_rank_test": 4,
+      "tpe_p10_rank_val": 4,
+      "tpe_p30_test": 0.002944914624094963,
+      "tpe_p30_val": 8.526690297682459e-06,
+      "tpe_p30_rank_test": 5,
+      "tpe_p30_rank_val": 5,
+      "rs_p30_test": 0.0030620249453932047,
+      "rs_p30_val": 9.21287110094757e-06,
+      "rs_p30_rank_test": 3,
+      "rs_p30_rank_val": 3,
+      "impr_test_rmse_tpe_p10": 80.17195924365639,
+      "impr_test_rmse_tpe_p30": 80.21487913259965,
+      "impr_test_rmse_rs_p30": 79.42808489321898,
+      "impr_val_mse_tpe_p10": 96.10371953723804,
+      "impr_val_mse_tpe_p30": 96.11606187729853,
+      "impr_val_mse_rs_p30": 95.8035040514805
+    }
+  ],
+  "n": 7,
+  "pairs": [
+    {
+      "metric": "test_rmse",
+      "a": "onlab_v1",
+      "b": "onlab_best",
+      "a_label": "Önlab v1",
+      "b_label": "Önlab legjobb",
+      "tau": 0.8095238095238096,
+      "p_value": 0.010714285714285714
+    },
+    {
+      "metric": "test_rmse",
+      "a": "onlab_v1",
+      "b": "tpe_p10",
+      "a_label": "Önlab v1",
+      "b_label": "TPE p10",
+      "tau": 0.04761904761904762,
+      "p_value": 1.0
+    },
+    {
+      "metric": "test_rmse",
+      "a": "onlab_v1",
+      "b": "tpe_p30",
+      "a_label": "Önlab v1",
+      "b_label": "TPE p30",
+      "tau": 0.23809523809523814,
+      "p_value": 0.5619047619047619
+    },
+    {
+      "metric": "test_rmse",
+      "a": "onlab_v1",
+      "b": "rs_p30",
+      "a_label": "Önlab v1",
+      "b_label": "RS p30",
+      "tau": 0.5238095238095238,
+      "p_value": 0.1361111111111111
+    },
+    {
+      "metric": "test_rmse",
+      "a": "onlab_best",
+      "b": "tpe_p10",
+      "a_label": "Önlab legjobb",
+      "b_label": "TPE p10",
+      "tau": -0.14285714285714288,
+      "p_value": 0.7726190476190476
+    },
+    {
+      "metric": "test_rmse",
+      "a": "onlab_best",
+      "b": "tpe_p30",
+      "a_label": "Önlab legjobb",
+      "b_label": "TPE p30",
+      "tau": 0.23809523809523814,
+      "p_value": 0.5619047619047619
+    },
+    {
+      "metric": "test_rmse",
+      "a": "onlab_best",
+      "b": "rs_p30",
+      "a_label": "Önlab legjobb",
+      "b_label": "RS p30",
+      "tau": 0.33333333333333337,
+      "p_value": 0.3813492063492063
+    },
+    {
+      "metric": "test_rmse",
+      "a": "tpe_p10",
+      "b": "tpe_p30",
+      "a_label": "TPE p10",
+      "b_label": "TPE p30",
+      "tau": 0.6190476190476191,
+      "p_value": 0.06904761904761905
+    },
+    {
+      "metric": "test_rmse",
+      "a": "tpe_p10",
+      "b": "rs_p30",
+      "a_label": "TPE p10",
+      "b_label": "RS p30",
+      "tau": 0.5238095238095238,
+      "p_value": 0.1361111111111111
+    },
+    {
+      "metric": "test_rmse",
+      "a": "tpe_p30",
+      "b": "rs_p30",
+      "a_label": "TPE p30",
+      "b_label": "RS p30",
+      "tau": 0.14285714285714288,
+      "p_value": 0.7726190476190476
+    },
+    {
+      "metric": "val_mse",
+      "a": "onlab_v1",
+      "b": "onlab_best",
+      "a_label": "Önlab v1",
+      "b_label": "Önlab legjobb",
+      "tau": 0.8095238095238096,
+      "p_value": 0.010714285714285714
+    },
+    {
+      "metric": "val_mse",
+      "a": "onlab_v1",
+      "b": "tpe_p10",
+      "a_label": "Önlab v1",
+      "b_label": "TPE p10",
+      "tau": 0.04761904761904762,
+      "p_value": 1.0
+    },
+    {
+      "metric": "val_mse",
+      "a": "onlab_v1",
+      "b": "tpe_p30",
+      "a_label": "Önlab v1",
+      "b_label": "TPE p30",
+      "tau": 0.33333333333333337,
+      "p_value": 0.3813492063492063
+    },
+    {
+      "metric": "val_mse",
+      "a": "onlab_v1",
+      "b": "rs_p30",
+      "a_label": "Önlab v1",
+      "b_label": "RS p30",
+      "tau": 0.5238095238095238,
+      "p_value": 0.1361111111111111
+    },
+    {
+      "metric": "val_mse",
+      "a": "onlab_best",
+      "b": "tpe_p10",
+      "a_label": "Önlab legjobb",
+      "b_label": "TPE p10",
+      "tau": -0.14285714285714288,
+      "p_value": 0.7726190476190476
+    },
+    {
+      "metric": "val_mse",
+      "a": "onlab_best",
+      "b": "tpe_p30",
+      "a_label": "Önlab legjobb",
+      "b_label": "TPE p30",
+      "tau": 0.33333333333333337,
+      "p_value": 0.3813492063492063
+    },
+    {
+      "metric": "val_mse",
+      "a": "onlab_best",
+      "b": "rs_p30",
+      "a_label": "Önlab legjobb",
+      "b_label": "RS p30",
+      "tau": 0.33333333333333337,
+      "p_value": 0.3813492063492063
+    },
+    {
+      "metric": "val_mse",
+      "a": "tpe_p10",
+      "b": "tpe_p30",
+      "a_label": "TPE p10",
+      "b_label": "TPE p30",
+      "tau": 0.5238095238095238,
+      "p_value": 0.1361111111111111
+    },
+    {
+      "metric": "val_mse",
+      "a": "tpe_p10",
+      "b": "rs_p30",
+      "a_label": "TPE p10",
+      "b_label": "RS p30",
+      "tau": 0.5238095238095238,
+      "p_value": 0.1361111111111111
+    },
+    {
+      "metric": "val_mse",
+      "a": "tpe_p30",
+      "b": "rs_p30",
+      "a_label": "TPE p30",
+      "b_label": "RS p30",
+      "tau": 0.23809523809523814,
+      "p_value": 0.5619047619047619
+    }
+  ],
+  "within_level_test_vs_val": [
+    {
+      "level": "onlab_v1",
+      "tau": 1.0,
+      "p_value": 0.0003968253968253968
+    },
+    {
+      "level": "onlab_best",
+      "tau": 1.0,
+      "p_value": 0.0003968253968253968
+    },
+    {
+      "level": "tpe_p10",
+      "tau": 1.0,
+      "p_value": 0.0003968253968253968
+    },
+    {
+      "level": "tpe_p30",
+      "tau": 0.9047619047619049,
+      "p_value": 0.002777777777777778
+    },
+    {
+      "level": "rs_p30",
+      "tau": 1.0,
+      "p_value": 0.0003968253968253968
+    }
+  ],
+  "param_count_vs_error": [
+    {
+      "level": "onlab_v1",
+      "metric": "test_rmse",
+      "kendall_tau": 0.33333333333333337,
+      "kendall_p": 0.3813492063492063,
+      "spearman_rho": 0.3571428571428572,
+      "spearman_p": 0.431611352038328
+    },
+    {
+      "level": "onlab_best",
+      "metric": "test_rmse",
+      "kendall_tau": 0.14285714285714288,
+      "kendall_p": 0.7726190476190476,
+      "spearman_rho": 0.14285714285714288,
+      "spearman_p": 0.7599453002180927
+    },
+    {
+      "level": "tpe_p10",
+      "metric": "test_rmse",
+      "kendall_tau": 0.5238095238095238,
+      "kendall_p": 0.1361111111111111,
+      "spearman_rho": 0.6785714285714287,
+      "spearman_p": 0.09375025395983135
+    },
+    {
+      "level": "tpe_p30",
+      "metric": "test_rmse",
+      "kendall_tau": 0.5238095238095238,
+      "kendall_p": 0.1361111111111111,
+      "spearman_rho": 0.6785714285714287,
+      "spearman_p": 0.09375025395983135
+    },
+    {
+      "level": "rs_p30",
+      "metric": "test_rmse",
+      "kendall_tau": 0.04761904761904762,
+      "kendall_p": 1.0,
+      "spearman_rho": 0.14285714285714288,
+      "spearman_p": 0.7599453002180927
+    }
+  ],
+  "orders": {
+    "onlab_v1": {
+      "test_rmse": [
+        "mlp",
+        "deep_mlp",
+        "resnet",
+        "finn",
+        "gelu_resnet",
+        "highway",
+        "dense_mlp"
+      ],
+      "val_mse": [
+        "mlp",
+        "deep_mlp",
+        "resnet",
+        "finn",
+        "gelu_resnet",
+        "highway",
+        "dense_mlp"
+      ]
+    },
+    "onlab_best": {
+      "test_rmse": [
+        "resnet",
+        "mlp",
+        "deep_mlp",
+        "finn",
+        "gelu_resnet",
+        "highway",
+        "dense_mlp"
+      ],
+      "val_mse": [
+        "resnet",
+        "mlp",
+        "deep_mlp",
+        "finn",
+        "gelu_resnet",
+        "highway",
+        "dense_mlp"
+      ]
+    },
+    "tpe_p10": {
+      "test_rmse": [
+        "mlp",
+        "dense_mlp",
+        "deep_mlp",
+        "highway",
+        "finn",
+        "gelu_resnet",
+        "resnet"
+      ],
+      "val_mse": [
+        "mlp",
+        "dense_mlp",
+        "deep_mlp",
+        "highway",
+        "finn",
+        "gelu_resnet",
+        "resnet"
+      ]
+    },
+    "tpe_p30": {
+      "test_rmse": [
+        "mlp",
+        "dense_mlp",
+        "resnet",
+        "deep_mlp",
+        "highway",
+        "finn",
+        "gelu_resnet"
+      ],
+      "val_mse": [
+        "mlp",
+        "resnet",
+        "dense_mlp",
+        "deep_mlp",
+        "highway",
+        "finn",
+        "gelu_resnet"
+      ]
+    },
+    "rs_p30": {
+      "test_rmse": [
+        "mlp",
+        "deep_mlp",
+        "highway",
+        "finn",
+        "gelu_resnet",
+        "resnet",
+        "dense_mlp"
+      ],
+      "val_mse": [
+        "mlp",
+        "deep_mlp",
+        "highway",
+        "finn",
+        "gelu_resnet",
+        "resnet",
+        "dense_mlp"
+      ]
+    }
+  }
+}

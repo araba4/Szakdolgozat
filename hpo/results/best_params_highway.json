@@ -1,0 +1,37 @@
+{
+  "arch": "highway",
+  "model_class": "HighwayPricer",
+  "architecture_size_fixed_baseline": {
+    "input_dim": 4,
+    "hidden_dim": 256,
+    "n_blocks": 4
+  },
+  "lr": 0.0022091690943683057,
+  "weight_decay": 1.0158715496491554e-06,
+  "dropout": 0.4062738450307539,
+  "search_best_val_loss": 9.000574587941326e-06,
+  "search_best_trial_number": 38,
+  "n_trials_completed": 40,
+  "n_trials_target": 40,
+  "final_retrain_best_epoch": 124,
+  "final_retrain_best_val_loss": 8.553786329575815e-06,
+  "baseline_val_loss": 0.00021953723330050707,
+  "improvement_pct_vs_baseline_val_loss": 96.10371953723804,
+  "param_count_match": true,
+  "param_count": 527873,
+  "baseline_test_metrics": {
+    "RMSE": 0.014884491451084614,
+    "MAE": 0.01058123167604208,
+    "MAPE (%)": 6085027.34375,
+    "max_error": 0.12276598811149597,
+    "R2": 0.9942339658737183
+  },
+  "hpo_test_metrics": {
+    "RMSE": 0.002951303031295538,
+    "MAE": 0.0019958962220698595,
+    "MAPE (%)": 786287.79296875,
+    "max_error": 0.04484183341264725,
+    "R2": 0.9997733235359192
+  },
+  "retrain_seconds": 1239.577936410904
+}

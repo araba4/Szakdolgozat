@@ -1,0 +1,130 @@
+{
+  "arch": "resnet",
+  "model_class": "ResNetPricer",
+  "architecture_size_fixed_baseline": {
+    "input_dim": 4,
+    "hidden_dim": 256,
+    "n_blocks": 3
+  },
+  "lr": 0.008597392498054104,
+  "weight_decay": 0.0006302314035822053,
+  "dropout": 0.10380942081075883,
+  "search_source": "american-nn/optuna_studies/retune/resnet.db",
+  "search_best_val_loss": 1.4830430118793931e-05,
+  "search_best_trial_number": 10,
+  "n_trials_completed": 40,
+  "n_trials_target": 40,
+  "final_patience": 30,
+  "final_max_epochs": 200,
+  "final_batch_size": 4096,
+  "seed": 42,
+  "final_retrain_best_epoch": 136,
+  "final_retrain_n_epochs_run": 166,
+  "hit_max_epochs": false,
+  "final_retrain_best_val_loss": 5.097892701014644e-06,
+  "param_count_match": true,
+  "param_count": 399873,
+  "hpo_test_metrics": {
+    "RMSE": 0.002288278890773654,
+    "MAE": 0.0014896444045007229,
+    "MAPE (%)": 102055.93872070312,
+    "max_error": 0.06389959156513214,
+    "R2": 0.9997857213020325,
+    "MSE": 5.236220281960304e-06
+  },
+  "retrain_seconds": 1026.0767817497253,
+  "val_mse_recheck": {
+    "checkpoint_val_loss": 5.097892701014644e-06,
+    "checkpoint_best_epoch": 136,
+    "reloaded_val_mse": 5.0978927251428425e-06,
+    "rel_diff": 4.732974964111054e-09,
+    "loader": "Önlab src/evaluate.py load_model + PricingDataset"
+  },
+  "target": "american",
+  "target_definition": "american_put_price / K",
+  "search_target": "american",
+  "study_name": "resnet",
+  "study_db": "american-nn/optuna_studies/retune/resnet.db",
+  "sampler": "TPESampler(seed=42)",
+  "pruner": "HyperbandPruner(min_resource=3, max_resource=40, reduction_factor=3)",
+  "search_max_epochs": 40,
+  "search_patience": 8,
+  "search_batch_size": 4096,
+  "cold_start": true,
+  "n_trials_total": 40,
+  "n_trials_valid": 40,
+  "n_trials_complete": 10,
+  "n_trials_pruned": 30,
+  "n_trials_fail": 0,
+  "fail_trial_numbers": [],
+  "resume_events": [],
+  "param_importance_ped_anova": {
+    "weight_decay": 0.40593669279336203,
+    "lr": 0.33356360618164693,
+    "dropout": 0.2604997010249911
+  },
+  "hpo_test_metrics_usd": {
+    "RMSE": 0.24279198537180224,
+    "MAE": 0.13658546216160572,
+    "max_error": 7.698470827151505,
+    "R2": 0.999918726052595
+  },
+  "metrics_american": "american-nn/results/retune/metrics_resnet_american_retune_p30.json",
+  "european_reference": {
+    "run": "resnet_european_retune_p30",
+    "metrics": "american-nn/results/retune/metrics_resnet_european_retune_p30.json",
+    "target_definition": "european_put_price / K",
+    "hyperparameters": {
+      "lr": 0.008597392498054104,
+      "weight_decay": 0.0006302314035822053,
+      "dropout": 0.10380942081075883,
+      "batch_size": 4096
+    },
+    "hyperparameters_bitwise_equal_american": true,
+    "best_epoch": 120,
+    "n_epochs_run": 150,
+    "hit_max_epochs": false,
+    "best_val_loss": 6.520698724004129e-06,
+    "test_metrics": {
+      "RMSE": 0.002595345489680767,
+      "MAE": 0.0017686401261016726,
+      "MAPE (%)": 159107.38525390625,
+      "max_error": 0.05859346687793732,
+      "R2": 0.9997106194496155,
+      "MSE": 6.7358182108063006e-06
+    },
+    "test_metrics_usd": {
+      "RMSE": 0.27547210828482965,
+      "MAE": 0.16108681677275333,
+      "max_error": 6.884920186803483,
+      "R2": 0.9998893686491998
+    },
+    "train_seconds": 949.0086348056793,
+    "val_recheck": {
+      "checkpoint_val_loss": 6.520698724004129e-06,
+      "checkpoint_best_epoch": 120,
+      "reloaded_val_mse": 6.5206987111150755e-06,
+      "rel_diff": 1.9766369245574234e-09,
+      "loader": "Önlab src/evaluate.py load_model + PricingDataset"
+    }
+  },
+  "european_call_tpe_reference": {
+    "search_json": "hpo/results/best_params_resnet.json",
+    "p30_json": "hpo/results/p30/best_params_resnet.json",
+    "lr": 0.0045001609717867435,
+    "weight_decay": 0.0002896188492437527,
+    "dropout": 0.3252627452605708,
+    "search_best_val_loss": 1.0434370335230293e-05,
+    "search_best_trial_number": 35,
+    "p30_best_val_loss": 3.995346991699383e-06
+  },
+  "search_time_s": 542.2521629999392,
+  "search_time_s_this_run": 542.2521629999392,
+  "n_search_invocations": 1,
+  "search_trial_duration_sum_s": 540.751295,
+  "n_search_epochs": 642,
+  "final_train_time_s_american": 1026.0767817497253,
+  "final_train_time_s_european": 949.0086348056793,
+  "total_time_s": 2517.337579555344,
+  "pipeline_time_s_this_run": 2521.4410329000093
+}

@@ -1,0 +1,1019 @@
+{
+  "script": "american-nn/generate_nn_dataset.py",
+  "date": "2026-11-18 17:11:41",
+  "n": 1000000,
+  "seed": 42,
+  "checkpoint": "american-nn/models/retune/mlp_american_retune_p30_best.pt",
+  "env": {
+    "python": "3.13.7",
+    "torch": "2.6.0+cu124",
+    "cuda_available": true,
+    "cuda_version": "12.4",
+    "cudnn_version": 90100,
+    "numpy": "2.3.3",
+    "pandas": "3.0.1",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "torch_num_threads": 8
+  },
+  "torch_import_s": 1.928079599980265,
+  "machine_state_before": {
+    "tag": "előtte",
+    "time": "2026-11-18 17:11:41",
+    "cpu": {
+      "Name": "AMD Ryzen 7 7735HS with Radeon Graphics        ",
+      "NumberOfCores": 8,
+      "NumberOfLogicalProcessors": 16,
+      "MaxClockSpeed": 3201,
+      "CurrentClockSpeed": 3201,
+      "LoadPercentage": 30
+    },
+    "ram_total_mb": 15610.91015625,
+    "ram_free_mb": 4121.48828125,
+    "cpu_load_pct_3x1s": [
+      29.0,
+      3.0,
+      26.0
+    ],
+    "battery": {
+      "BatteryStatus": 2,
+      "EstimatedChargeRemaining": 69
+    },
+    "battery_note": "BatteryStatus 2 = hálózati tápról",
+    "power_scheme": "Power Scheme GUID: 64a64f24-65b9-4b56-befd-5ec1eaced9b3  (Silent)",
+    "top_processes_by_memory": [
+      {
+        "ProcessName": "pycharm64",
+        "Id": 30244,
+        "WS_MB": 2042,
+        "CPU": 397.609375
+      },
+      {
+        "ProcessName": "python",
+        "Id": 28040,
+        "WS_MB": 505,
+        "CPU": 3.09375
+      },
+      {
+        "ProcessName": "claude",
+        "Id": 25448,
+        "WS_MB": 499,
+        "CPU": 17.515625
+      },
+      {
+        "ProcessName": "MsMpEng",
+        "Id": 7036,
+        "WS_MB": 489,
+        "CPU": null
+      },
+      {
+        "ProcessName": "Memory Compression",
+        "Id": 5516,
+        "WS_MB": 434,
+        "CPU": null
+      },
+      {
+        "ProcessName": "claude",
+        "Id": 13388,
+        "WS_MB": 417,
+        "CPU": 67.875
+      },
+      {
+        "ProcessName": "ChatGPT",
+        "Id": 31836,
+        "WS_MB": 280,
+        "CPU": 10.0625
+      },
+      {
+        "ProcessName": "claude",
+        "Id": 2912,
+        "WS_MB": 278,
+        "CPU": 84.28125
+      },
+      {
+        "ProcessName": "explorer",
+        "Id": 10304,
+        "WS_MB": 272,
+        "CPU": 28.1875
+      },
+      {
+        "ProcessName": "ChatGPT",
+        "Id": 20632,
+        "WS_MB": 224,
+        "CPU": 27.734375
+      }
+    ],
+    "nvidia_smi": "NVIDIA GeForce RTX 4060 Laptop GPU, 610.74, 8188 MiB, 0 MiB, 0 %, P0, 2250 MHz, 3105 MHz, 17.45 W, 52"
+  },
+  "cuda_init_s": 0.06990309996763244,
+  "model_load_cuda_s": 0.005201499967370182,
+  "model_load_cpu_s": 0.001261900004465133,
+  "crr_sample_timing": {
+    "n_rows": 1000,
+    "reps": 3,
+    "s_per_row_each": [
+      0.008200391899968964,
+      0.00823305799998343,
+      0.008144753300002775
+    ],
+    "s_per_row_median": 0.008200391899968964
+  },
+  "gpu_vs_cpu_norm_max_abs_diff": 1.1920928955078125e-07,
+  "gpu_vs_cpu_n_bitwise_equal": 618142,
+  "machine_state_after": {
+    "tag": "utána",
+    "time": "2026-11-18 17:12:26",
+    "cpu": {
+      "Name": "AMD Ryzen 7 7735HS with Radeon Graphics        ",
+      "NumberOfCores": 8,
+      "NumberOfLogicalProcessors": 16,
+      "MaxClockSpeed": 3201,
+      "CurrentClockSpeed": 2560,
+      "LoadPercentage": 2
+    },
+    "ram_total_mb": 15610.91015625,
+    "ram_free_mb": 2893.1640625,
+    "cpu_load_pct_3x1s": [
+      6.0,
+      8.0,
+      14.0
+    ],
+    "battery": {
+      "BatteryStatus": 2,
+      "EstimatedChargeRemaining": 70
+    },
+    "battery_note": "BatteryStatus 2 = hálózati tápról",
+    "power_scheme": "Power Scheme GUID: 64a64f24-65b9-4b56-befd-5ec1eaced9b3  (Silent)",
+    "top_processes_by_memory": [
+      {
+        "ProcessName": "pycharm64",
+        "Id": 30244,
+        "WS_MB": 1961,
+        "CPU": 399.6875
+      },
+      {
+        "ProcessName": "python",
+        "Id": 28040,
+        "WS_MB": 1848,
+        "CPU": 67.5
+      },
+      {
+        "ProcessName": "claude",
+        "Id": 25448,
+        "WS_MB": 499,
+        "CPU": 17.515625
+      },
+      {
+        "ProcessName": "MsMpEng",
+        "Id": 7036,
+        "WS_MB": 456,
+        "CPU": null
+      },
+      {
+        "ProcessName": "Memory Compression",
+        "Id": 5516,
+        "WS_MB": 445,
+        "CPU": null
+      },
+      {
+        "ProcessName": "claude",
+        "Id": 13388,
+        "WS_MB": 385,
+        "CPU": 68.90625
+      },
+      {
+        "ProcessName": "ChatGPT",
+        "Id": 31836,
+        "WS_MB": 280,
+        "CPU": 10.078125
+      },
+      {
+        "ProcessName": "claude",
+        "Id": 2912,
+        "WS_MB": 278,
+        "CPU": 84.59375
+      },
+      {
+        "ProcessName": "explorer",
+        "Id": 10304,
+        "WS_MB": 274,
+        "CPU": 28.375
+      },
+      {
+        "ProcessName": "ChatGPT",
+        "Id": 20632,
+        "WS_MB": 224,
+        "CPU": 27.78125
+      }
+    ],
+    "nvidia_smi": "NVIDIA GeForce RTX 4060 Laptop GPU, 610.74, 8188 MiB, 909 MiB, 0 %, P8, 210 MHz, 3105 MHz, 2.42 W, 51"
+  },
+  "seconds": 54.54621150001185,
+  "results": {
+    "completeness": {
+      "n_rows": 1000000,
+      "n_expected": 1000000,
+      "split_sizes": {
+        "train": 700000,
+        "val": 150000,
+        "test": 150000
+      },
+      "split_sizes_expected": {
+        "train": 700000,
+        "val": 150000,
+        "test": 150000
+      },
+      "columns": [
+        "S",
+        "K",
+        "moneyness",
+        "T",
+        "r",
+        "sigma",
+        "american_put_price_nn",
+        "american_put_price_nn_norm",
+        "european_put_price",
+        "S_norm",
+        "moneyness_norm",
+        "T_norm",
+        "r_norm",
+        "sigma_norm"
+      ],
+      "n_nan": {},
+      "n_inf": {},
+      "n_duplicate_input_rows": 0,
+      "ok": true
+    },
+    "readback_equal": true,
+    "parquet_bytes": {
+      "train": 79730170,
+      "val": 20041960,
+      "test": 20042034
+    },
+    "alignment_vs_crr_dataset": {
+      "S": {
+        "n_not_bitwise_equal": 169126,
+        "max_abs_diff": 2.842170943040401e-14
+      },
+      "K": {
+        "n_not_bitwise_equal": 172910,
+        "max_abs_diff": 5.684341886080802e-14
+      },
+      "moneyness": {
+        "n_not_bitwise_equal": 124344,
+        "max_abs_diff": 2.220446049250313e-16
+      },
+      "T": {
+        "n_not_bitwise_equal": 287683,
+        "max_abs_diff": 4.440892098500626e-16
+      },
+      "r": {
+        "n_not_bitwise_equal": 957394,
+        "max_abs_diff": 9.996344030316351e-17
+      },
+      "sigma": {
+        "n_not_bitwise_equal": 313960,
+        "max_abs_diff": 9.71445146547012e-17
+      },
+      "S_norm": {
+        "n_not_bitwise_equal": 361524,
+        "max_abs_diff": 1.1102230246251565e-16
+      },
+      "moneyness_norm": {
+        "n_not_bitwise_equal": 361220,
+        "max_abs_diff": 1.1102230246251565e-16
+      },
+      "T_norm": {
+        "n_not_bitwise_equal": 361661,
+        "max_abs_diff": 1.1102230246251565e-16
+      },
+      "r_norm": {
+        "n_not_bitwise_equal": 361043,
+        "max_abs_diff": 1.1102230246251565e-16
+      },
+      "sigma_norm": {
+        "n_not_bitwise_equal": 361281,
+        "max_abs_diff": 1.1102230246251565e-16
+      },
+      "split_labels_equal": true,
+      "all_bitwise_equal": false
+    },
+    "bs_column_equal_to_crr_dataset": {
+      "n_not_bitwise_equal": 213297,
+      "max_abs_diff": 2.842170943040401e-14
+    },
+    "reproduces_levels_table": {
+      "test_rmse_now": 0.0007472617083719456,
+      "test_rmse_levels_table": 0.0007472617435269,
+      "rel_diff": -4.704503442365393e-08,
+      "test_usd_rmse_now": 0.0755085614729269,
+      "test_usd_rmse_levels_table": 0.0755085604525114
+    },
+    "lsm_qa": {
+      "nn": {
+        "n": 2000,
+        "n_within_tol": 1937,
+        "pct_within_tol": 96.85000000000001,
+        "abs_diff_median_usd": 0.02884224489811338,
+        "abs_diff_mean_usd": 0.05096233921630428,
+        "abs_diff_max_usd": 0.8309916103938804,
+        "rmse_usd": 0.08282966031044925,
+        "by_split": {
+          "train": {
+            "n": 1409,
+            "n_within_tol": 1366
+          },
+          "val": {
+            "n": 316,
+            "n_within_tol": 305
+          },
+          "test": {
+            "n": 275,
+            "n_within_tol": 266
+          }
+        }
+      },
+      "crr": {
+        "n": 2000,
+        "n_within_tol": 2000,
+        "pct_within_tol": 100.0,
+        "abs_diff_median_usd": 0.013917225793770527,
+        "abs_diff_mean_usd": 0.026928480579766757,
+        "abs_diff_max_usd": 0.3138737653133603,
+        "rmse_usd": 0.04427536946734882,
+        "by_split": {
+          "train": {
+            "n": 1409,
+            "n_within_tol": 1409
+          },
+          "val": {
+            "n": 316,
+            "n_within_tol": 316
+          },
+          "test": {
+            "n": 275,
+            "n_within_tol": 275
+          }
+        }
+      },
+      "nn_failures": [
+        {
+          "split": "train",
+          "S": 142.46889763572628,
+          "K": 102.61907875620703,
+          "moneyness": 1.3883275835499438,
+          "T": 1.3095918520274743,
+          "r": 0.022581399192019666,
+          "sigma": 0.2511115325129203,
+          "american_put_price": 1.7680647144418036,
+          "american_put_price_nn": 1.8284770841960825,
+          "lsm_put_price": 1.7687526872135133
+        },
+        {
+          "split": "train",
+          "S": 85.69082484995307,
+          "K": 70.79640053414951,
+          "moneyness": 1.2103839206997402,
+          "T": 0.4307030593295176,
+          "r": 0.028297302773543215,
+          "sigma": 0.3802563442855453,
+          "american_put_price": 2.2738589481292943,
+          "american_put_price_nn": 2.2231548493362148,
+          "lsm_put_price": 2.289170572477959
+        },
+        {
+          "split": "train",
+          "S": 91.58486929980924,
+          "K": 62.750273110083036,
+          "moneyness": 1.4595134771627458,
+          "T": 0.14618812304984183,
+          "r": 0.0002867752029060161,
+          "sigma": 0.7762449780388824,
+          "american_put_price": 1.0737074353257452,
+          "american_put_price_nn": 1.1324269046543294,
+          "lsm_put_price": 1.0703389777379664
+        },
+        {
+          "split": "train",
+          "S": 126.53615264426786,
+          "K": 138.02609568535365,
+          "moneyness": 0.9167552846870461,
+          "T": 0.8217840744213964,
+          "r": 0.048954397777305446,
+          "sigma": 0.07863768102628346,
+          "american_put_price": 11.489943041085796,
+          "american_put_price_nn": 11.658512595884996,
+          "lsm_put_price": 11.354524563402444
+        },
+        {
+          "split": "train",
+          "S": 124.03766831258281,
+          "K": 118.4804176558547,
+          "moneyness": 1.0469043810502934,
+          "T": 0.15249390707752083,
+          "r": 0.009061476976736675,
+          "sigma": 0.18869178912747137,
+          "american_put_price": 1.4095526600773125,
+          "american_put_price_nn": 1.2740938795653864,
+          "lsm_put_price": 1.3894218750414995
+        },
+        {
+          "split": "train",
+          "S": 107.19080301578582,
+          "K": 119.30645784545528,
+          "moneyness": 0.8984492956335726,
+          "T": 0.038514535592839204,
+          "r": 0.004041806184680753,
+          "sigma": 0.8359186830255066,
+          "american_put_price": 14.968625780315724,
+          "american_put_price_nn": 15.434892035751842,
+          "lsm_put_price": 14.959462133362992
+        },
+        {
+          "split": "train",
+          "S": 136.95996299449877,
+          "K": 112.95621710451466,
+          "moneyness": 1.212504866976682,
+          "T": 1.3652147965312942,
+          "r": 0.04740613718551187,
+          "sigma": 0.14824307058626135,
+          "american_put_price": 0.6891465544634934,
+          "american_put_price_nn": 0.6008123554538729,
+          "lsm_put_price": 0.6902106872628493
+        },
+        {
+          "split": "train",
+          "S": 62.138527619922094,
+          "K": 63.3812113449096,
+          "moneyness": 0.9803934999250008,
+          "T": 0.8289004013321669,
+          "r": 0.002597051351709517,
+          "sigma": 0.07414606971407221,
+          "american_put_price": 2.3125722206221844,
+          "american_put_price_nn": 2.3882090060889922,
+          "lsm_put_price": 2.3171985063580123
+        },
+        {
+          "split": "train",
+          "S": 136.18768185895325,
+          "K": 103.05994238203915,
+          "moneyness": 1.3214414709656142,
+          "T": 0.5284193680841661,
+          "r": 0.02646512062498811,
+          "sigma": 0.3071063726561269,
+          "american_put_price": 1.1696130435961098,
+          "american_put_price_nn": 1.1028122646198946,
+          "lsm_put_price": 1.1571911471768337
+        },
+        {
+          "split": "train",
+          "S": 134.16178495558844,
+          "K": 99.51522253424604,
+          "moneyness": 1.348153393410938,
+          "T": 1.4782062554746525,
+          "r": 0.023335007231243574,
+          "sigma": 0.25447362154212755,
+          "american_put_price": 2.553588195892305,
+          "american_put_price_nn": 2.6616197926276572,
+          "lsm_put_price": 2.563875075122455
+        },
+        {
+          "split": "train",
+          "S": 124.87618710555307,
+          "K": 93.1089596010275,
+          "moneyness": 1.3411833580854986,
+          "T": 0.2554519071838067,
+          "r": 0.010567696673919926,
+          "sigma": 0.6989208084745365,
+          "american_put_price": 4.2350888139131095,
+          "american_put_price_nn": 4.3553410412408375,
+          "lsm_put_price": 4.245818991779393
+        },
+        {
+          "split": "train",
+          "S": 147.6672583474739,
+          "K": 130.2003550964922,
+          "moneyness": 1.134154036968923,
+          "T": 1.342180758285659,
+          "r": 0.027916772114504076,
+          "sigma": 0.148012649291042,
+          "american_put_price": 2.230404613640762,
+          "american_put_price_nn": 2.0813454321247367,
+          "lsm_put_price": 2.218927958528241
+        },
+        {
+          "split": "train",
+          "S": 97.56062295786849,
+          "K": 118.82086914788397,
+          "moneyness": 0.8210731301455549,
+          "T": 0.009566333796229357,
+          "r": 0.04089872641179593,
+          "sigma": 0.7701139888651818,
+          "american_put_price": 21.26081725597561,
+          "american_put_price_nn": 20.80355985046666,
+          "lsm_put_price": 21.22520964203747
+        },
+        {
+          "split": "train",
+          "S": 101.46252581861879,
+          "K": 90.75428240137389,
+          "moneyness": 1.1179916047364702,
+          "T": 1.773462818413781,
+          "r": 0.03894536684482347,
+          "sigma": 0.13850038518036295,
+          "american_put_price": 1.6602714124487028,
+          "american_put_price_nn": 1.6043454170402214,
+          "lsm_put_price": 1.6647059700697602
+        },
+        {
+          "split": "train",
+          "S": 87.24489099485423,
+          "K": 73.92050561780677,
+          "moneyness": 1.1802528982409686,
+          "T": 0.026779467426760132,
+          "r": 0.03874942503669855,
+          "sigma": 0.6818366840090487,
+          "american_put_price": 0.2657182975258816,
+          "american_put_price_nn": 0.37613628173390307,
+          "lsm_put_price": 0.2644927006845793
+        },
+        {
+          "split": "train",
+          "S": 149.29243503421054,
+          "K": 133.82708064675828,
+          "moneyness": 1.115562218892555,
+          "T": 0.12267029281469838,
+          "r": 0.043727629276955934,
+          "sigma": 0.6407213953683341,
+          "american_put_price": 6.153763207102354,
+          "american_put_price_nn": 6.395823798571577,
+          "lsm_put_price": 6.138828661759603
+        },
+        {
+          "split": "train",
+          "S": 132.2662620687439,
+          "K": 101.21021467853869,
+          "moneyness": 1.3068469668683607,
+          "T": 0.8508403853002606,
+          "r": 0.03380128881428917,
+          "sigma": 0.2278134590656612,
+          "american_put_price": 0.8739618561259888,
+          "american_put_price_nn": 0.830040363261511,
+          "lsm_put_price": 0.8830807244043429
+        },
+        {
+          "split": "train",
+          "S": 148.5462948460125,
+          "K": 146.8483812596879,
+          "moneyness": 1.0115623582075584,
+          "T": 0.03300168558292029,
+          "r": 0.009137673986765632,
+          "sigma": 0.466519557175998,
+          "american_put_price": 4.1725593095353855,
+          "american_put_price_nn": 4.362843854568434,
+          "lsm_put_price": 4.180275842559019
+        },
+        {
+          "split": "train",
+          "S": 125.10799530602188,
+          "K": 101.02391702654235,
+          "moneyness": 1.238399766989354,
+          "T": 1.279552285404467,
+          "r": 0.02812251587942104,
+          "sigma": 0.19303289269924517,
+          "american_put_price": 1.5559213776350589,
+          "american_put_price_nn": 1.6241265795394506,
+          "lsm_put_price": 1.544680791111266
+        },
+        {
+          "split": "train",
+          "S": 88.01469797914095,
+          "K": 69.45774541251319,
+          "moneyness": 1.2671689450387,
+          "T": 0.11664116630529096,
+          "r": 0.0021624409349321042,
+          "sigma": 0.461276126212089,
+          "american_put_price": 0.3560216576842391,
+          "american_put_price_nn": 0.2663445854200812,
+          "lsm_put_price": 0.3555761157211144
+        },
+        {
+          "split": "train",
+          "S": 82.00066325098778,
+          "K": 84.9892494429678,
+          "moneyness": 0.9648357149690384,
+          "T": 0.4031702535094175,
+          "r": 0.044012689193584746,
+          "sigma": 0.06645560782066957,
+          "american_put_price": 2.988586191980019,
+          "american_put_price_nn": 3.1060829095459113,
+          "lsm_put_price": 2.941013527175182
+        },
+        {
+          "split": "train",
+          "S": 148.66348668623684,
+          "K": 132.85670068568064,
+          "moneyness": 1.118976204579645,
+          "T": 0.6883604498482512,
+          "r": 0.005094745513903772,
+          "sigma": 0.20418042167025124,
+          "american_put_price": 3.491542982879257,
+          "american_put_price_nn": 3.6100435381747418,
+          "lsm_put_price": 3.504257255458074
+        },
+        {
+          "split": "train",
+          "S": 132.8054591402245,
+          "K": 115.1632247991565,
+          "moneyness": 1.1531932990921008,
+          "T": 0.030378310691351575,
+          "r": 0.007391018871531105,
+          "sigma": 0.5889981063669588,
+          "american_put_price": 0.4751475252423831,
+          "american_put_price_nn": 0.42264726595501684,
+          "lsm_put_price": 0.4798246875016614
+        },
+        {
+          "split": "train",
+          "S": 124.05705313285861,
+          "K": 93.81987362538949,
+          "moneyness": 1.322289706210885,
+          "T": 0.2859035023185006,
+          "r": 0.014201342679192472,
+          "sigma": 0.47424732037581396,
+          "american_put_price": 1.8030958197911109,
+          "american_put_price_nn": 1.897238838656421,
+          "lsm_put_price": 1.8031468736194505
+        },
+        {
+          "split": "train",
+          "S": 131.91065318027944,
+          "K": 110.5391400517554,
+          "moneyness": 1.1933388763339186,
+          "T": 0.855584371369214,
+          "r": 0.015591200436795686,
+          "sigma": 0.1544377263956639,
+          "american_put_price": 0.7382962805606549,
+          "american_put_price_nn": 0.7906671900952387,
+          "lsm_put_price": 0.7331546075452963
+        },
+        {
+          "split": "train",
+          "S": 31.542757288855,
+          "K": 33.312888502257536,
+          "moneyness": 0.946863472578111,
+          "T": 0.026352871850557673,
+          "r": 0.019564115884374005,
+          "sigma": 0.2893650687266559,
+          "american_put_price": 1.8511700542936464,
+          "american_put_price_nn": 1.9232869728573412,
+          "lsm_put_price": 1.8463919874862376
+        },
+        {
+          "split": "train",
+          "S": 119.88783440140114,
+          "K": 98.00824726647822,
+          "moneyness": 1.2232423060830147,
+          "T": 0.2830884573957332,
+          "r": 0.030644778994965916,
+          "sigma": 0.555268997747788,
+          "american_put_price": 4.462637527428209,
+          "american_put_price_nn": 4.35664694791618,
+          "lsm_put_price": 4.454353892727857
+        },
+        {
+          "split": "train",
+          "S": 125.65866313103092,
+          "K": 88.30514489896385,
+          "moneyness": 1.4230050046892044,
+          "T": 1.1246309526793277,
+          "r": 0.006371177319016897,
+          "sigma": 0.30232682080962725,
+          "american_put_price": 2.195492606024069,
+          "american_put_price_nn": 2.2578005049744183,
+          "lsm_put_price": 2.2070329829073407
+        },
+        {
+          "split": "train",
+          "S": 128.32199263805646,
+          "K": 86.60849547620232,
+          "moneyness": 1.481632857521649,
+          "T": 0.74881288894606,
+          "r": 0.009952635966658609,
+          "sigma": 0.29405364749135815,
+          "american_put_price": 0.6573679209994522,
+          "american_put_price_nn": 0.5967918057602396,
+          "lsm_put_price": 0.6611232096952662
+        },
+        {
+          "split": "train",
+          "S": 68.5385778368736,
+          "K": 68.18127665022425,
+          "moneyness": 1.0052404590263444,
+          "T": 0.03472669561339917,
+          "r": 0.03163924383985708,
+          "sigma": 0.6887995312805726,
+          "american_put_price": 3.289645113218672,
+          "american_put_price_nn": 3.4657070650681856,
+          "lsm_put_price": 3.2960621217231267
+        },
+        {
+          "split": "train",
+          "S": 12.056015255965852,
+          "K": 10.733445504071277,
+          "moneyness": 1.1232194966092588,
+          "T": 0.02856942792026769,
+          "r": 0.0035008865200701236,
+          "sigma": 0.8388223362668492,
+          "american_put_price": 0.1867311582538133,
+          "american_put_price_nn": 0.26067135854199325,
+          "lsm_put_price": 0.1883316578550567
+        },
+        {
+          "split": "train",
+          "S": 125.76165044877051,
+          "K": 116.95074676415942,
+          "moneyness": 1.0753385842193808,
+          "T": 0.36827806748502356,
+          "r": 0.04476866247206035,
+          "sigma": 0.21439945593590043,
+          "american_put_price": 2.349921073966521,
+          "american_put_price_nn": 2.4791756067433,
+          "lsm_put_price": 2.347554720648085
+        },
+        {
+          "split": "train",
+          "S": 36.00350567541098,
+          "K": 28.619136954353365,
+          "moneyness": 1.2580220617007232,
+          "T": 0.16397015242817373,
+          "r": 0.04487286648117905,
+          "sigma": 0.8139403601345224,
+          "american_put_price": 1.4522387220336077,
+          "american_put_price_nn": 1.5154432836149212,
+          "lsm_put_price": 1.4594993051868517
+        },
+        {
+          "split": "train",
+          "S": 102.28983440094588,
+          "K": 91.35554435970651,
+          "moneyness": 1.1196893972651107,
+          "T": 0.5531902037000062,
+          "r": 0.036098898215307054,
+          "sigma": 0.281473810521186,
+          "american_put_price": 3.2362746389817576,
+          "american_put_price_nn": 3.3574717814434702,
+          "lsm_put_price": 3.215101739731766
+        },
+        {
+          "split": "train",
+          "S": 93.91205551539099,
+          "K": 73.80048711932182,
+          "moneyness": 1.2725126781826313,
+          "T": 1.808568030035921,
+          "r": 0.038091701868750175,
+          "sigma": 0.2265784766833398,
+          "american_put_price": 2.073929952637479,
+          "american_put_price_nn": 2.124811210303947,
+          "lsm_put_price": 2.073845440094126
+        },
+        {
+          "split": "train",
+          "S": 93.86049368405912,
+          "K": 90.99791722261723,
+          "moneyness": 1.0314576041827297,
+          "T": 1.9543911864712666,
+          "r": 0.019636399232902533,
+          "sigma": 0.05502034746542883,
+          "american_put_price": 0.8406732565946641,
+          "american_put_price_nn": 1.0322417911342512,
+          "lsm_put_price": 0.8416734425719565
+        },
+        {
+          "split": "train",
+          "S": 72.50130642808102,
+          "K": 80.49037937515861,
+          "moneyness": 0.9007449957486072,
+          "T": 0.05994835675562027,
+          "r": 0.031958158731775675,
+          "sigma": 0.5338718724058593,
+          "american_put_price": 9.090516171680788,
+          "american_put_price_nn": 9.269691545163345,
+          "lsm_put_price": 9.063864845267846
+        },
+        {
+          "split": "train",
+          "S": 68.2457813756233,
+          "K": 54.15226744143696,
+          "moneyness": 1.2602571341897693,
+          "T": 0.43631554074713585,
+          "r": 0.04621998191762495,
+          "sigma": 0.5020368034980074,
+          "american_put_price": 2.586902054374096,
+          "american_put_price_nn": 2.537079500086517,
+          "lsm_put_price": 2.588504565643839
+        },
+        {
+          "split": "train",
+          "S": 149.54487081277753,
+          "K": 125.19546974470317,
+          "moneyness": 1.1944910715837187,
+          "T": 0.8815298508310209,
+          "r": 0.02567122639119711,
+          "sigma": 0.2371935352015992,
+          "american_put_price": 3.0691649003323187,
+          "american_put_price_nn": 3.014286330533365,
+          "lsm_put_price": 3.0873394902273263
+        },
+        {
+          "split": "train",
+          "S": 97.58477342278906,
+          "K": 66.60071200372711,
+          "moneyness": 1.465221173871655,
+          "T": 1.0102396412173484,
+          "r": 0.03684960097828717,
+          "sigma": 0.36298750993054324,
+          "american_put_price": 1.809101970251108,
+          "american_put_price_nn": 1.7735183594563684,
+          "lsm_put_price": 1.8393667942546168
+        },
+        {
+          "split": "train",
+          "S": 89.60631358154818,
+          "K": 82.33727542658549,
+          "moneyness": 1.0882836858191158,
+          "T": 1.0158944665246792,
+          "r": 0.02721990036998491,
+          "sigma": 0.17637021140105147,
+          "american_put_price": 2.4959621050944034,
+          "american_put_price_nn": 2.532383988920474,
+          "lsm_put_price": 2.4762336458408924
+        },
+        {
+          "split": "train",
+          "S": 140.66692987946078,
+          "K": 127.09876900507594,
+          "moneyness": 1.106752889745478,
+          "T": 0.0694361450279009,
+          "r": 0.03534680237189405,
+          "sigma": 0.6412873053958795,
+          "american_put_price": 3.7169983448330033,
+          "american_put_price_nn": 3.46253229081852,
+          "lsm_put_price": 3.7400755868549647
+        },
+        {
+          "split": "train",
+          "S": 67.51889803757342,
+          "K": 64.81213779763515,
+          "moneyness": 1.0417631686272975,
+          "T": 1.1793313404682337,
+          "r": 0.027950960656455692,
+          "sigma": 0.06713872298278013,
+          "american_put_price": 0.4463187685907811,
+          "american_put_price_nn": 0.49900058209545045,
+          "lsm_put_price": 0.4424924975356668
+        },
+        {
+          "split": "val",
+          "S": 33.15225758242539,
+          "K": 30.71285489992617,
+          "moneyness": 1.0794261129565355,
+          "T": 0.05033837340405122,
+          "r": 0.022682365929662295,
+          "sigma": 0.8863521680166369,
+          "american_put_price": 1.481391879029089,
+          "american_put_price_nn": 1.563374734837937,
+          "lsm_put_price": 1.4843189982104923
+        },
+        {
+          "split": "val",
+          "S": 90.97680895817133,
+          "K": 85.8719514972066,
+          "moneyness": 1.0594473209465933,
+          "T": 1.724313245775284,
+          "r": 0.022939033797863193,
+          "sigma": 0.058524797389887445,
+          "american_put_price": 0.3834169518506728,
+          "american_put_price_nn": 0.45658266337635756,
+          "lsm_put_price": 0.3835117258157292
+        },
+        {
+          "split": "val",
+          "S": 35.48061740246749,
+          "K": 39.29383898227729,
+          "moneyness": 0.9029562476313479,
+          "T": 0.662908561818448,
+          "r": 0.04608598460462195,
+          "sigma": 0.05486803905737052,
+          "american_put_price": 3.813221579809806,
+          "american_put_price_nn": 3.858744312764407,
+          "lsm_put_price": 3.7768550725313568
+        },
+        {
+          "split": "val",
+          "S": 109.04111584358238,
+          "K": 103.80164260122663,
+          "moneyness": 1.0504758220684827,
+          "T": 0.3990697033997,
+          "r": 0.03069353174650081,
+          "sigma": 0.16887366725708902,
+          "american_put_price": 2.020566499210529,
+          "american_put_price_nn": 2.1017512541106114,
+          "lsm_put_price": 2.018724717647956
+        },
+        {
+          "split": "val",
+          "S": 35.772998349303315,
+          "K": 31.822211114942487,
+          "moneyness": 1.1241518768161805,
+          "T": 0.005111527898774276,
+          "r": 0.04662335059378905,
+          "sigma": 0.8644334783384741,
+          "american_put_price": 0.0231222555129776,
+          "american_put_price_nn": 0.5664968698793732,
+          "lsm_put_price": 0.0235663409504476
+        },
+        {
+          "split": "val",
+          "S": 138.23844972537782,
+          "K": 139.3270204218909,
+          "moneyness": 0.9921869376577723,
+          "T": 1.0968735738657165,
+          "r": 0.0395480878311469,
+          "sigma": 0.10502174798359572,
+          "american_put_price": 4.566235772764133,
+          "american_put_price_nn": 4.6458546791700766,
+          "lsm_put_price": 4.54250722687686
+        },
+        {
+          "split": "val",
+          "S": 97.41988222991839,
+          "K": 94.92746519192424,
+          "moneyness": 1.0262560159270553,
+          "T": 0.055452498355209094,
+          "r": 0.03117925451623557,
+          "sigma": 0.6447913809043339,
+          "american_put_price": 4.588688553567284,
+          "american_put_price_nn": 4.391094099261186,
+          "lsm_put_price": 4.579631630373169
+        }
+      ],
+      "tolerance": {
+        "rel": 0.02,
+        "abs_usd": 0.05,
+        "source": "data_generator_american"
+      }
+    },
+    "excess_over_bs_test": {
+      "n": 150000,
+      "nn_minus_bs_negative_pct": 12.934000000000001,
+      "label_minus_bs_negative_pct": 5.021333333333333,
+      "nn_minus_bs_min_usd": -1.5910322695730486,
+      "label_minus_bs_min_usd": -0.023877161898084864,
+      "nn_minus_bs_mean_usd": 0.6027821879917835,
+      "label_minus_bs_mean_usd": 0.6000843910819003,
+      "rmse_of_excess_usd": 0.07550856147292688
+    },
+    "speed_summary": {
+      "cuda": {
+        "osszesen_s_median": 0.5900691999704577,
+        "mag_s_median": 0.23456589999841526,
+        "inferencia_s_median": 0.03237889998126775,
+        "hideg_osszesen_s": 0.7458970000152476,
+        "ns_per_row_osszesen": 590.0691999704577,
+        "ns_per_row_inferencia": 32.37889998126775,
+        "gyorsulas_vs_crr_most_osszesen": 13897.339329657474,
+        "gyorsulas_vs_crr_most_inferencia": 253263.4494906608,
+        "gyorsulas_vs_crr_generalaskor_osszesen": 14050.772242840489
+      },
+      "cpu": {
+        "osszesen_s_median": 1.1114039000240155,
+        "mag_s_median": 0.7507488999981433,
+        "inferencia_s_median": 0.5277399999904446,
+        "hideg_osszesen_s": 1.140141499985475,
+        "ns_per_row_osszesen": 1111.4039000240155,
+        "ns_per_row_inferencia": 527.7399999904446,
+        "gyorsulas_vs_crr_most_osszesen": 7378.408425408411,
+        "gyorsulas_vs_crr_most_inferencia": 15538.696896421421,
+        "gyorsulas_vs_crr_generalaskor_osszesen": 7459.869392325192
+      },
+      "cuda_iras_s": 0.7615651999949478,
+      "egyszeri": {
+        "torch_import_s": 1.928079599980265,
+        "cuda_init_s": 0.06990309996763244,
+        "model_load_cuda_s": 0.005201499967370182,
+        "model_load_cpu_s": 0.001261900004465133
+      },
+      "vegponttol_vegpontig_gpu_s": 3.3417467998806387,
+      "crr_most_s_per_row": 0.008200391899968964,
+      "crr_most_extrapolalt_1M_s": 8200.391899968963,
+      "crr_generalaskor": {
+        "crr_elapsed_s": 8290.9279363,
+        "crr_eu_elapsed_s": 1073.313717400073,
+        "lsm_elapsed_s": 737.9120599000016,
+        "total_elapsed_s": 9029.2824392
+      }
+    }
+  }
+}

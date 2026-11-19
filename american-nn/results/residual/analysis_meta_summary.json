@@ -1,0 +1,30 @@
+{
+  "script": "american-nn/analyze_residual.py",
+  "date": "2026-10-15 08:46:47",
+  "seconds": 0.0663759708404541,
+  "steps": [
+    "summary"
+  ],
+  "archs": [
+    "mlp",
+    "deep_mlp",
+    "dense_mlp",
+    "resnet",
+    "gelu_resnet",
+    "highway",
+    "finn"
+  ],
+  "env": {
+    "python": "3.13.7",
+    "torch": "2.6.0+cu124",
+    "cuda_available": true,
+    "cuda_version": "12.4",
+    "cudnn_version": 90100,
+    "numpy": "2.3.3",
+    "pandas": "3.0.1",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "torch_num_threads": 8
+  }
+}

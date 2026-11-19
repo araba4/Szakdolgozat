@@ -1,0 +1,367 @@
+{
+  "bs_derivative_check": {
+    "n": 2000,
+    "h": 1e-05,
+    "delta_max_abs_diff": 1.1096343066618886e-08,
+    "theta_max_abs_diff": 4.975729706035992e-08
+  },
+  "direct_counts_vs_012": [
+    {
+      "arch": "mlp",
+      "check": "c2_am_ge_bs",
+      "tol": "0",
+      "n_viol_012": 19401,
+      "n_viol_recomputed": 19401,
+      "equal": true
+    },
+    {
+      "arch": "mlp",
+      "check": "c2_am_ge_bs",
+      "tol": "1e-6",
+      "n_viol_012": 19350,
+      "n_viol_recomputed": 19350,
+      "equal": true
+    },
+    {
+      "arch": "mlp",
+      "check": "c1_intrinsic",
+      "tol": "0",
+      "n_viol_012": 12945,
+      "n_viol_recomputed": 12945,
+      "equal": true
+    },
+    {
+      "arch": "mlp",
+      "check": "c1_intrinsic",
+      "tol": "1e-6",
+      "n_viol_012": 12919,
+      "n_viol_recomputed": 12919,
+      "equal": true
+    },
+    {
+      "arch": "deep_mlp",
+      "check": "c2_am_ge_bs",
+      "tol": "0",
+      "n_viol_012": 38563,
+      "n_viol_recomputed": 38563,
+      "equal": true
+    },
+    {
+      "arch": "deep_mlp",
+      "check": "c2_am_ge_bs",
+      "tol": "1e-6",
+      "n_viol_012": 38546,
+      "n_viol_recomputed": 38546,
+      "equal": true
+    },
+    {
+      "arch": "deep_mlp",
+      "check": "c1_intrinsic",
+      "tol": "0",
+      "n_viol_012": 10781,
+      "n_viol_recomputed": 10781,
+      "equal": true
+    },
+    {
+      "arch": "deep_mlp",
+      "check": "c1_intrinsic",
+      "tol": "1e-6",
+      "n_viol_012": 10777,
+      "n_viol_recomputed": 10777,
+      "equal": true
+    },
+    {
+      "arch": "dense_mlp",
+      "check": "c2_am_ge_bs",
+      "tol": "0",
+      "n_viol_012": 43624,
+      "n_viol_recomputed": 43624,
+      "equal": true
+    },
+    {
+      "arch": "dense_mlp",
+      "check": "c2_am_ge_bs",
+      "tol": "1e-6",
+      "n_viol_012": 43613,
+      "n_viol_recomputed": 43613,
+      "equal": true
+    },
+    {
+      "arch": "dense_mlp",
+      "check": "c1_intrinsic",
+      "tol": "0",
+      "n_viol_012": 24225,
+      "n_viol_recomputed": 24225,
+      "equal": true
+    },
+    {
+      "arch": "dense_mlp",
+      "check": "c1_intrinsic",
+      "tol": "1e-6",
+      "n_viol_012": 24223,
+      "n_viol_recomputed": 24223,
+      "equal": true
+    },
+    {
+      "arch": "resnet",
+      "check": "c2_am_ge_bs",
+      "tol": "0",
+      "n_viol_012": 32514,
+      "n_viol_recomputed": 32514,
+      "equal": true
+    },
+    {
+      "arch": "resnet",
+      "check": "c2_am_ge_bs",
+      "tol": "1e-6",
+      "n_viol_012": 32486,
+      "n_viol_recomputed": 32486,
+      "equal": true
+    },
+    {
+      "arch": "resnet",
+      "check": "c1_intrinsic",
+      "tol": "0",
+      "n_viol_012": 13487,
+      "n_viol_recomputed": 13487,
+      "equal": true
+    },
+    {
+      "arch": "resnet",
+      "check": "c1_intrinsic",
+      "tol": "1e-6",
+      "n_viol_012": 13480,
+      "n_viol_recomputed": 13480,
+      "equal": true
+    },
+    {
+      "arch": "gelu_resnet",
+      "check": "c2_am_ge_bs",
+      "tol": "0",
+      "n_viol_012": 42756,
+      "n_viol_recomputed": 42756,
+      "equal": true
+    },
+    {
+      "arch": "gelu_resnet",
+      "check": "c2_am_ge_bs",
+      "tol": "1e-6",
+      "n_viol_012": 42736,
+      "n_viol_recomputed": 42736,
+      "equal": true
+    },
+    {
+      "arch": "gelu_resnet",
+      "check": "c1_intrinsic",
+      "tol": "0",
+      "n_viol_012": 22701,
+      "n_viol_recomputed": 22701,
+      "equal": true
+    },
+    {
+      "arch": "gelu_resnet",
+      "check": "c1_intrinsic",
+      "tol": "1e-6",
+      "n_viol_012": 22694,
+      "n_viol_recomputed": 22694,
+      "equal": true
+    },
+    {
+      "arch": "highway",
+      "check": "c2_am_ge_bs",
+      "tol": "0",
+      "n_viol_012": 37019,
+      "n_viol_recomputed": 37019,
+      "equal": true
+    },
+    {
+      "arch": "highway",
+      "check": "c2_am_ge_bs",
+      "tol": "1e-6",
+      "n_viol_012": 36994,
+      "n_viol_recomputed": 36994,
+      "equal": true
+    },
+    {
+      "arch": "highway",
+      "check": "c1_intrinsic",
+      "tol": "0",
+      "n_viol_012": 25344,
+      "n_viol_recomputed": 25344,
+      "equal": true
+    },
+    {
+      "arch": "highway",
+      "check": "c1_intrinsic",
+      "tol": "1e-6",
+      "n_viol_012": 25343,
+      "n_viol_recomputed": 25343,
+      "equal": true
+    },
+    {
+      "arch": "finn",
+      "check": "c2_am_ge_bs",
+      "tol": "0",
+      "n_viol_012": 22279,
+      "n_viol_recomputed": 22279,
+      "equal": true
+    },
+    {
+      "arch": "finn",
+      "check": "c2_am_ge_bs",
+      "tol": "1e-6",
+      "n_viol_012": 22253,
+      "n_viol_recomputed": 22253,
+      "equal": true
+    },
+    {
+      "arch": "finn",
+      "check": "c1_intrinsic",
+      "tol": "0",
+      "n_viol_012": 17883,
+      "n_viol_recomputed": 17883,
+      "equal": true
+    },
+    {
+      "arch": "finn",
+      "check": "c1_intrinsic",
+      "tol": "1e-6",
+      "n_viol_012": 17875,
+      "n_viol_recomputed": 17875,
+      "equal": true
+    }
+  ],
+  "all_direct_counts_equal_012": true,
+  "r1_c2_violation_equals_nn_negative": true,
+  "r1_c2_detail": [
+    {
+      "arch": "mlp",
+      "tol_name": "0",
+      "n_model_viol": 5078,
+      "n_nn_lt_minus_tol": 5078.0
+    },
+    {
+      "arch": "mlp",
+      "tol_name": "1e-6",
+      "n_model_viol": 4759,
+      "n_nn_lt_minus_tol": 4759.0
+    },
+    {
+      "arch": "mlp",
+      "tol_name": "RMSE",
+      "n_model_viol": 0,
+      "n_nn_lt_minus_tol": 0.0
+    },
+    {
+      "arch": "deep_mlp",
+      "tol_name": "0",
+      "n_model_viol": 5440,
+      "n_nn_lt_minus_tol": 5440.0
+    },
+    {
+      "arch": "deep_mlp",
+      "tol_name": "1e-6",
+      "n_model_viol": 5368,
+      "n_nn_lt_minus_tol": 5368.0
+    },
+    {
+      "arch": "deep_mlp",
+      "tol_name": "RMSE",
+      "n_model_viol": 251,
+      "n_nn_lt_minus_tol": 251.0
+    },
+    {
+      "arch": "dense_mlp",
+      "tol_name": "0",
+      "n_model_viol": 29241,
+      "n_nn_lt_minus_tol": 29241.0
+    },
+    {
+      "arch": "dense_mlp",
+      "tol_name": "1e-6",
+      "n_model_viol": 29214,
+      "n_nn_lt_minus_tol": 29214.0
+    },
+    {
+      "arch": "dense_mlp",
+      "tol_name": "RMSE",
+      "n_model_viol": 4,
+      "n_nn_lt_minus_tol": 4.0
+    },
+    {
+      "arch": "resnet",
+      "tol_name": "0",
+      "n_model_viol": 47173,
+      "n_nn_lt_minus_tol": 47173.0
+    },
+    {
+      "arch": "resnet",
+      "tol_name": "1e-6",
+      "n_model_viol": 47147,
+      "n_nn_lt_minus_tol": 47147.0
+    },
+    {
+      "arch": "resnet",
+      "tol_name": "RMSE",
+      "n_model_viol": 5061,
+      "n_nn_lt_minus_tol": 5061.0
+    },
+    {
+      "arch": "gelu_resnet",
+      "tol_name": "0",
+      "n_model_viol": 14998,
+      "n_nn_lt_minus_tol": 14998.0
+    },
+    {
+      "arch": "gelu_resnet",
+      "tol_name": "1e-6",
+      "n_model_viol": 14950,
+      "n_nn_lt_minus_tol": 14950.0
+    },
+    {
+      "arch": "gelu_resnet",
+      "tol_name": "RMSE",
+      "n_model_viol": 2107,
+      "n_nn_lt_minus_tol": 2107.0
+    },
+    {
+      "arch": "highway",
+      "tol_name": "0",
+      "n_model_viol": 22731,
+      "n_nn_lt_minus_tol": 22731.0
+    },
+    {
+      "arch": "highway",
+      "tol_name": "1e-6",
+      "n_model_viol": 22700,
+      "n_nn_lt_minus_tol": 22700.0
+    },
+    {
+      "arch": "highway",
+      "tol_name": "RMSE",
+      "n_model_viol": 497,
+      "n_nn_lt_minus_tol": 497.0
+    },
+    {
+      "arch": "finn",
+      "tol_name": "0",
+      "n_model_viol": 21293,
+      "n_nn_lt_minus_tol": 21293.0
+    },
+    {
+      "arch": "finn",
+      "tol_name": "1e-6",
+      "n_model_viol": 21248,
+      "n_nn_lt_minus_tol": 21248.0
+    },
+    {
+      "arch": "finn",
+      "tol_name": "RMSE",
+      "n_model_viol": 1238,
+      "n_nn_lt_minus_tol": 1238.0
+    }
+  ],
+  "max_pred_rel_diff_vs_metrics_json": 0.0,
+  "direct_source": "american-nn/results/evaluation/arbitrage/violations_by_region.csv",
+  "level_checks_bs": "parquet european_put_price/K (mint a kiertekelesben); 4-6. pont és rács: zárt alakú BS"
+}

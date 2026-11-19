@@ -1,0 +1,220 @@
+{
+  "checked_at": "2026-10-14 01:50:53",
+  "american_files": {
+    "train": "american-options/data/train.parquet",
+    "val": "american-options/data/val.parquet",
+    "test": "american-options/data/test.parquet"
+  },
+  "onlab_files": {
+    "train": "Önlab eredmények/data/train.parquet",
+    "val": "Önlab eredmények/data/val.parquet",
+    "test": "Önlab eredmények/data/test.parquet"
+  },
+  "splits": {
+    "train": {
+      "n_rows_american": 700000,
+      "n_rows_onlab": 700000,
+      "columns": {
+        "S": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "K": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "T": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "r": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "sigma": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "moneyness": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "moneyness_norm": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "T_norm": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "r_norm": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "sigma_norm": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        }
+      },
+      "european_put_price_vs_onlab_put_price": {
+        "bitwise_equal": true,
+        "max_abs_diff": 0.0,
+        "max_abs_diff_norm_by_K": 0.0,
+        "allclose_rtol0_atol1e-10": true
+      },
+      "european_put_price_negative": {
+        "n_negative": 132,
+        "min": -2.8421709430404014e-14,
+        "note": "lebegopontos zaj, nem klippeljuk"
+      },
+      "paired": true
+    },
+    "val": {
+      "n_rows_american": 150000,
+      "n_rows_onlab": 150000,
+      "columns": {
+        "S": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "K": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "T": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "r": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "sigma": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "moneyness": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "moneyness_norm": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "T_norm": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "r_norm": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "sigma_norm": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        }
+      },
+      "european_put_price_vs_onlab_put_price": {
+        "bitwise_equal": true,
+        "max_abs_diff": 0.0,
+        "max_abs_diff_norm_by_K": 0.0,
+        "allclose_rtol0_atol1e-10": true
+      },
+      "european_put_price_negative": {
+        "n_negative": 26,
+        "min": -1.4210854715202004e-14,
+        "note": "lebegopontos zaj, nem klippeljuk"
+      },
+      "paired": true
+    },
+    "test": {
+      "n_rows_american": 150000,
+      "n_rows_onlab": 150000,
+      "columns": {
+        "S": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "K": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "T": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "r": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "sigma": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "moneyness": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "moneyness_norm": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "T_norm": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "r_norm": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        },
+        "sigma_norm": {
+          "bitwise_equal": true,
+          "allclose_rtol0_atol1e-12": true,
+          "max_abs_diff": 0.0
+        }
+      },
+      "european_put_price_vs_onlab_put_price": {
+        "bitwise_equal": true,
+        "max_abs_diff": 0.0,
+        "max_abs_diff_norm_by_K": 0.0,
+        "allclose_rtol0_atol1e-10": true
+      },
+      "european_put_price_negative": {
+        "n_negative": 20,
+        "min": -1.4210854715202004e-14,
+        "note": "lebegopontos zaj, nem klippeljuk"
+      },
+      "paired": true
+    }
+  },
+  "all_paired": true
+}

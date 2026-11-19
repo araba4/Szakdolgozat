@@ -1,0 +1,125 @@
+{
+  "invocations": [
+    {
+      "started": "2026-10-14 02:35:22",
+      "argv": [
+        "--all",
+        "--skip-done"
+      ],
+      "archs": [
+        "mlp",
+        "deep_mlp",
+        "dense_mlp",
+        "resnet",
+        "gelu_resnet",
+        "highway",
+        "finn"
+      ],
+      "smoke": null,
+      "final_only": false,
+      "pid": 23484
+    },
+    {
+      "started": "2026-10-14 03:10:38",
+      "argv": [
+        "--all",
+        "--skip-done"
+      ],
+      "archs": [
+        "mlp",
+        "deep_mlp",
+        "dense_mlp",
+        "resnet",
+        "gelu_resnet",
+        "highway",
+        "finn"
+      ],
+      "smoke": null,
+      "final_only": false,
+      "pid": 27332
+    },
+    {
+      "started": "2026-10-14 08:59:49",
+      "argv": [
+        "--all",
+        "--skip-done"
+      ],
+      "archs": [
+        "gelu_resnet",
+        "highway",
+        "finn"
+      ],
+      "smoke": null,
+      "final_only": false,
+      "pid": 2348
+    },
+    {
+      "started": "2026-10-14 11:08:11",
+      "argv": [
+        "--all",
+        "--skip-done"
+      ],
+      "archs": [
+        "finn"
+      ],
+      "smoke": null,
+      "final_only": false,
+      "pid": 21844,
+      "finished": "2026-10-14 12:22:12",
+      "wall_seconds": 4440.34565281868,
+      "failed_archs": []
+    }
+  ],
+  "experiment": "HPO retune on american put",
+  "env": {
+    "python": "3.13.7",
+    "torch": "2.6.0+cu124",
+    "cuda_available": true,
+    "cuda_version": "12.4",
+    "cudnn_version": 90100,
+    "numpy": "2.3.3",
+    "pandas": "3.0.1",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU"
+  },
+  "optuna_version": "5.0.0",
+  "machine": {
+    "processor": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD"
+  },
+  "protocol_source": "hpo/run_hpo.py (import run_hpo as R)",
+  "search_space": "run_hpo.build_trial_hparams: lr [1e-4,1e-2] log; weight_decay [1e-6,1e-2] log; dropout [0,0.5] (HAS_DROPOUT)",
+  "trial_budget": {
+    "mlp": 25,
+    "deep_mlp": 30,
+    "dense_mlp": 30,
+    "resnet": 40,
+    "gelu_resnet": 40,
+    "highway": 40,
+    "finn": 40
+  },
+  "search_max_epochs": 40,
+  "search_patience": 8,
+  "search_batch_size": 4096,
+  "sampler": "TPESampler(seed=42)",
+  "pruner": "HyperbandPruner({'min_resource': 3, 'max_resource': 40, 'reduction_factor': 3})",
+  "trial_seed": "torch.manual_seed(BASE_SEED + trial.number)",
+  "cold_start": true,
+  "search_target": "american_put_price / K",
+  "final": {
+    "patience": 30,
+    "max_epochs": 200,
+    "batch_size": 4096,
+    "seed": 42,
+    "loop": "common.train_loop",
+    "targets": {
+      "american": "american_put_price / K",
+      "european": "european_put_price / K"
+    }
+  },
+  "hpo_import_check": {
+    "n_entries_before": 208,
+    "n_entries_after": 208,
+    "hpo_tree_unchanged_by_import": true
+  }
+}

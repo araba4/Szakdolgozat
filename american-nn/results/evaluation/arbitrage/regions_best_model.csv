@@ -1,0 +1,379 @@
+run,arch,target,level,set,check,tol_name,tol,region,n_points,n_viol,rate,max_norm,mean_norm,max_usd,mean_usd,check_label,main_check
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",7396,2632,0.355868036776636,0.0073727938615831,0.0007930345541312,1.6038172636862909,0.0976817050369436,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,3484,0.1524459613196814,0.0019661921668328,0.0002869366315374,0.3876299985037314,0.0345411164032247,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,2719,0.091407248033349,0.0037334800363184,0.0004678385193687,0.8931351809614908,0.0588481237921717,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,87,0.0234754452239611,0.0018324986794636,0.0005828035799481,0.2326925932877256,0.047925188951499,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,55,0.0049701789264413,0.0010947108110905,0.0003345234199824,0.1529882998538294,0.0277271390176691,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,130,0.0084558345258228,0.0038897842567476,0.0013027962577399,0.4836583085560527,0.1180321547333458,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,1407,0.1904955320877335,0.0007337778806686,0.0001827822078096,0.0668947830258256,0.0103985470954549,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,1410,0.062530489156947,0.0004414916038513,0.0001726520346834,0.0423346422622764,0.0096973973736043,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,1021,0.0341209103365304,0.0004859045147895,0.000198204263709,0.0450218822564123,0.0116627606171204,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",7396,2629,0.3554624121146565,0.0073727938615831,0.000793938653009,1.6038172636862909,0.0977931215824254,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,3479,0.1522271812374201,0.0019661921668328,0.0002873481425146,0.3876299985037314,0.0345906872065947,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,2712,0.0911719222752639,0.0037334800363184,0.0004690445380794,0.8931351809614908,0.0589998360794618,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,87,0.0234754452239611,0.0018324986794636,0.0005828035799481,0.2326925932877256,0.047925188951499,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,55,0.0049701789264413,0.0010947108110905,0.0003345234199824,0.1529882998538294,0.0277271390176691,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,130,0.0084558345258228,0.0038897842567476,0.0013027962577399,0.4836583085560527,0.1180321547333458,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,1402,0.1898185756837259,0.0007337778806686,0.0001834323961877,0.0668947830258256,0.0104354991295772,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,1405,0.0623087498336955,0.0004414916038513,0.0001732641903955,0.0423346422622764,0.0097317680452189,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,1020,0.0340874912274838,0.0004859045147895,0.000198398260217,0.0450218822564123,0.0116741794653324,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,RMSE,0.0007472617435269,"ITM (S/K<0,9) × rövid (T<0,25)",7396,888,0.1200648999459167,0.0073727938615831,0.001788198145549,1.6038172636862909,0.221580693560666,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,RMSE,0.0007472617435269,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,210,0.009188763454975,0.0019661921668328,0.0009624602538751,0.3876299985037314,0.1144841658350519,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,RMSE,0.0007472617435269,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,540,0.018153701337995,0.0037334800363184,0.0011935644429519,0.8931351809614908,0.1460712427971075,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,24,0.0064759848893685,0.0018324986794636,0.0011672281647836,0.2326925932877256,0.0980920266353331,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,7,0.0006325682270016,0.0010947108110905,0.0009812800462962,0.1529882998538294,0.0779740861194762,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,83,0.005398725120333,0.0038897842567476,0.0018093463727795,0.4836583085560527,0.1628767172574668,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,0,0.0,,,,,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,0,0.0,,,,,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c1_intrinsic,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,0,0.0,,,,,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",7396,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",7396,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,RMSE,0.0007472617435269,"ITM (S/K<0,9) × rövid (T<0,25)",7396,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,RMSE,0.0007472617435269,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,RMSE,0.0007472617435269,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c3_le_K,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",7396,1240,0.167658193618172,0.0073664613234417,0.0011050238307825,1.5910322695730492,0.1303114105841533,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,774,0.0338671567340509,0.0030619726740512,0.0003911496138892,0.7374868067113285,0.0461273682806434,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,748,0.0251462381496671,0.0034097927392917,0.0005530093804234,0.7872425159605342,0.0704256021942461,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,1646,0.4441446303291959,0.0047869852837409,0.0008983617582451,0.5513239798070694,0.0716929836082757,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,1369,0.1237122718236038,0.0017742424477199,0.0003879098354847,0.2781804463974074,0.0310872925582982,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,440,0.0286197476258618,0.0017336620640594,0.0003417382591873,0.1833289562834459,0.0264949247876237,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,3620,0.4901164365014893,0.004840734658447,0.0004674846512833,0.5632771926743562,0.0299793618957766,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,6221,0.2758880659896226,0.0016716400890862,0.0002532356977833,0.1593142886566542,0.0153781925984443,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,3343,0.111720081542626,0.0065184681602979,0.0002866116764905,0.5227079216192169,0.0169806516204288,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",7396,1240,0.167658193618172,0.0073664613234417,0.0011050238307825,1.5910322695730492,0.1303114105841533,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,774,0.0338671567340509,0.0030619726740512,0.0003911496138892,0.7374868067113285,0.0461273682806434,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,748,0.0251462381496671,0.0034097927392917,0.0005530093804234,0.7872425159605342,0.0704256021942461,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,1641,0.4427954668105774,0.0047869852837409,0.000901097738409,0.5513239798070694,0.0719113622894466,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,1366,0.1234411711548888,0.0017742424477199,0.000388760062405,0.2781804463974074,0.0311554359893525,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,438,0.0284896578639261,0.0017336620640594,0.0003432951425034,0.1833289562834459,0.026615817970368,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,3606,0.4882209585702681,0.004840734658447,0.0004692980829639,0.5632771926743562,0.030095663994748,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,6208,0.2753115437491685,0.0016716400890862,0.0002537650150598,0.1593142886566542,0.015410337717125,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,3329,0.1112522140159743,0.0065184681602979,0.0002878152940116,0.5227079216192169,0.0170519564575063,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,RMSE,0.0007472617435269,"ITM (S/K<0,9) × rövid (T<0,25)",7396,600,0.0811249323958896,0.0073664613234417,0.0019320931619916,1.5910322695730492,0.230328119396615,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,RMSE,0.0007472617435269,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,87,0.0038067734313468,0.0030619726740512,0.0011468344402552,0.7374868067113285,0.1561357162777757,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,RMSE,0.0007472617435269,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29746,191,0.0064210313991797,0.0034097927392917,0.0012251693423198,0.7872425159605342,0.1628633406518155,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,720,0.1942795466810577,0.0047869852837409,0.0016209585594449,0.5513239798070694,0.1285626884684833,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,192,0.0173504427977589,0.0017742424477199,0.0009818071606571,0.2781804463974074,0.077084920507037,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,40,0.0026017952387147,0.0017336620640594,0.0010004762917887,0.1833289562834459,0.0809866210944847,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,635,0.0859734633089629,0.004840734658447,0.0015041080540717,0.5632771926743562,0.1003180668691797,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,222,0.0098452259523703,0.0016716400890862,0.0009307651815096,0.1593142886566542,0.0608768045733,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c2_am_ge_bs,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29923,210,0.007018012899776,0.0065184681602979,0.0015989774286929,0.5227079216192169,0.091883356286925,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",7205,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",22268,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29005,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",7200,138,0.0191666666666666,4.082173109054565e-05,6.706440362377443e-06,0.0033126442430851,0.0003891762274887,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",21961,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29158,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",7205,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",22268,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29005,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",7200,129,0.0179166666666666,4.082173109054565e-05,7.13303569675416e-06,0.0033126442430851,0.0004140720274649,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",21961,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29158,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,RMSE,0.0007472617435269,"ITM (S/K<0,9) × rövid (T<0,25)",7205,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,RMSE,0.0007472617435269,"ITM (S/K<0,9) × közép (0,25≤T<1)",22268,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,RMSE,0.0007472617435269,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29005,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × rövid (T<0,25)",7200,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × közép (0,25≤T<1)",21961,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4a_mono_S,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29158,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",7205,1731,0.2402498265093685,0.0006154084205627,9.013756446794264e-05,0.1096763280669105,0.0102267129728487,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",22268,3132,0.1406502604634453,0.0004012340307235,6.418239387135005e-05,0.0588566350758722,0.0074945108720525,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29005,1880,0.0648164109636269,0.000458156466484,8.473984659352131e-05,0.0750836663939628,0.0094424547096938,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,14,0.0037776578521316,0.0003744864463806,9.548535304410096e-05,0.0317618571103371,0.0077682148546898,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,6,0.0005422013374299,6.752252578735331e-05,1.916204889615356e-05,0.0110461525660006,0.0026108073561506,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,14,0.0009106283335501,0.00020048558712,9.795495441981704e-05,0.0259387519989763,0.01094997084868,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",7200,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",21961,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29158,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",7205,1713,0.2377515614156835,0.0006154084205627,9.108023516838092e-05,0.1096763280669105,0.0103335581277058,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",22268,3110,0.1396622956709179,0.0004012340307235,6.463334156002407e-05,0.0588566350758722,0.0075472290846128,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29005,1876,0.0646785037062575,0.000458156466484,8.491934950290641e-05,0.0750836663939628,0.0094624563585342,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,14,0.0037776578521316,0.0003744864463806,9.548535304410096e-05,0.0317618571103371,0.0077682148546898,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,6,0.0005422013374299,6.752252578735331e-05,1.916204889615356e-05,0.0110461525660006,0.0026108073561506,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,14,0.0009106283335501,0.00020048558712,9.795495441981704e-05,0.0259387519989763,0.01094997084868,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",7200,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",21961,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29158,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,RMSE,0.0007472617435269,"ITM (S/K<0,9) × rövid (T<0,25)",7205,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,RMSE,0.0007472617435269,"ITM (S/K<0,9) × közép (0,25≤T<1)",22268,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,RMSE,0.0007472617435269,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29005,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × rövid (T<0,25)",7200,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × közép (0,25≤T<1)",21961,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c4b_delta_ge_m1,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29158,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",7396,1293,0.1748242293131422,0.0001226663589477,3.134460985798847e-05,0.0318712453714151,0.0039076087600654,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,3311,0.1448761704734401,0.000110387802124,1.8385829917616225e-05,0.0318858091481782,0.0023387919829203,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29467,3418,0.1159941629619574,0.0001356601715087,1.4366040353959174e-05,0.0300893874284731,0.0018065140061611,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,7,0.0018888289260658,0.0001602619886398,3.2883669648851666e-05,0.0202412349986406,0.0033191370149332,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,100,0.009036688957166,5.85019588470459e-05,2.0060837268829346e-05,0.0070796023071886,0.001693066952943,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15228,107,0.0070265300761754,7.060915231704712e-05,2.3668753766567908e-05,0.006804970912679,0.0020783683484784,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,0,0.0,,,,,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,117,0.005188700164087,9.611248970031738e-07,2.7611724331847625e-07,7.328664317074427e-05,1.662254264678023e-05,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29643,799,0.0269540869682555,6.22868537902832e-06,8.731912611721454e-07,0.0004772541618285,5.209887755384353e-05,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",7396,1276,0.1725256895619253,0.0001226663589477,3.17543277919853e-05,0.0318712453714151,0.0039587830684955,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,3194,0.1397567165485254,0.000110387802124,1.904407822869312e-05,0.0318858091481782,0.0024225224663148,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29467,3121,0.1059150914582414,0.0001356601715087,1.5691018226779985e-05,0.0300893874284731,0.001973059621687,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,6,0.0016189962223421,0.0001602619886398,3.8220236698786415e-05,0.0202412349986406,0.00386558139637,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,97,0.0087655882884511,5.85019588470459e-05,2.066383964007663e-05,0.0070796023071886,0.0017429618395801,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15228,105,0.0068951930654058,7.060915231704712e-05,2.411625214985439e-05,0.006804970912679,0.0021177417356373,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,0,0.0,,,,,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,0,0.0,,,,,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29643,343,0.0115710285733562,6.22868537902832e-06,1.3875240139641497e-06,0.0004772541618285,8.29289396596172e-05,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,RMSE,0.0007472617435269,"ITM (S/K<0,9) × rövid (T<0,25)",7396,0,0.0,,,,,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,RMSE,0.0007472617435269,"ITM (S/K<0,9) × közép (0,25≤T<1)",22854,0,0.0,,,,,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,RMSE,0.0007472617435269,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29467,0,0.0,,,,,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15228,0,0.0,,,,,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × rövid (T<0,25)",7386,0,0.0,,,,,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × közép (0,25≤T<1)",22549,0,0.0,,,,,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c5_mono_T,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29643,0,0.0,,,,,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",7205,2731,0.3790423317140874,0.0005207806825637,7.384314898473795e-05,0.0899754695142327,0.0082819809315869,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",22268,7200,0.3233339320998742,0.0003892481327056,5.501446107195483e-05,0.0646386103669242,0.0063327733549256,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29005,9399,0.3240475780037924,0.0006364583969116,4.490167822073287e-05,0.0732718809334086,0.005250487394965,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,426,0.1149487317862925,0.0004047639667987,4.531861995587327e-05,0.0456648560818831,0.003901787480909,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,2754,0.2488704138803542,0.0003088265657424,4.03054943206783e-05,0.0462817240200639,0.0032607530670793,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,4544,0.2955639391179914,0.0002608001232147,3.095418067229256e-05,0.0345939456402415,0.0024516828203954,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",7200,1614,0.2241666666666666,0.0001723766326904,5.590437439442272e-06,0.0091284705620787,0.00034111105529,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",21961,5278,0.2403351395655935,0.0001988559961318,1.4259564990616062e-05,0.0221777426148873,0.0009218613588059,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29158,8426,0.2889772961108444,0.0002534389495849,1.765058371252779e-05,0.0212795344390392,0.0010976864053358,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",7205,2296,0.3186675919500347,0.0005207806825637,8.78104725885059e-05,0.0899754695142327,0.0098479922684444,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",22268,5960,0.2676486437937848,0.0003892481327056,6.6431425511837e-05,0.0646386103669242,0.0076467423575699,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29005,7338,0.2529908636441992,0.0006364583969116,5.747834877962636e-05,0.0732718809334086,0.0067210988080864,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,331,0.0893146249325418,0.0004047639667987,5.8302931555088194e-05,0.0456648560818831,0.005019677631124,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,2074,0.1874209289716248,0.0003088265657424,5.348277500073498e-05,0.0462817240200639,0.0043269261228093,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,3195,0.2078183946923377,0.0002608001232147,4.397804771603926e-05,0.0345939456402415,0.0034831269247409,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",7200,509,0.0706944444444444,0.0001723766326904,1.751041599715857e-05,0.0091284705620787,0.0010685353787278,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",21961,2646,0.1204863166522471,0.0001988559961318,2.8346489920637776e-05,0.0221777426148873,0.0018329095582314,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29158,5115,0.1754235544276013,0.0002534389495849,2.9004928187074783e-05,0.0212795344390392,0.0018040172518877,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,RMSE,0.0007472617435269,"ITM (S/K<0,9) × rövid (T<0,25)",7205,0,0.0,,,,,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,RMSE,0.0007472617435269,"ITM (S/K<0,9) × közép (0,25≤T<1)",22268,0,0.0,,,,,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,RMSE,0.0007472617435269,"ITM (S/K<0,9) × hosszú (1≤T≤2)",29005,0,0.0,,,,,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",3706,0,0.0,,,,,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",11066,0,0.0,,,,,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",15374,0,0.0,,,,,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × rövid (T<0,25)",7200,0,0.0,,,,,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × közép (0,25≤T<1)",21961,0,0.0,,,,,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,test,c6_convex_S,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",29158,0,0.0,,,,,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",3000,1013,0.3376666666666666,0.0097017884254455,0.0015995819188529,0.9701788425445556,0.1599581918852932,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,1182,0.1313333333333333,0.0021191835403442,0.0003839097586783,0.2119183540344238,0.0383909758678338,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,1767,0.1402380952380952,0.0060182809829711,0.0007492560416409,0.6018280982971191,0.0749256041640933,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,69,0.046,0.0035361930727958,0.000830397716035,0.3536193072795845,0.0830397716035031,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,94,0.0208888888888888,0.0011374190449714,0.0005776476653966,0.1137419044971443,0.0577647665396678,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,216,0.0342857142857142,0.0042830181121826,0.0017624395899474,0.4283018112182679,0.1762439589947496,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",3075,913,0.2969105691056911,0.0007873550057411,0.0002438817316052,0.0787355005741119,0.0243881731605216,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9225,1220,0.1322493224932249,0.000486321747303,0.0002250276811298,0.0486321747303009,0.0225027681129877,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12915,1755,0.1358885017421602,0.0005403086543083,0.0002531648488805,0.0540308654308319,0.025316484888055,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",3000,1010,0.3366666666666666,0.0097017884254455,0.0016043311363399,0.9701788425445556,0.1604331136339955,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,1178,0.1308888888888889,0.0021191835403442,0.0003852112037216,0.2119183540344238,0.0385211203721659,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,1762,0.1398412698412698,0.0060182809829711,0.0007513808590126,0.6018280982971191,0.0751380859012625,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,69,0.046,0.0035361930727958,0.000830397716035,0.3536193072795845,0.0830397716035031,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,94,0.0208888888888888,0.0011374190449714,0.0005776476653966,0.1137419044971443,0.0577647665396678,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,216,0.0342857142857142,0.0042830181121826,0.0017624395899474,0.4283018112182679,0.1762439589947496,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",3075,911,0.296260162601626,0.0007873550057411,0.0002444152414602,0.0787355005741119,0.0244415241460245,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9225,1218,0.1320325203252032,0.000486321747303,0.0002253962426839,0.0486321747303009,0.0225396242683939,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12915,1753,0.1357336430507162,0.0005403086543083,0.0002534528859533,0.0540308654308319,0.0253452885953345,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,RMSE,0.0007472617435269,"ITM (S/K<0,9) × rövid (T<0,25)",3000,499,0.1663333333333333,0.0097017884254455,0.0029678593680471,0.9701788425445556,0.2967859368047152,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,RMSE,0.0007472617435269,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,210,0.0233333333333333,0.0021191835403442,0.0009623883409159,0.2119183540344238,0.0962388340915953,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,RMSE,0.0007472617435269,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,680,0.0539682539682539,0.0060182809829711,0.0014118010103702,0.6018280982971191,0.1411801010370237,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,32,0.0213333333333333,0.0035361930727958,0.0013603491894901,0.3536193072795845,0.1360349189490111,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,19,0.0042222222222222,0.0011374190449714,0.0008760404037802,0.1137419044971443,0.087604040378021,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,157,0.0249206349206349,0.0042830181121826,0.0022894562363245,0.4283018112182679,0.2289456236324523,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × rövid (T<0,25)",3075,3,0.0009756097560975,0.0007873550057411,0.0007674718896547,0.0787355005741119,0.0767471889654795,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9225,0,0.0,,,,,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c1_intrinsic,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12915,0,0.0,,,,,"1. P ≥ max(K−S,0)",True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",3000,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",3075,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9225,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12915,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",3000,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",3075,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9225,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12915,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,RMSE,0.0007472617435269,"ITM (S/K<0,9) × rövid (T<0,25)",3000,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,RMSE,0.0007472617435269,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,RMSE,0.0007472617435269,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × rövid (T<0,25)",3075,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9225,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c3_le_K,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12915,0,0.0,,,,,3. P ≤ K,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",3000,683,0.2276666666666666,0.0097017884254455,0.0022154001292786,0.9701788425445556,0.2215400129278695,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,1095,0.1216666666666666,0.0033883711505018,0.000552290100034,0.3388371150501834,0.0552290100034052,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,3096,0.2457142857142857,0.0060182809829711,0.0008955393231647,0.6018280982971191,0.0895539323164714,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,465,0.31,0.0041939662177569,0.0008606654779926,0.4193966217756917,0.0860665477992633,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,635,0.1411111111111111,0.0017208090944731,0.0004055773410969,0.1720809094473141,0.0405577341096909,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,934,0.1482539682539682,0.0036473405532362,0.0006672717447968,0.3647340553236233,0.0667271744796897,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",3075,1691,0.5499186991869919,0.0040590670998589,0.000437273081382,0.4059067099858926,0.0437273081382058,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9225,2732,0.2961517615176152,0.0015776932179297,0.0002743701931323,0.1577693217929776,0.027437019313234,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12915,3266,0.2528842431281455,0.008894534039078,0.0007380585036768,0.8894534039078028,0.0738058503676879,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",3000,683,0.2276666666666666,0.0097017884254455,0.0022154001292786,0.9701788425445556,0.2215400129278695,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,1093,0.1214444444444444,0.0033883711505018,0.0005532998118778,0.3388371150501834,0.0553299811877871,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,3096,0.2457142857142857,0.0060182809829711,0.0008955393231647,0.6018280982971191,0.0895539323164714,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,464,0.3093333333333333,0.0041939662177569,0.0008625203523926,0.4193966217756917,0.0862520352392619,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,635,0.1411111111111111,0.0017208090944731,0.0004055773410969,0.1720809094473141,0.0405577341096909,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,932,0.1479365079365079,0.0036473405532362,0.0006687027117092,0.3647340553236233,0.0668702711709249,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",3075,1690,0.5495934959349593,0.0040590670998589,0.0004375316667021,0.4059067099858926,0.0437531666702119,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9225,2727,0.2956097560975609,0.0015776932179297,0.0002748723243909,0.1577693217929776,0.0274872324390926,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12915,3262,0.2525745257452574,0.008894534039078,0.0007389631115021,0.8894534039078028,0.0738963111502113,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,RMSE,0.0007472617435269,"ITM (S/K<0,9) × rövid (T<0,25)",3000,477,0.159,0.0097017884254455,0.003017931671375,0.9701788425445556,0.3017931671375014,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,RMSE,0.0007472617435269,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,266,0.0295555555555555,0.0033883711505018,0.0013557219258396,0.3388371150501834,0.1355721925839681,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,RMSE,0.0007472617435269,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,1555,0.1234126984126984,0.0060182809829711,0.0013991332004461,0.6018280982971191,0.1399133200446142,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,214,0.1426666666666666,0.0041939662177569,0.0014754533002989,0.4193966217756917,0.14754533002989,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,96,0.0213333333333333,0.0017208090944731,0.0009379178469014,0.1720809094473141,0.0937917846901419,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,325,0.0515873015873015,0.0036473405532362,0.0013417130851334,0.3647340553236233,0.1341713085133415,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × rövid (T<0,25)",3075,263,0.0855284552845528,0.0040590670998589,0.0014041374227724,0.4059067099858926,0.1404137422772422,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9225,94,0.0101897018970189,0.0015776932179297,0.0009083882313194,0.1577693217929776,0.0908388231319472,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c2_am_ge_bs,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12915,682,0.0528068137824235,0.008894534039078,0.0025114068370755,0.8894534039078028,0.2511406837075512,2. P_am ≥ P_BS,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",3000,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",3000,96,0.032,2.5667250156402588e-05,4.939424494902293e-06,0.0025667250156402,0.0004939424494902,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9000,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12600,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",3000,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",3000,87,0.029,2.5667250156402588e-05,5.402955515631314e-06,0.0025667250156402,0.0005402955515631,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9000,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12600,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,RMSE,0.0007472617435269,"ITM (S/K<0,9) × rövid (T<0,25)",3000,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,RMSE,0.0007472617435269,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,RMSE,0.0007472617435269,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × rövid (T<0,25)",3000,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9000,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4a_mono_S,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12600,0,0.0,,,,,4a. monoton csökken S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",3000,735,0.245,0.0006154084205627,0.0001111538961631,0.0615408420562735,0.0111153896163109,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,1213,0.1347777777777777,0.0003508234024047,8.487815883468554e-05,0.0350823402404776,0.0084878158834687,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,1211,0.0961111111111111,0.0005006396770478,0.0001312170163547,0.0500639677047831,0.0131217016354764,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,29,0.0193333333333333,0.0003334933519364,0.0001544104259589,0.0333493351936442,0.0154410425958987,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,21,0.0046666666666666,0.0003008747100829,7.726965915591919e-05,0.0300874710082998,0.0077269659155919,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,46,0.0073015873015873,0.0002601200342178,0.0001115413657997,0.0260120034217825,0.0111541365799716,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",3000,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9000,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12600,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",3000,725,0.2416666666666666,0.0006154084205627,0.0001126805256152,0.0615408420562735,0.0112680525615296,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,1209,0.1343333333333333,0.0003508234024047,8.515708869503723e-05,0.0350823402404776,0.0085157088695039,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,1207,0.0957936507936507,0.0005006396770478,0.0001316500865632,0.0500639677047831,0.0131650086563294,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,29,0.0193333333333333,0.0003334933519364,0.0001544104259589,0.0333493351936442,0.0154410425958987,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,20,0.0044444444444444,0.0003008747100829,8.108779788019715e-05,0.0300874710082998,0.0081087797880197,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,46,0.0073015873015873,0.0002601200342178,0.0001115413657997,0.0260120034217825,0.0111541365799716,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",3000,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9000,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12600,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,RMSE,0.0007472617435269,"ITM (S/K<0,9) × rövid (T<0,25)",3000,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,RMSE,0.0007472617435269,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,RMSE,0.0007472617435269,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12600,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × rövid (T<0,25)",3000,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9000,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c4b_delta_ge_m1,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12600,0,0.0,,,,,4b. ∂P/∂S ≥ −1,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",3000,547,0.1823333333333333,0.0006077289581298,0.0001486861155499,0.0607728958129882,0.0148686115549948,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,1578,0.1753333333333333,0.0005168318748474,0.0001015400488038,0.0516831874847412,0.0101540048803817,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12000,1723,0.1435833333333333,0.0009064674377441,9.687310187400114e-05,0.090646743774414,0.0096873101874001,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,98,0.0653333333333333,0.0019464679062366,0.0002826011682651,0.1946467906236648,0.0282601168265148,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,245,0.0544444444444444,0.0004350394010543,0.000146170659941,0.0435039401054382,0.0146170659941069,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6000,191,0.0318333333333333,0.0003894045948982,0.0001712100902152,0.0389404594898223,0.0171210090215293,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",3075,0,0.0,,,,,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9225,411,0.0445528455284552,5.304813385009766e-06,1.93425048586806e-06,0.0005304813385009,0.0001934250485868,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12300,1719,0.1397560975609756,9.968876838684082e-06,4.594503030172263e-06,0.0009968876838684,0.0004594503030172,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",3000,544,0.1813333333333333,0.0006077289581298,0.0001495026654618,0.0607728958129882,0.0149502665461862,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,1572,0.1746666666666666,0.0005168318748474,0.0001019248004253,0.0516831874847412,0.0101924800425388,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12000,1710,0.1425,0.0009064674377441,9.760328987885636e-05,0.090646743774414,0.0097603289878856,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,97,0.0646666666666666,0.0019464679062366,0.0002855065173095,0.1946467906236648,0.0285506517309503,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,245,0.0544444444444444,0.0004350394010543,0.000146170659941,0.0435039401054382,0.0146170659941069,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6000,191,0.0318333333333333,0.0003894045948982,0.0001712100902152,0.0389404594898223,0.0171210090215293,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",3075,0,0.0,,,,,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9225,279,0.0302439024390243,5.304813385009766e-06,2.6424458804523646e-06,0.0005304813385009,0.0002642445880452,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12300,1594,0.1295934959349593,9.968876838684082e-06,4.91611182764453e-06,0.0009968876838684,0.0004916111827644,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,RMSE,0.0007472617435269,"ITM (S/K<0,9) × rövid (T<0,25)",3000,0,0.0,,,,,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,RMSE,0.0007472617435269,"ITM (S/K<0,9) × közép (0,25≤T<1)",9000,0,0.0,,,,,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,RMSE,0.0007472617435269,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12000,9,0.00075,0.0009064674377441,0.0008373790317111,0.090646743774414,0.0837379031711154,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,10,0.0066666666666666,0.0019464679062366,0.0014682173728942,0.1946467906236648,0.1468217372894287,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,0,0.0,,,,,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6000,0,0.0,,,,,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × rövid (T<0,25)",3075,0,0.0,,,,,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9225,0,0.0,,,,,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c5_mono_T,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12300,0,0.0,,,,,5. monoton nő T-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,0,0.0,"ITM (S/K<0,9) × rövid (T<0,25)",2925,1162,0.3972649572649572,0.0005615800619125,7.933140980807516e-05,0.0561580061912536,0.0079331409808075,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,0,0.0,"ITM (S/K<0,9) × közép (0,25≤T<1)",8775,3010,0.343019943019943,0.0003843009471893,5.688448235442076e-05,0.0384300947189331,0.005688448235442,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,0,0.0,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12285,4350,0.3540903540903541,0.0006341338157653,4.969331896168062e-05,0.063413381576538,0.004969331896168,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,0,0.0,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,177,0.118,0.0003040805459022,3.895521332315132e-05,0.0304080545902252,0.0038955213323151,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,0,0.0,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,1114,0.2475555555555555,0.0003229826688766,3.709187279697808e-05,0.0322982668876647,0.0037091872796978,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,0,0.0,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,1907,0.3026984126984127,0.0003290176391601,3.095587503553749e-05,0.0329017639160156,0.0030955875035537,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,0,0.0,"OTM (S/K≥1,1) × rövid (T<0,25)",3000,730,0.2433333333333333,0.0002655237913131,4.790769252058578e-06,0.0265523791313171,0.0004790769252058,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,0,0.0,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9000,2395,0.2661111111111111,0.0002166330814361,1.2611492006166494e-05,0.0216633081436157,0.0012611492006166,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,0,0.0,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12600,3970,0.315079365079365,0.0001993179321289,1.5482867619853175e-05,0.0199317932128906,0.0015482867619853,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,1e-6,1e-06,"ITM (S/K<0,9) × rövid (T<0,25)",2925,970,0.3316239316239316,0.0005615800619125,9.500562530202964e-05,0.0561580061912536,0.0095005625302029,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,1e-6,1e-06,"ITM (S/K<0,9) × közép (0,25≤T<1)",8775,2456,0.2798860398860399,0.0003843009471893,6.968612367050656e-05,0.0384300947189331,0.0069686123670506,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,1e-6,1e-06,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12285,3330,0.271062271062271,0.0006341338157653,6.48776175560536e-05,0.063413381576538,0.0064877617556053,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,131,0.0873333333333333,0.0003040805459022,5.2607867098946606e-05,0.0304080545902252,0.0052607867098946,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,804,0.1786666666666666,0.0003229826688766,5.134916980171678e-05,0.0322982668876647,0.0051349169801716,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,1e-6,1e-06,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,1310,0.2079365079365079,0.0003290176391601,4.500994984885209e-05,0.0329017639160156,0.0045009949848852,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,1e-6,1e-06,"OTM (S/K≥1,1) × rövid (T<0,25)",3000,175,0.0583333333333333,0.0002655237913131,1.963511109352112e-05,0.0265523791313171,0.0019635111093521,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,1e-6,1e-06,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9000,1011,0.1123333333333333,0.0002166330814361,2.973401434461629e-05,0.0216633081436157,0.0029734014344616,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,1e-6,1e-06,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12600,2038,0.1617460317460317,0.0001993179321289,3.0045475266047615e-05,0.0199317932128906,0.0030045475266047,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,RMSE,0.0007472617435269,"ITM (S/K<0,9) × rövid (T<0,25)",2925,0,0.0,,,,,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,RMSE,0.0007472617435269,"ITM (S/K<0,9) × közép (0,25≤T<1)",8775,0,0.0,,,,,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,RMSE,0.0007472617435269,"ITM (S/K<0,9) × hosszú (1≤T≤2)",12285,0,0.0,,,,,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × rövid (T<0,25)",1500,0,0.0,,,,,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × közép (0,25≤T<1)",4500,0,0.0,,,,,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,RMSE,0.0007472617435269,"ATM (0,9≤S/K<1,1) × hosszú (1≤T≤2)",6300,0,0.0,,,,,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × rövid (T<0,25)",3000,0,0.0,,,,,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × közép (0,25≤T<1)",9000,0,0.0,,,,,6. konvex S-ben,True
+mlp_american_retune_p30,mlp,american,retune_p30,grid,c6_convex_S,RMSE,0.0007472617435269,"OTM (S/K≥1,1) × hosszú (1≤T≤2)",12600,0,0.0,,,,,6. konvex S-ben,True

@@ -1,0 +1,88 @@
+{
+  "formula": "(x - low) / (high - low), DEFAULT_PARAMS (data_generator_american.py 307-308. sor)",
+  "ranges": {
+    "moneyness": [
+      0.5,
+      1.5
+    ],
+    "T": [
+      0.005,
+      2.0
+    ],
+    "r": [
+      0.0,
+      0.05
+    ],
+    "sigma": [
+      0.05,
+      0.9
+    ]
+  },
+  "splits": {
+    "train": {
+      "n": 700000,
+      "float64_max_abs_diff": {
+        "moneyness": 2.220446049250313e-16,
+        "T": 4.440892098500626e-16,
+        "r": 2.1094237467877974e-15,
+        "sigma": 1.3877787807814457e-16
+      },
+      "float64_n_not_bitwise_equal": {
+        "moneyness": 315679,
+        "T": 313156,
+        "r": 666239,
+        "sigma": 281727
+      },
+      "float32_n_not_bitwise_equal": {
+        "moneyness": 0,
+        "T": 0,
+        "r": 0,
+        "sigma": 0
+      }
+    },
+    "val": {
+      "n": 150000,
+      "float64_max_abs_diff": {
+        "moneyness": 2.220446049250313e-16,
+        "T": 4.440892098500626e-16,
+        "r": 2.1094237467877974e-15,
+        "sigma": 1.3877787807814457e-16
+      },
+      "float64_n_not_bitwise_equal": {
+        "moneyness": 67879,
+        "T": 67435,
+        "r": 142759,
+        "sigma": 60438
+      },
+      "float32_n_not_bitwise_equal": {
+        "moneyness": 0,
+        "T": 0,
+        "r": 0,
+        "sigma": 0
+      }
+    },
+    "test": {
+      "n": 150000,
+      "float64_max_abs_diff": {
+        "moneyness": 2.220446049250313e-16,
+        "T": 4.440892098500626e-16,
+        "r": 2.1094237467877974e-15,
+        "sigma": 1.3877787807814457e-16
+      },
+      "float64_n_not_bitwise_equal": {
+        "moneyness": 67820,
+        "T": 67095,
+        "r": 142812,
+        "sigma": 60631
+      },
+      "float32_n_not_bitwise_equal": {
+        "moneyness": 0,
+        "T": 0,
+        "r": 0,
+        "sigma": 0
+      }
+    }
+  },
+  "float32_all_bitwise_equal": true,
+  "float64_all_bitwise_equal": false
+}

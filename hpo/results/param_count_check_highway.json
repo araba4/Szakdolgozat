@@ -1,0 +1,19 @@
+{
+  "arch": "highway",
+  "baseline_checkpoint": "Önlab eredmények/models/highway_best.pt",
+  "baseline_model_kwargs": {
+    "input_dim": 4,
+    "hidden_dim": 256,
+    "n_blocks": 4,
+    "dropout": 0.1
+  },
+  "hpo_model_kwargs": {
+    "input_dim": 4,
+    "hidden_dim": 256,
+    "n_blocks": 4,
+    "dropout": 0.4062738450307539
+  },
+  "baseline_param_count": 527873,
+  "hpo_param_count": 527873,
+  "match": true
+}

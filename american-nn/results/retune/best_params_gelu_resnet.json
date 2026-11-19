@@ -1,0 +1,146 @@
+{
+  "arch": "gelu_resnet",
+  "model_class": "GELUResNetPricer",
+  "architecture_size_fixed_baseline": {
+    "input_dim": 4,
+    "hidden_dim": 256,
+    "n_blocks": 3
+  },
+  "lr": 0.00016618251684117805,
+  "weight_decay": 1.0969817626356427e-06,
+  "dropout": 0.06909109988766182,
+  "search_source": "american-nn/optuna_studies/retune/gelu_resnet.db",
+  "search_best_val_loss": 4.5162446742081856e-06,
+  "search_best_trial_number": 14,
+  "n_trials_completed": 41,
+  "n_trials_target": 40,
+  "final_patience": 30,
+  "final_max_epochs": 200,
+  "final_batch_size": 4096,
+  "seed": 42,
+  "final_retrain_best_epoch": 58,
+  "final_retrain_n_epochs_run": 88,
+  "hit_max_epochs": false,
+  "final_retrain_best_val_loss": 3.366095538731315e-06,
+  "param_count_match": true,
+  "param_count": 398337,
+  "hpo_test_metrics": {
+    "RMSE": 0.0018537462456151843,
+    "MAE": 0.001302775926887989,
+    "MAPE (%)": 476809.912109375,
+    "max_error": 0.035762883722782135,
+    "R2": 0.9998593926429749,
+    "MSE": 3.4363751431323912e-06
+  },
+  "retrain_seconds": 815.9065425395966,
+  "val_mse_recheck": {
+    "checkpoint_val_loss": 3.366095538731315e-06,
+    "checkpoint_best_epoch": 58,
+    "reloaded_val_mse": 3.3660955203741862e-06,
+    "rel_diff": 5.453537678342946e-09,
+    "loader": "Önlab src/evaluate.py load_model + PricingDataset"
+  },
+  "target": "american",
+  "target_definition": "american_put_price / K",
+  "search_target": "american",
+  "study_name": "gelu_resnet",
+  "study_db": "american-nn/optuna_studies/retune/gelu_resnet.db",
+  "sampler": "TPESampler(seed=42)",
+  "pruner": "HyperbandPruner(min_resource=3, max_resource=40, reduction_factor=3)",
+  "search_max_epochs": 40,
+  "search_patience": 8,
+  "search_batch_size": 4096,
+  "cold_start": true,
+  "n_trials_total": 41,
+  "n_trials_valid": 40,
+  "n_trials_complete": 11,
+  "n_trials_pruned": 29,
+  "n_trials_fail": 1,
+  "fail_trial_numbers": [
+    1
+  ],
+  "resume_events": [
+    {
+      "at": "2026-10-14 08:59:50",
+      "n_trials_in_storage": 2,
+      "n_valid": 1,
+      "n_remaining": 39,
+      "stale_trials_set_fail": [
+        1
+      ],
+      "sampler_state_restored": true,
+      "sampler_state_after_trial": 0,
+      "last_finished_trial": 0,
+      "sampler_state_consistent": true
+    }
+  ],
+  "param_importance_ped_anova": {
+    "weight_decay": 0.8132377767908108,
+    "dropout": 0.09572277592122597,
+    "lr": 0.09103944728796329
+  },
+  "hpo_test_metrics_usd": {
+    "RMSE": 0.18681383732672377,
+    "MAE": 0.11386495317514234,
+    "max_error": 4.24572136778643,
+    "R2": 0.9999518827561195
+  },
+  "metrics_american": "american-nn/results/retune/metrics_gelu_resnet_american_retune_p30.json",
+  "european_reference": {
+    "run": "gelu_resnet_european_retune_p30",
+    "metrics": "american-nn/results/retune/metrics_gelu_resnet_european_retune_p30.json",
+    "target_definition": "european_put_price / K",
+    "hyperparameters": {
+      "lr": 0.00016618251684117805,
+      "weight_decay": 1.0969817626356427e-06,
+      "dropout": 0.06909109988766182,
+      "batch_size": 4096
+    },
+    "hyperparameters_bitwise_equal_american": true,
+    "best_epoch": 56,
+    "n_epochs_run": 86,
+    "hit_max_epochs": false,
+    "best_val_loss": 2.930285175849955e-06,
+    "test_metrics": {
+      "RMSE": 0.0017336057499051094,
+      "MAE": 0.0011766712414100766,
+      "MAPE (%)": 368528.173828125,
+      "max_error": 0.03668961673974991,
+      "R2": 0.9998708963394165,
+      "MSE": 3.0053888961040567e-06
+    },
+    "test_metrics_usd": {
+      "RMSE": 0.1757073993082077,
+      "MAE": 0.10325935068957189,
+      "max_error": 4.600479381571424,
+      "R2": 0.9999549906179055
+    },
+    "train_seconds": 804.174298286438,
+    "val_recheck": {
+      "checkpoint_val_loss": 2.930285175849955e-06,
+      "checkpoint_best_epoch": 56,
+      "reloaded_val_mse": 2.9302851757656477e-06,
+      "rel_diff": 2.8771024580614264e-11,
+      "loader": "Önlab src/evaluate.py load_model + PricingDataset"
+    }
+  },
+  "european_call_tpe_reference": {
+    "search_json": "hpo/results/best_params_gelu_resnet.json",
+    "p30_json": "hpo/results/p30/best_params_gelu_resnet.json",
+    "lr": 0.00023916381648760214,
+    "weight_decay": 1.0969817626356427e-06,
+    "dropout": 0.122244124092866,
+    "search_best_val_loss": 4.645986478911558e-06,
+    "search_best_trial_number": 13,
+    "p30_best_val_loss": 1.4779457620267445e-05
+  },
+  "search_time_s": 637.8786720001335,
+  "search_time_s_this_run": 629.4213248999986,
+  "n_search_invocations": 1,
+  "search_trial_duration_sum_s": 635.928639,
+  "n_search_epochs": 719,
+  "final_train_time_s_american": 815.9065425395966,
+  "final_train_time_s_european": 804.174298286438,
+  "total_time_s": 2257.959512826168,
+  "pipeline_time_s_this_run": 2263.6787418999993
+}

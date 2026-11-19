@@ -1,0 +1,410 @@
+{
+  "checked_at": "2026-10-14 13:38:17",
+  "run_hpo_constants": {
+    "SEARCH_MAX_EPOCHS": 40,
+    "SEARCH_PATIENCE": 8,
+    "SEARCH_BATCH_SIZE": 4096,
+    "BASE_SEED": 42,
+    "TRIAL_BUDGET": {
+      "mlp": 25,
+      "deep_mlp": 30,
+      "dense_mlp": 30,
+      "resnet": 40,
+      "gelu_resnet": 40,
+      "highway": 40,
+      "finn": 40
+    }
+  },
+  "script_constants": {
+    "PRUNER_KW": {
+      "min_resource": 3,
+      "max_resource": 40,
+      "reduction_factor": 3
+    }
+  },
+  "archs": {
+    "mlp": {
+      "expected_distributions": {
+        "lr": "FloatDistribution(high=0.01, log=True, low=0.0001, step=None)",
+        "weight_decay": "FloatDistribution(high=0.01, log=True, low=1e-06, step=None)"
+      },
+      "american_distributions_all_equal_expected": true,
+      "european_distributions_all_equal_expected": true,
+      "n_valid_american": 25,
+      "n_valid_european": 25,
+      "budget": 25,
+      "budget_met_american": true,
+      "fail_trials_american": [],
+      "study_name_american": "mlp",
+      "study_name_european": "mlp",
+      "study_name_equal": true,
+      "user_attrs_sampler": "TPESampler(seed=42)",
+      "user_attrs_sampler_seed": 42,
+      "user_attrs_pruner": {
+        "class": "HyperbandPruner",
+        "min_resource": 3,
+        "max_resource": 40,
+        "reduction_factor": 3
+      },
+      "sampler_ok": true,
+      "pruner_ok": true,
+      "search_patience_ok": true,
+      "search_batch_ok": true,
+      "search_max_epochs_attr": 40,
+      "search_max_epochs_ok": true,
+      "startup_params_equal_european": {
+        "n_checked": 10,
+        "n_equal": 10,
+        "all_equal": true,
+        "by_number_all_equal": true,
+        "n_checked_excl_fail": 10,
+        "n_equal_excl_fail": 10,
+        "all_equal_excl_fail": true,
+        "american_trial_numbers_excl_fail": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "european_trial_numbers_valid": true,
+      "all_ok": true
+    },
+    "deep_mlp": {
+      "expected_distributions": {
+        "lr": "FloatDistribution(high=0.01, log=True, low=0.0001, step=None)",
+        "weight_decay": "FloatDistribution(high=0.01, log=True, low=1e-06, step=None)",
+        "dropout": "FloatDistribution(high=0.5, log=False, low=0.0, step=None)"
+      },
+      "american_distributions_all_equal_expected": true,
+      "european_distributions_all_equal_expected": true,
+      "n_valid_american": 30,
+      "n_valid_european": 30,
+      "budget": 30,
+      "budget_met_american": true,
+      "fail_trials_american": [],
+      "study_name_american": "deep_mlp",
+      "study_name_european": "deep_mlp",
+      "study_name_equal": true,
+      "user_attrs_sampler": "TPESampler(seed=42)",
+      "user_attrs_sampler_seed": 42,
+      "user_attrs_pruner": {
+        "class": "HyperbandPruner",
+        "min_resource": 3,
+        "max_resource": 40,
+        "reduction_factor": 3
+      },
+      "sampler_ok": true,
+      "pruner_ok": true,
+      "search_patience_ok": true,
+      "search_batch_ok": true,
+      "search_max_epochs_attr": 40,
+      "search_max_epochs_ok": true,
+      "startup_params_equal_european": {
+        "n_checked": 10,
+        "n_equal": 10,
+        "all_equal": true,
+        "by_number_all_equal": true,
+        "n_checked_excl_fail": 10,
+        "n_equal_excl_fail": 10,
+        "all_equal_excl_fail": true,
+        "american_trial_numbers_excl_fail": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "european_trial_numbers_valid": true,
+      "all_ok": true
+    },
+    "dense_mlp": {
+      "expected_distributions": {
+        "lr": "FloatDistribution(high=0.01, log=True, low=0.0001, step=None)",
+        "weight_decay": "FloatDistribution(high=0.01, log=True, low=1e-06, step=None)",
+        "dropout": "FloatDistribution(high=0.5, log=False, low=0.0, step=None)"
+      },
+      "american_distributions_all_equal_expected": true,
+      "european_distributions_all_equal_expected": true,
+      "n_valid_american": 30,
+      "n_valid_european": 30,
+      "budget": 30,
+      "budget_met_american": true,
+      "fail_trials_american": [],
+      "study_name_american": "dense_mlp",
+      "study_name_european": "dense_mlp",
+      "study_name_equal": true,
+      "user_attrs_sampler": "TPESampler(seed=42)",
+      "user_attrs_sampler_seed": 42,
+      "user_attrs_pruner": {
+        "class": "HyperbandPruner",
+        "min_resource": 3,
+        "max_resource": 40,
+        "reduction_factor": 3
+      },
+      "sampler_ok": true,
+      "pruner_ok": true,
+      "search_patience_ok": true,
+      "search_batch_ok": true,
+      "search_max_epochs_attr": 40,
+      "search_max_epochs_ok": true,
+      "startup_params_equal_european": {
+        "n_checked": 10,
+        "n_equal": 10,
+        "all_equal": true,
+        "by_number_all_equal": true,
+        "n_checked_excl_fail": 10,
+        "n_equal_excl_fail": 10,
+        "all_equal_excl_fail": true,
+        "american_trial_numbers_excl_fail": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "european_trial_numbers_valid": true,
+      "all_ok": true
+    },
+    "resnet": {
+      "expected_distributions": {
+        "lr": "FloatDistribution(high=0.01, log=True, low=0.0001, step=None)",
+        "weight_decay": "FloatDistribution(high=0.01, log=True, low=1e-06, step=None)",
+        "dropout": "FloatDistribution(high=0.5, log=False, low=0.0, step=None)"
+      },
+      "american_distributions_all_equal_expected": true,
+      "european_distributions_all_equal_expected": true,
+      "n_valid_american": 40,
+      "n_valid_european": 40,
+      "budget": 40,
+      "budget_met_american": true,
+      "fail_trials_american": [],
+      "study_name_american": "resnet",
+      "study_name_european": "resnet",
+      "study_name_equal": true,
+      "user_attrs_sampler": "TPESampler(seed=42)",
+      "user_attrs_sampler_seed": 42,
+      "user_attrs_pruner": {
+        "class": "HyperbandPruner",
+        "min_resource": 3,
+        "max_resource": 40,
+        "reduction_factor": 3
+      },
+      "sampler_ok": true,
+      "pruner_ok": true,
+      "search_patience_ok": true,
+      "search_batch_ok": true,
+      "search_max_epochs_attr": 40,
+      "search_max_epochs_ok": true,
+      "startup_params_equal_european": {
+        "n_checked": 10,
+        "n_equal": 10,
+        "all_equal": true,
+        "by_number_all_equal": true,
+        "n_checked_excl_fail": 10,
+        "n_equal_excl_fail": 10,
+        "all_equal_excl_fail": true,
+        "american_trial_numbers_excl_fail": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "european_trial_numbers_valid": true,
+      "all_ok": true
+    },
+    "gelu_resnet": {
+      "expected_distributions": {
+        "lr": "FloatDistribution(high=0.01, log=True, low=0.0001, step=None)",
+        "weight_decay": "FloatDistribution(high=0.01, log=True, low=1e-06, step=None)",
+        "dropout": "FloatDistribution(high=0.5, log=False, low=0.0, step=None)"
+      },
+      "american_distributions_all_equal_expected": true,
+      "european_distributions_all_equal_expected": true,
+      "n_valid_american": 40,
+      "n_valid_european": 40,
+      "budget": 40,
+      "budget_met_american": true,
+      "fail_trials_american": [
+        1
+      ],
+      "study_name_american": "gelu_resnet",
+      "study_name_european": "gelu_resnet",
+      "study_name_equal": true,
+      "user_attrs_sampler": "TPESampler(seed=42)",
+      "user_attrs_sampler_seed": 42,
+      "user_attrs_pruner": {
+        "class": "HyperbandPruner",
+        "min_resource": 3,
+        "max_resource": 40,
+        "reduction_factor": 3
+      },
+      "sampler_ok": true,
+      "pruner_ok": true,
+      "search_patience_ok": true,
+      "search_batch_ok": true,
+      "search_max_epochs_attr": 40,
+      "search_max_epochs_ok": true,
+      "startup_params_equal_european": {
+        "n_checked": 10,
+        "n_equal": 2,
+        "all_equal": false,
+        "by_number_all_equal": false,
+        "n_checked_excl_fail": 10,
+        "n_equal_excl_fail": 10,
+        "all_equal_excl_fail": true,
+        "american_trial_numbers_excl_fail": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "european_trial_numbers_valid": true,
+      "all_ok": true
+    },
+    "highway": {
+      "expected_distributions": {
+        "lr": "FloatDistribution(high=0.01, log=True, low=0.0001, step=None)",
+        "weight_decay": "FloatDistribution(high=0.01, log=True, low=1e-06, step=None)",
+        "dropout": "FloatDistribution(high=0.5, log=False, low=0.0, step=None)"
+      },
+      "american_distributions_all_equal_expected": true,
+      "european_distributions_all_equal_expected": true,
+      "n_valid_american": 40,
+      "n_valid_european": 40,
+      "budget": 40,
+      "budget_met_american": true,
+      "fail_trials_american": [],
+      "study_name_american": "highway",
+      "study_name_european": "highway",
+      "study_name_equal": true,
+      "user_attrs_sampler": "TPESampler(seed=42)",
+      "user_attrs_sampler_seed": 42,
+      "user_attrs_pruner": {
+        "class": "HyperbandPruner",
+        "min_resource": 3,
+        "max_resource": 40,
+        "reduction_factor": 3
+      },
+      "sampler_ok": true,
+      "pruner_ok": true,
+      "search_patience_ok": true,
+      "search_batch_ok": true,
+      "search_max_epochs_attr": 40,
+      "search_max_epochs_ok": true,
+      "startup_params_equal_european": {
+        "n_checked": 10,
+        "n_equal": 10,
+        "all_equal": true,
+        "by_number_all_equal": true,
+        "n_checked_excl_fail": 10,
+        "n_equal_excl_fail": 10,
+        "all_equal_excl_fail": true,
+        "american_trial_numbers_excl_fail": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "european_trial_numbers_valid": true,
+      "all_ok": true
+    },
+    "finn": {
+      "expected_distributions": {
+        "lr": "FloatDistribution(high=0.01, log=True, low=0.0001, step=None)",
+        "weight_decay": "FloatDistribution(high=0.01, log=True, low=1e-06, step=None)",
+        "dropout": "FloatDistribution(high=0.5, log=False, low=0.0, step=None)"
+      },
+      "american_distributions_all_equal_expected": true,
+      "european_distributions_all_equal_expected": true,
+      "n_valid_american": 40,
+      "n_valid_european": 40,
+      "budget": 40,
+      "budget_met_american": true,
+      "fail_trials_american": [
+        1
+      ],
+      "study_name_american": "finn",
+      "study_name_european": "finn",
+      "study_name_equal": true,
+      "user_attrs_sampler": "TPESampler(seed=42)",
+      "user_attrs_sampler_seed": 42,
+      "user_attrs_pruner": {
+        "class": "HyperbandPruner",
+        "min_resource": 3,
+        "max_resource": 40,
+        "reduction_factor": 3
+      },
+      "sampler_ok": true,
+      "pruner_ok": true,
+      "search_patience_ok": true,
+      "search_batch_ok": true,
+      "search_max_epochs_attr": 40,
+      "search_max_epochs_ok": true,
+      "startup_params_equal_european": {
+        "n_checked": 10,
+        "n_equal": 2,
+        "all_equal": false,
+        "by_number_all_equal": false,
+        "n_checked_excl_fail": 10,
+        "n_equal_excl_fail": 10,
+        "all_equal_excl_fail": true,
+        "american_trial_numbers_excl_fail": [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "european_trial_numbers_valid": true,
+      "all_ok": true
+    }
+  },
+  "pruner_kw_equal_run_hpo": true,
+  "all_ok": true
+}

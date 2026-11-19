@@ -1,0 +1,55 @@
+{
+  "test_file": "american-options/data/test.parquet",
+  "true_mean_am_minus_eu_norm": 0.005286128709690085,
+  "models": {
+    "mlp": {
+      "mean_pred_am_minus_eu_norm": 0.005251333319271604,
+      "mean_am_ge_eu": true,
+      "frac_pred_am_lt_eu": 0.1522,
+      "premium_pred_rmse_vs_true_am_minus_bs_norm": 0.0006925553564427817,
+      "usd_mean_pred_am_minus_eu": 0.5970070856747974
+    },
+    "deep_mlp": {
+      "mean_pred_am_minus_eu_norm": 0.004866604715076586,
+      "mean_am_ge_eu": true,
+      "frac_pred_am_lt_eu": 0.26138666666666666,
+      "premium_pred_rmse_vs_true_am_minus_bs_norm": 0.0016474889029460685,
+      "usd_mean_pred_am_minus_eu": 0.5658437955417011
+    },
+    "dense_mlp": {
+      "mean_pred_am_minus_eu_norm": 0.0052901698844569425,
+      "mean_am_ge_eu": true,
+      "frac_pred_am_lt_eu": 0.16880666666666666,
+      "premium_pred_rmse_vs_true_am_minus_bs_norm": 0.0010966819934209713,
+      "usd_mean_pred_am_minus_eu": 0.6036693200801244
+    },
+    "resnet": {
+      "mean_pred_am_minus_eu_norm": 0.005173565853387118,
+      "mean_am_ge_eu": true,
+      "frac_pred_am_lt_eu": 0.22213333333333332,
+      "premium_pred_rmse_vs_true_am_minus_bs_norm": 0.002057863056656828,
+      "usd_mean_pred_am_minus_eu": 0.5923476724000231
+    },
+    "gelu_resnet": {
+      "mean_pred_am_minus_eu_norm": 0.004075313545912504,
+      "mean_am_ge_eu": true,
+      "frac_pred_am_lt_eu": 0.32337333333333335,
+      "premium_pred_rmse_vs_true_am_minus_bs_norm": 0.0018269401934555634,
+      "usd_mean_pred_am_minus_eu": 0.47047942723203656
+    },
+    "highway": {
+      "mean_pred_am_minus_eu_norm": 0.005275926360029262,
+      "mean_am_ge_eu": true,
+      "frac_pred_am_lt_eu": 0.17994,
+      "premium_pred_rmse_vs_true_am_minus_bs_norm": 0.001621577859200368,
+      "usd_mean_pred_am_minus_eu": 0.6016960947704447
+    },
+    "finn": {
+      "mean_pred_am_minus_eu_norm": 0.004989648612439632,
+      "mean_am_ge_eu": true,
+      "frac_pred_am_lt_eu": 0.19779333333333332,
+      "premium_pred_rmse_vs_true_am_minus_bs_norm": 0.0012091900969481272,
+      "usd_mean_pred_am_minus_eu": 0.5752535712788076
+    }
+  }
+}

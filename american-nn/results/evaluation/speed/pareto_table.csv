@@ -1,0 +1,25 @@
+method,setting,per_row_s,test_rmse_usd,accuracy_source,speedup_vs_crr,pareto
+NN MLP,"GPU, batch 1e6",2.9346299999815532e-08,0.0755085604525114,"levels_table.csv (retune p30, teszthalmaz)",422233.0992348435,True
+NN MLP,"GPU, batch 1",0.0004901000011159,0.0755085604525114,"levels_table.csv (retune p30, teszthalmaz)",25.28255289080759,False
+NN MLP,"CPU, batch 1",0.0001161499985755,0.0755085604525114,"levels_table.csv (retune p30, teszthalmaz)",106.68083815724884,False
+NN DeepMLP,"GPU, batch 1e6",1.523755499983963e-07,0.3097258396446403,"levels_table.csv (retune p30, teszthalmaz)",81318.68400230884,False
+NN DeepMLP,"GPU, batch 1",0.0013517499992303,0.3097258396446403,"levels_table.csv (retune p30, teszthalmaz)",9.166620460183575,False
+NN DeepMLP,"CPU, batch 1",0.0003104500010522,0.3097258396446403,"levels_table.csv (retune p30, teszthalmaz)",39.91296233854464,False
+NN DenseMLP,"GPU, batch 1e6",1.0663124999882713e-07,0.3871982041342131,"levels_table.csv (retune p30, teszthalmaz)",116204.01336506786,False
+NN DenseMLP,"GPU, batch 1",0.0006580500012205,0.3871982041342131,"levels_table.csv (retune p30, teszthalmaz)",18.82984450576062,False
+NN DenseMLP,"CPU, batch 1",0.0003412500009289,0.3871982041342131,"levels_table.csv (retune p30, teszthalmaz)",36.31056165939552,False
+NN ResNet,"GPU, batch 1e6",2.3476630000004667e-07,0.2427919853718022,"levels_table.csv (retune p30, teszthalmaz)",52780.05914816197,False
+NN ResNet,"GPU, batch 1",0.0016915000014705,0.2427919853718022,"levels_table.csv (retune p30, teszthalmaz)",7.325438480180634,False
+NN ResNet,"CPU, batch 1",0.0006780499988963,0.2427919853718022,"levels_table.csv (retune p30, teszthalmaz)",18.274432888676486,False
+NN GELU-ResNet,"GPU, batch 1e6",2.1763465000003637e-07,0.1868138373267237,"levels_table.csv (retune p30, teszthalmaz)",56934.772105432334,False
+NN GELU-ResNet,"GPU, batch 1",0.0011855499997182,0.1868138373267237,"levels_table.csv (retune p30, teszthalmaz)",10.451671547334891,False
+NN GELU-ResNet,"CPU, batch 1",0.0005317500017554,0.1868138373267237,"levels_table.csv (retune p30, teszthalmaz)",23.302264521096014,False
+NN Highway,"GPU, batch 1e6",4.023472500011849e-07,0.286982804360573,"levels_table.csv (retune p30, teszthalmaz)",30796.728944863196,False
+NN Highway,"GPU, batch 1",0.0014573999978892,0.286982804360573,"levels_table.csv (retune p30, teszthalmaz)",8.502112815935131,False
+NN Highway,"CPU, batch 1",0.0006538500001624,0.286982804360573,"levels_table.csv (retune p30, teszthalmaz)",18.950797884713605,False
+NN FINN,"GPU, batch 1e6",2.275990500002081e-07,0.1265488099212633,"levels_table.csv (retune p30, teszthalmaz)",54442.1393673931,False
+NN FINN,"GPU, batch 1",0.0012766499985445,0.1265488099212633,"levels_table.csv (retune p30, teszthalmaz)",9.705854552245698,False
+NN FINN,"CPU, batch 1",0.0006550500002049,0.1265488099212633,"levels_table.csv (retune p30, teszthalmaz)",18.916081514573992,False
+CRR-500,"CPU, soronként",0.0123909791999976,0.004729671384932174,"CRR-500 vs. CRR-1000, 200 sor (a címke saját hibája)",1.0,True
+LSM,"CPU, soronként",0.5546593499984738,0.04500578633735764,"LSM-QA vs. CRR-címke, 275 tesztsor",0.02233980045595859,False
+BS put (európai),"CPU, batch 1e6",1.7387130000133766e-07,1.5258278102810487,"BS put vs. amerikai címke, teljes teszthalmaz (≈ a prémium)",71265.23583767,False

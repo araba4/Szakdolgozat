@@ -1,0 +1,154 @@
+{
+  "invocations": [
+    {
+      "started": "2026-10-14 14:32:59",
+      "argv": [
+        "--all",
+        "--skip-done"
+      ],
+      "max_epochs_override": null
+    },
+    {
+      "started": "2026-10-15 08:16:04",
+      "argv": [
+        "--all",
+        "--skip-done"
+      ],
+      "max_epochs_override": null,
+      "finished": "2026-10-15 08:43:03",
+      "wall_seconds": 1618.7294943332672,
+      "n_trained": 2,
+      "n_skipped": 5,
+      "n_errors": 0
+    }
+  ],
+  "env": {
+    "python": "3.13.7",
+    "torch": "2.6.0+cu124",
+    "cuda_available": true,
+    "cuda_version": "12.4",
+    "cudnn_version": 90100,
+    "numpy": "2.3.3",
+    "pandas": "3.0.1",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU"
+  },
+  "experiment": "BS-residual learning (R1)",
+  "hyperparameters": {
+    "mlp": {
+      "lr": 0.0027334899206122912,
+      "weight_decay": 1.2318165594155648e-06,
+      "dropout": null,
+      "batch_size": 4096,
+      "max_epochs": 200,
+      "seed": 42,
+      "patience": 30,
+      "source_json": "american-nn/results/retune/best_params_mlp.json",
+      "source_study": "american-nn/optuna_studies/retune/mlp.db",
+      "source_trial": 19,
+      "bitwise_equal_retune_metrics_json": true,
+      "bitwise_equal_retune_checkpoint": true
+    },
+    "deep_mlp": {
+      "lr": 0.00017178180651384594,
+      "weight_decay": 1.6373831341180916e-06,
+      "dropout": 0.01640900283977826,
+      "batch_size": 4096,
+      "max_epochs": 200,
+      "seed": 42,
+      "patience": 30,
+      "source_json": "american-nn/results/retune/best_params_deep_mlp.json",
+      "source_study": "american-nn/optuna_studies/retune/deep_mlp.db",
+      "source_trial": 16,
+      "bitwise_equal_retune_metrics_json": true,
+      "bitwise_equal_retune_checkpoint": true
+    },
+    "dense_mlp": {
+      "lr": 0.0019005869060715655,
+      "weight_decay": 2.257815289394274e-06,
+      "dropout": 0.16210742571888953,
+      "batch_size": 4096,
+      "max_epochs": 200,
+      "seed": 42,
+      "patience": 30,
+      "source_json": "american-nn/results/retune/best_params_dense_mlp.json",
+      "source_study": "american-nn/optuna_studies/retune/dense_mlp.db",
+      "source_trial": 16,
+      "bitwise_equal_retune_metrics_json": true,
+      "bitwise_equal_retune_checkpoint": true
+    },
+    "resnet": {
+      "lr": 0.008597392498054104,
+      "weight_decay": 0.0006302314035822053,
+      "dropout": 0.10380942081075883,
+      "batch_size": 4096,
+      "max_epochs": 200,
+      "seed": 42,
+      "patience": 30,
+      "source_json": "american-nn/results/retune/best_params_resnet.json",
+      "source_study": "american-nn/optuna_studies/retune/resnet.db",
+      "source_trial": 10,
+      "bitwise_equal_retune_metrics_json": true,
+      "bitwise_equal_retune_checkpoint": true
+    },
+    "gelu_resnet": {
+      "lr": 0.00016618251684117805,
+      "weight_decay": 1.0969817626356427e-06,
+      "dropout": 0.06909109988766182,
+      "batch_size": 4096,
+      "max_epochs": 200,
+      "seed": 42,
+      "patience": 30,
+      "source_json": "american-nn/results/retune/best_params_gelu_resnet.json",
+      "source_study": "american-nn/optuna_studies/retune/gelu_resnet.db",
+      "source_trial": 14,
+      "bitwise_equal_retune_metrics_json": true,
+      "bitwise_equal_retune_checkpoint": true
+    },
+    "highway": {
+      "lr": 0.002394165690068651,
+      "weight_decay": 1.0819294472179538e-06,
+      "dropout": 0.1282731110548368,
+      "batch_size": 4096,
+      "max_epochs": 200,
+      "seed": 42,
+      "patience": 30,
+      "source_json": "american-nn/results/retune/best_params_highway.json",
+      "source_study": "american-nn/optuna_studies/retune/highway.db",
+      "source_trial": 22,
+      "bitwise_equal_retune_metrics_json": true,
+      "bitwise_equal_retune_checkpoint": true
+    },
+    "finn": {
+      "lr": 0.00023593851430803335,
+      "weight_decay": 1.2189559633482012e-06,
+      "dropout": 0.03907562167043877,
+      "batch_size": 4096,
+      "max_epochs": 200,
+      "seed": 42,
+      "patience": 30,
+      "source_json": "american-nn/results/retune/best_params_finn.json",
+      "source_study": "american-nn/optuna_studies/retune/finn.db",
+      "source_trial": 22,
+      "bitwise_equal_retune_metrics_json": true,
+      "bitwise_equal_retune_checkpoint": true
+    }
+  },
+  "target": "(american_put_price - european_put_price) / K",
+  "prediction": "american_put_price/K = european_put_price/K + NN(x)",
+  "residual_scaling": null,
+  "scheduler": "ReduceLROnPlateau(mode='min', factor=0.5, patience=5, min_lr=1e-6)",
+  "optimizer": "Adam",
+  "loss": "MSELoss (a reziduumon)",
+  "feature_cols": [
+    "moneyness_norm",
+    "T_norm",
+    "r_norm",
+    "sigma_norm"
+  ],
+  "patience": 30,
+  "machine": {
+    "processor": "AMD64 Family 25 Model 68 Stepping 1, AuthenticAMD"
+  }
+}

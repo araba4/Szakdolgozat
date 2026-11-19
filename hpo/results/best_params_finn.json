@@ -1,0 +1,38 @@
+{
+  "arch": "finn",
+  "model_class": "FINNPricer",
+  "architecture_size_fixed_baseline": {
+    "input_dim": 4,
+    "approx_dim": 64,
+    "resnet_dim": 256,
+    "n_blocks": 3
+  },
+  "lr": 0.0033675087178186808,
+  "weight_decay": 1.0667517217054886e-06,
+  "dropout": 0.02703444514824562,
+  "search_best_val_loss": 1.7028374704532326e-05,
+  "search_best_trial_number": 19,
+  "n_trials_completed": 40,
+  "n_trials_target": 40,
+  "final_retrain_best_epoch": 77,
+  "final_retrain_best_val_loss": 8.673012522631325e-06,
+  "baseline_val_loss": 8.240615842631087e-05,
+  "improvement_pct_vs_baseline_val_loss": 89.4752859637464,
+  "param_count_match": true,
+  "param_count": 402882,
+  "baseline_test_metrics": {
+    "RMSE": 0.00914283748716116,
+    "MAE": 0.006133566610515118,
+    "MAPE (%)": 3711508.203125,
+    "max_error": 0.0959678366780281,
+    "R2": 0.9978244304656982
+  },
+  "hpo_test_metrics": {
+    "RMSE": 0.0029768540989607573,
+    "MAE": 0.001958235166966915,
+    "MAPE (%)": 832739.453125,
+    "max_error": 0.04045409709215164,
+    "R2": 0.999769389629364
+  },
+  "retrain_seconds": 793.2390491962433
+}

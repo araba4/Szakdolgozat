@@ -1,0 +1,37 @@
+{
+  "arch": "gelu_resnet",
+  "model_class": "GELUResNetPricer",
+  "architecture_size_fixed_baseline": {
+    "input_dim": 4,
+    "hidden_dim": 256,
+    "n_blocks": 3
+  },
+  "lr": 0.00023916381648760214,
+  "weight_decay": 1.0969817626356427e-06,
+  "dropout": 0.122244124092866,
+  "search_best_val_loss": 4.645986478911558e-06,
+  "search_best_trial_number": 13,
+  "n_trials_completed": 40,
+  "n_trials_target": 40,
+  "final_retrain_best_epoch": 21,
+  "final_retrain_best_val_loss": 1.4779457620267445e-05,
+  "baseline_val_loss": 8.49894749194694e-05,
+  "improvement_pct_vs_baseline_val_loss": 82.61024952293032,
+  "param_count_match": true,
+  "param_count": 398337,
+  "baseline_test_metrics": {
+    "RMSE": 0.009293452836573124,
+    "MAE": 0.0062475986778736115,
+    "MAPE (%)": 3765818.75,
+    "max_error": 0.09721830487251282,
+    "R2": 0.9977521896362305
+  },
+  "hpo_test_metrics": {
+    "RMSE": 0.003877681912854314,
+    "MAE": 0.0026256765704602003,
+    "MAPE (%)": 1082606.15234375,
+    "max_error": 0.055065251886844635,
+    "R2": 0.9996086359024048
+  },
+  "retrain_seconds": 273.3776524066925
+}

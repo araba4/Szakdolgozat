@@ -1,0 +1,214 @@
+{
+  "script": "american-nn/analyze_residual.py --steps speed",
+  "date": "2026-10-15 08:45:22",
+  "env": {
+    "python": "3.13.7",
+    "torch": "2.6.0+cu124",
+    "cuda_available": true,
+    "cuda_version": "12.4",
+    "cudnn_version": 90100,
+    "numpy": "2.3.3",
+    "pandas": "3.0.1",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "torch_num_threads": 8
+  },
+  "torch_num_threads": 8,
+  "bs_torch_vs_numpy": {
+    "n": 1000000,
+    "max_abs_diff_vs_numpy": 4.440892098500626e-16
+  },
+  "machine_state_before": {
+    "tag": "előtte",
+    "time": "2026-10-15 08:43:33",
+    "cpu": {
+      "Name": "AMD Ryzen 7 7735HS with Radeon Graphics        ",
+      "NumberOfCores": 8,
+      "NumberOfLogicalProcessors": 16,
+      "MaxClockSpeed": 3201,
+      "CurrentClockSpeed": 3201,
+      "LoadPercentage": 6
+    },
+    "ram_total_mb": 15610.91015625,
+    "ram_free_mb": 3696.5078125,
+    "cpu_load_pct_3x1s": [
+      10.0,
+      2.0,
+      2.0
+    ],
+    "battery": {
+      "BatteryStatus": 2,
+      "EstimatedChargeRemaining": 79
+    },
+    "battery_note": "BatteryStatus 2 = hálózati tápról",
+    "power_scheme": "Power Scheme GUID: 27fa6203-3987-4dcc-918d-748559d549ec  (Performance)",
+    "top_processes_by_memory": [
+      {
+        "ProcessName": "pycharm64",
+        "Id": 17052,
+        "WS_MB": 2406,
+        "CPU": 323.84375
+      },
+      {
+        "ProcessName": "python",
+        "Id": 11744,
+        "WS_MB": 1021,
+        "CPU": 51.84375
+      },
+      {
+        "ProcessName": "Memory Compression",
+        "Id": 5012,
+        "WS_MB": 436,
+        "CPU": null
+      },
+      {
+        "ProcessName": "claude",
+        "Id": 11352,
+        "WS_MB": 395,
+        "CPU": 14.625
+      },
+      {
+        "ProcessName": "MsMpEng",
+        "Id": 22020,
+        "WS_MB": 379,
+        "CPU": null
+      },
+      {
+        "ProcessName": "claude",
+        "Id": 14072,
+        "WS_MB": 355,
+        "CPU": 43.953125
+      },
+      {
+        "ProcessName": "ChatGPT",
+        "Id": 19116,
+        "WS_MB": 301,
+        "CPU": 8.375
+      },
+      {
+        "ProcessName": "ChatGPT",
+        "Id": 16296,
+        "WS_MB": 241,
+        "CPU": 45.6875
+      },
+      {
+        "ProcessName": "explorer",
+        "Id": 26924,
+        "WS_MB": 201,
+        "CPU": 21
+      },
+      {
+        "ProcessName": "claude",
+        "Id": 23056,
+        "WS_MB": 188,
+        "CPU": 15.234375
+      }
+    ],
+    "nvidia_smi": "NVIDIA GeForce RTX 4060 Laptop GPU, 610.74, 8188 MiB, 159 MiB, 0 %, P8, 210 MHz, 3105 MHz, 2.57 W, 55"
+  },
+  "machine_state_after": {
+    "tag": "utána",
+    "time": "2026-10-15 08:45:13",
+    "cpu": {
+      "Name": "AMD Ryzen 7 7735HS with Radeon Graphics        ",
+      "NumberOfCores": 8,
+      "NumberOfLogicalProcessors": 16,
+      "MaxClockSpeed": 3201,
+      "CurrentClockSpeed": 3201,
+      "LoadPercentage": 6
+    },
+    "ram_total_mb": 15610.91015625,
+    "ram_free_mb": 3920.23046875,
+    "cpu_load_pct_3x1s": [
+      1.0,
+      9.0,
+      4.0
+    ],
+    "battery": {
+      "BatteryStatus": 2,
+      "EstimatedChargeRemaining": 79
+    },
+    "battery_note": "BatteryStatus 2 = hálózati tápról",
+    "power_scheme": "Power Scheme GUID: 27fa6203-3987-4dcc-918d-748559d549ec  (Performance)",
+    "top_processes_by_memory": [
+      {
+        "ProcessName": "pycharm64",
+        "Id": 17052,
+        "WS_MB": 2292,
+        "CPU": 335.125
+      },
+      {
+        "ProcessName": "python",
+        "Id": 11744,
+        "WS_MB": 1180,
+        "CPU": 564.703125
+      },
+      {
+        "ProcessName": "Memory Compression",
+        "Id": 5012,
+        "WS_MB": 433,
+        "CPU": null
+      },
+      {
+        "ProcessName": "claude",
+        "Id": 11352,
+        "WS_MB": 396,
+        "CPU": 14.65625
+      },
+      {
+        "ProcessName": "MsMpEng",
+        "Id": 22020,
+        "WS_MB": 369,
+        "CPU": null
+      },
+      {
+        "ProcessName": "claude",
+        "Id": 14072,
+        "WS_MB": 354,
+        "CPU": 46.875
+      },
+      {
+        "ProcessName": "ChatGPT",
+        "Id": 19116,
+        "WS_MB": 302,
+        "CPU": 8.421875
+      },
+      {
+        "ProcessName": "ChatGPT",
+        "Id": 16296,
+        "WS_MB": 238,
+        "CPU": 46
+      },
+      {
+        "ProcessName": "explorer",
+        "Id": 26924,
+        "WS_MB": 201,
+        "CPU": 21.375
+      },
+      {
+        "ProcessName": "claude",
+        "Id": 23056,
+        "WS_MB": 188,
+        "CPU": 15.65625
+      }
+    ],
+    "nvidia_smi": "NVIDIA GeForce RTX 4060 Laptop GPU, 610.74, 8188 MiB, 175 MiB, 0 %, P8, 210 MHz, 3105 MHz, 3.20 W, 65"
+  },
+  "measurement_code": "american-nn/benchmark_speed.py: timeit, make_inputs, REPS_* (importálva)",
+  "reference_012": {
+    "crr_american_s_per_row": 0.0123909791999976,
+    "crr_european_batch_s_per_row": [
+      {
+        "batch": 1000,
+        "per_row_s": 0.0009157715000001
+      },
+      {
+        "batch": 10000,
+        "per_row_s": 0.0010835240100001
+      }
+    ],
+    "source": "american-nn/results/evaluation/speed/timings.csv",
+    "note": "R2 (CRR-európai + NN) becsült többletköltsége = a CRR-európai batch ideje/ár"
+  }
+}

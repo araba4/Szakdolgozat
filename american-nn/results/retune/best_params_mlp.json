@@ -1,0 +1,141 @@
+{
+  "arch": "mlp",
+  "model_class": "MLPPricer",
+  "architecture_size_fixed_baseline": {
+    "input_dim": 4,
+    "hidden_dim": 100,
+    "n_layers": 4
+  },
+  "lr": 0.0027334899206122912,
+  "weight_decay": 1.2318165594155648e-06,
+  "dropout": null,
+  "search_source": "american-nn/optuna_studies/retune/mlp.db",
+  "search_best_val_loss": 1.165593119621917e-06,
+  "search_best_trial_number": 19,
+  "n_trials_completed": 25,
+  "n_trials_target": 25,
+  "final_patience": 30,
+  "final_max_epochs": 200,
+  "final_batch_size": 4096,
+  "seed": 42,
+  "final_retrain_best_epoch": 199,
+  "final_retrain_n_epochs_run": 200,
+  "hit_max_epochs": true,
+  "final_retrain_best_val_loss": 5.248645562642196e-07,
+  "param_count_match": true,
+  "param_count": 30901,
+  "hpo_test_metrics": {
+    "RMSE": 0.0007472617435269058,
+    "MAE": 0.0004488574340939522,
+    "MAPE (%)": 30959.780883789062,
+    "max_error": 0.03544045239686966,
+    "R2": 0.999977171421051,
+    "MSE": 5.584001133388711e-07
+  },
+  "retrain_seconds": 1139.636090517044,
+  "val_mse_recheck": {
+    "checkpoint_val_loss": 5.248645562642196e-07,
+    "checkpoint_best_epoch": 199,
+    "reloaded_val_mse": 5.2486456268989e-07,
+    "rel_diff": 1.224253080816199e-08,
+    "loader": "Önlab src/evaluate.py load_model + PricingDataset"
+  },
+  "target": "american",
+  "target_definition": "american_put_price / K",
+  "search_target": "american",
+  "study_name": "mlp",
+  "study_db": "american-nn/optuna_studies/retune/mlp.db",
+  "sampler": "TPESampler(seed=42)",
+  "pruner": "HyperbandPruner(min_resource=3, max_resource=40, reduction_factor=3)",
+  "search_max_epochs": 40,
+  "search_patience": 8,
+  "search_batch_size": 4096,
+  "cold_start": true,
+  "n_trials_total": 25,
+  "n_trials_valid": 25,
+  "n_trials_complete": 9,
+  "n_trials_pruned": 16,
+  "n_trials_fail": 0,
+  "fail_trial_numbers": [],
+  "resume_events": [
+    {
+      "at": "2026-10-14 03:10:39",
+      "n_trials_in_storage": 25,
+      "n_valid": 25,
+      "n_remaining": 0,
+      "stale_trials_set_fail": [],
+      "sampler_state_restored": true,
+      "sampler_state_after_trial": 24,
+      "last_finished_trial": 24,
+      "sampler_state_consistent": true
+    }
+  ],
+  "param_importance_ped_anova": {
+    "lr": 0.539686527248186,
+    "weight_decay": 0.460313472751814
+  },
+  "hpo_test_metrics_usd": {
+    "RMSE": 0.07550856045251148,
+    "MAE": 0.04023354620496358,
+    "max_error": 3.9782973177509824,
+    "R2": 0.9999921390498547
+  },
+  "metrics_american": "american-nn/results/retune/metrics_mlp_american_retune_p30.json",
+  "european_reference": {
+    "run": "mlp_european_retune_p30",
+    "metrics": "american-nn/results/retune/metrics_mlp_european_retune_p30.json",
+    "target_definition": "european_put_price / K",
+    "hyperparameters": {
+      "lr": 0.0027334899206122912,
+      "weight_decay": 1.2318165594155648e-06,
+      "dropout": null,
+      "batch_size": 4096
+    },
+    "hyperparameters_bitwise_equal_american": true,
+    "best_epoch": 196,
+    "n_epochs_run": 200,
+    "hit_max_epochs": true,
+    "best_val_loss": 5.879038467476979e-07,
+    "test_metrics": {
+      "RMSE": 0.0007865182706154883,
+      "MAE": 0.00048807470011524856,
+      "MAPE (%)": 25935.589599609375,
+      "max_error": 0.03547313064336777,
+      "R2": 0.9999734163284302,
+      "MSE": 6.186109900119785e-07
+    },
+    "test_metrics_usd": {
+      "RMSE": 0.07970784049964146,
+      "MAE": 0.04398178751726932,
+      "max_error": 4.0577698617240285,
+      "R2": 0.9999907375679365
+    },
+    "train_seconds": 1138.1211502552032,
+    "val_recheck": {
+      "checkpoint_val_loss": 5.879038467476979e-07,
+      "checkpoint_best_epoch": 196,
+      "reloaded_val_mse": 5.87903844223864e-07,
+      "rel_diff": 4.292936487896892e-09,
+      "loader": "Önlab src/evaluate.py load_model + PricingDataset"
+    }
+  },
+  "european_call_tpe_reference": {
+    "search_json": "hpo/results/best_params_mlp.json",
+    "p30_json": "hpo/results/p30/best_params_mlp.json",
+    "lr": 0.0013901193085065577,
+    "weight_decay": 1.362943618738406e-06,
+    "dropout": null,
+    "search_best_val_loss": 1.46433747488724e-06,
+    "search_best_trial_number": 15,
+    "p30_best_val_loss": 9.014658192306039e-07
+  },
+  "search_time_s": 191.84563019988127,
+  "search_time_s_this_run": 3.6999117583036423e-06,
+  "n_search_invocations": 1,
+  "search_trial_duration_sum_s": 190.97092299999997,
+  "n_search_epochs": 544,
+  "final_train_time_s_american": 1139.636090517044,
+  "final_train_time_s_european": 1138.1211502552032,
+  "total_time_s": 2469.6028709721286,
+  "pipeline_time_s_this_run": 1142.6450634000357
+}

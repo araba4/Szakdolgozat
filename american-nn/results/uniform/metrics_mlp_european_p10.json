@@ -1,0 +1,85 @@
+{
+  "run": "mlp_european_p10",
+  "arch": "mlp",
+  "model_class": "MLPPricer",
+  "target": "european",
+  "target_col": "european_put_price_norm",
+  "target_definition": "european_put_price / K",
+  "patience": 10,
+  "max_epochs": 200,
+  "seed": 42,
+  "hyperparameters": {
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 4096,
+    "dropout": null
+  },
+  "model_kwargs": {
+    "input_dim": 4,
+    "hidden_dim": 100,
+    "n_layers": 4
+  },
+  "param_count": 30901,
+  "param_count_check": {
+    "onlab_v1_checkpoint": "Önlab eredmények/models/mlp_best.pt",
+    "onlab_v1_model_kwargs": {
+      "input_dim": 4,
+      "hidden_dim": 100,
+      "n_layers": 4
+    },
+    "model_kwargs": {
+      "input_dim": 4,
+      "hidden_dim": 100,
+      "n_layers": 4
+    },
+    "onlab_v1_param_count": 30901,
+    "param_count": 30901,
+    "param_count_match": true,
+    "model_kwargs_match": true
+  },
+  "checkpoint": "american-nn/models/uniform/mlp_european_p10_best.pt",
+  "data_files": {
+    "train": "american-options/data/train.parquet",
+    "val": "american-options/data/val.parquet",
+    "test": "american-options/data/test.parquet"
+  },
+  "best_epoch": 25,
+  "n_epochs_run": 35,
+  "hit_max_epochs": false,
+  "best_val_loss": 2.203745482470064e-05,
+  "train_seconds": 205.4186761379242,
+  "mean_epoch_seconds": 5.868867928641183,
+  "val_recheck": {
+    "checkpoint_val_loss": 2.203745482470064e-05,
+    "checkpoint_best_epoch": 25,
+    "reloaded_val_mse": 2.2037454702172693e-05,
+    "rel_diff": 5.559986321975572e-09,
+    "loader": "Önlab src/evaluate.py load_model + PricingDataset"
+  },
+  "test_metrics": {
+    "RMSE": 0.004748352337628603,
+    "MAE": 0.002940970007330179,
+    "MAPE (%)": 124791.93115234375,
+    "max_error": 0.08940419554710388,
+    "R2": 0.9990313649177551,
+    "MSE": 2.254684992226302e-05
+  },
+  "test_metrics_usd": {
+    "RMSE": 0.5212017835597683,
+    "MAE": 0.2716476437931946,
+    "max_error": 11.008294328077582,
+    "R2": 0.999603963935792
+  },
+  "checkpoint_target_col": "european_put_price_norm",
+  "checkpoint_model_kwargs": {
+    "input_dim": 4,
+    "hidden_dim": 100,
+    "n_layers": 4
+  },
+  "checkpoint_feature_cols": [
+    "moneyness_norm",
+    "T_norm",
+    "r_norm",
+    "sigma_norm"
+  ]
+}

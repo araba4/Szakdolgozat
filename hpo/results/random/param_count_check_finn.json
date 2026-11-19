@@ -1,0 +1,21 @@
+{
+  "arch": "finn",
+  "baseline_checkpoint": "Önlab eredmények/models/finn_best.pt",
+  "baseline_model_kwargs": {
+    "input_dim": 4,
+    "approx_dim": 64,
+    "resnet_dim": 256,
+    "n_blocks": 3,
+    "dropout": 0.1
+  },
+  "random_model_kwargs": {
+    "input_dim": 4,
+    "approx_dim": 64,
+    "resnet_dim": 256,
+    "n_blocks": 3,
+    "dropout": 0.3182052056318902
+  },
+  "baseline_param_count": 402882,
+  "random_param_count": 402882,
+  "match": true
+}

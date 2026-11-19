@@ -1,0 +1,37 @@
+{
+  "rows": [
+    {
+      "run": "mlp_american_retune_p30",
+      "n_rows": 150000,
+      "test_rmse_from_cells": 0.0007472617325745559,
+      "test_rmse_levels_table": 0.0007472617435269,
+      "rel_diff": 1.465663707487918e-08,
+      "source": "american-nn/results/retune/metrics_mlp_american_retune_p30.json"
+    },
+    {
+      "run": "mlp_european_retune_p30",
+      "n_rows": 150000,
+      "test_rmse_from_cells": 0.0007865182710400225,
+      "test_rmse_levels_table": 0.0007865182706154,
+      "rel_diff": 5.398761657895916e-10,
+      "source": "american-nn/results/retune/metrics_mlp_european_retune_p30.json"
+    },
+    {
+      "run": "resnet_american_retune_p30",
+      "n_rows": 150000,
+      "test_rmse_from_cells": 0.002288278793223217,
+      "test_rmse_levels_table": 0.0022882788907736,
+      "rel_diff": 4.263046061789566e-08,
+      "source": "american-nn/results/retune/metrics_resnet_american_retune_p30.json"
+    },
+    {
+      "run": "resnet_european_retune_p30",
+      "n_rows": 150000,
+      "test_rmse_from_cells": 0.002595345457787403,
+      "test_rmse_levels_table": 0.0025953454896807,
+      "rel_diff": 1.2288651802982401e-08,
+      "source": "american-nn/results/retune/metrics_resnet_european_retune_p30.json"
+    }
+  ],
+  "max_rel_diff": 4.263046061789566e-08
+}

@@ -1,0 +1,3001 @@
+{
+  "all_ok": true,
+  "device": "cuda",
+  "generated_at": "2026-10-23 20:02:03",
+  "runtime_s": 72.52923512458801,
+  "european": {
+    "ok": true,
+    "tol_test_rel": 1e-05,
+    "tol_val_rel": 0.0001,
+    "max_rel_diff_test_rmse": 0.0,
+    "max_rel_diff_val_mse": 1.5964322247980613e-07,
+    "n_value_checks": 158,
+    "n_failed": 0,
+    "value_checks": [
+      {
+        "arch": "mlp",
+        "level": "onlab_v1",
+        "quantity": "test_rmse",
+        "source": "hpo/results/best_params.baseline_test_metrics",
+        "saved": 0.004602072760462761,
+        "recomputed": 0.004602072760462761,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "mlp",
+        "level": "onlab_v1",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.baseline_test_metrics",
+        "saved": 0.004602072760462761,
+        "recomputed": 0.004602072760462761,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "mlp",
+        "level": "onlab_v1",
+        "quantity": "val_mse",
+        "source": "Önlab training_history.best_val_loss",
+        "saved": 2.060655468298743e-05,
+        "recomputed": 2.0606552839503613e-05,
+        "rel_diff": 8.946104023557242e-08,
+        "ok": true
+      },
+      {
+        "arch": "mlp",
+        "level": "onlab_v1",
+        "quantity": "val_mse",
+        "source": "hpo/results/best_params.baseline_val_loss",
+        "saved": 2.060655468298743e-05,
+        "recomputed": 2.0606552839503613e-05,
+        "rel_diff": 8.946104023557242e-08,
+        "ok": true
+      },
+      {
+        "arch": "mlp",
+        "level": "onlab_v1",
+        "quantity": "val_mse",
+        "source": "Önlab eredmények/models/mlp_best.pt:val_loss",
+        "saved": 2.060655468298743e-05,
+        "recomputed": 2.0606552839503613e-05,
+        "rel_diff": 8.946104023557242e-08,
+        "ok": true
+      },
+      {
+        "arch": "mlp",
+        "level": "tpe_p10",
+        "quantity": "test_rmse",
+        "source": "hpo/results/best_params.hpo_test_metrics",
+        "saved": 0.0009781861444935203,
+        "recomputed": 0.0009781861444935203,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "mlp",
+        "level": "tpe_p10",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.p10_test_metrics",
+        "saved": 0.0009781861444935203,
+        "recomputed": 0.0009781861444935203,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "mlp",
+        "level": "tpe_p10",
+        "quantity": "val_mse",
+        "source": "hpo/results/best_params.final_retrain_best_val_loss",
+        "saved": 9.014658192306039e-07,
+        "recomputed": 9.014658253962655e-07,
+        "rel_diff": 6.839595500338564e-09,
+        "ok": true
+      },
+      {
+        "arch": "mlp",
+        "level": "tpe_p10",
+        "quantity": "val_mse",
+        "source": "hpo/results/p30/best_params.p10_best_val_loss",
+        "saved": 9.014658192306039e-07,
+        "recomputed": 9.014658253962655e-07,
+        "rel_diff": 6.839595500338564e-09,
+        "ok": true
+      },
+      {
+        "arch": "mlp",
+        "level": "tpe_p10",
+        "quantity": "val_mse",
+        "source": "hpo/models/mlp_hpo_best.pt:val_loss",
+        "saved": 9.014658192306039e-07,
+        "recomputed": 9.014658253962655e-07,
+        "rel_diff": 6.839595500338564e-09,
+        "ok": true
+      },
+      {
+        "arch": "mlp",
+        "level": "tpe_p30",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.hpo_test_metrics",
+        "saved": 0.0009781861444935203,
+        "recomputed": 0.0009781861444935203,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "mlp",
+        "level": "tpe_p30",
+        "quantity": "test_rmse",
+        "source": "hpo/results/random/best_params.tpe_p30_test_metrics",
+        "saved": 0.0009781861444935203,
+        "recomputed": 0.0009781861444935203,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "mlp",
+        "level": "tpe_p30",
+        "quantity": "val_mse",
+        "source": "hpo/results/p30/best_params.final_retrain_best_val_loss",
+        "saved": 9.014658192306039e-07,
+        "recomputed": 9.014658253962655e-07,
+        "rel_diff": 6.839595500338564e-09,
+        "ok": true
+      },
+      {
+        "arch": "mlp",
+        "level": "tpe_p30",
+        "quantity": "val_mse",
+        "source": "hpo/results/random/best_params.tpe_p30_best_val_loss",
+        "saved": 9.014658192306039e-07,
+        "recomputed": 9.014658253962655e-07,
+        "rel_diff": 6.839595500338564e-09,
+        "ok": true
+      },
+      {
+        "arch": "mlp",
+        "level": "tpe_p30",
+        "quantity": "val_mse",
+        "source": "hpo/models/mlp_hpo_p30_best.pt:val_loss",
+        "saved": 9.014658192306039e-07,
+        "recomputed": 9.014658253962655e-07,
+        "rel_diff": 6.839595500338564e-09,
+        "ok": true
+      },
+      {
+        "arch": "mlp",
+        "level": "rs_p30",
+        "quantity": "test_rmse",
+        "source": "hpo/results/random/best_params.final_test_metrics",
+        "saved": 0.0009051295928657055,
+        "recomputed": 0.0009051295928657055,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "mlp",
+        "level": "rs_p30",
+        "quantity": "val_mse",
+        "source": "hpo/results/random/best_params.final_retrain_best_val_loss",
+        "saved": 7.730454758529959e-07,
+        "recomputed": 7.730455584454042e-07,
+        "rel_diff": 1.0684029703102151e-07,
+        "ok": true
+      },
+      {
+        "arch": "mlp",
+        "level": "rs_p30",
+        "quantity": "val_mse",
+        "source": "hpo/models/random/mlp_random_p30_best.pt:val_loss",
+        "saved": 7.730454758529959e-07,
+        "recomputed": 7.730455584454042e-07,
+        "rel_diff": 1.0684029703102151e-07,
+        "ok": true
+      },
+      {
+        "arch": "mlp",
+        "level": "onlab_best (v1)",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.onlab_best_test_metrics",
+        "saved": 0.004602072760462761,
+        "recomputed": 0.004602072760462761,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "mlp",
+        "level": "onlab_best (v1)",
+        "quantity": "val_mse",
+        "source": "hpo/results/p30/best_params.onlab_best_val_loss",
+        "saved": 2.060655468298743e-05,
+        "recomputed": 2.0606552839503613e-05,
+        "rel_diff": 8.946104023557242e-08,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "level": "onlab_v1",
+        "quantity": "test_rmse",
+        "source": "hpo/results/best_params.baseline_test_metrics",
+        "saved": 0.006060663145035505,
+        "recomputed": 0.006060663145035505,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "level": "onlab_v1",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.baseline_test_metrics",
+        "saved": 0.006060663145035505,
+        "recomputed": 0.006060663145035505,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "level": "onlab_v1",
+        "quantity": "val_mse",
+        "source": "Önlab training_history.best_val_loss",
+        "saved": 3.6346939804886156e-05,
+        "recomputed": 3.6346938043010923e-05,
+        "rel_diff": 4.8473825905439054e-08,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "level": "onlab_v1",
+        "quantity": "val_mse",
+        "source": "hpo/results/best_params.baseline_val_loss",
+        "saved": 3.6346939804886156e-05,
+        "recomputed": 3.6346938043010923e-05,
+        "rel_diff": 4.8473825905439054e-08,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "level": "onlab_v1",
+        "quantity": "val_mse",
+        "source": "Önlab eredmények/models/deep_mlp_best.pt:val_loss",
+        "saved": 3.6346939804886156e-05,
+        "recomputed": 3.6346938043010923e-05,
+        "rel_diff": 4.8473825905439054e-08,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "level": "tpe_p10",
+        "quantity": "test_rmse",
+        "source": "hpo/results/best_params.hpo_test_metrics",
+        "saved": 0.002471471903845668,
+        "recomputed": 0.002471471903845668,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "level": "tpe_p10",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.p10_test_metrics",
+        "saved": 0.002471471903845668,
+        "recomputed": 0.002471471903845668,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "level": "tpe_p10",
+        "quantity": "val_mse",
+        "source": "hpo/results/best_params.final_retrain_best_val_loss",
+        "saved": 6.049903221331381e-06,
+        "recomputed": 6.049902965916823e-06,
+        "rel_diff": 4.2217957654752264e-08,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "level": "tpe_p10",
+        "quantity": "val_mse",
+        "source": "hpo/results/p30/best_params.p10_best_val_loss",
+        "saved": 6.049903221331381e-06,
+        "recomputed": 6.049902965916823e-06,
+        "rel_diff": 4.2217957654752264e-08,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "level": "tpe_p10",
+        "quantity": "val_mse",
+        "source": "hpo/models/deep_mlp_hpo_best.pt:val_loss",
+        "saved": 6.049903221331381e-06,
+        "recomputed": 6.049902965916823e-06,
+        "rel_diff": 4.2217957654752264e-08,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "level": "tpe_p30",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.hpo_test_metrics",
+        "saved": 0.0021395706571638584,
+        "recomputed": 0.0021395706571638584,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "level": "tpe_p30",
+        "quantity": "test_rmse",
+        "source": "hpo/results/random/best_params.tpe_p30_test_metrics",
+        "saved": 0.0021395706571638584,
+        "recomputed": 0.0021395706571638584,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "level": "tpe_p30",
+        "quantity": "val_mse",
+        "source": "hpo/results/p30/best_params.final_retrain_best_val_loss",
+        "saved": 4.556064656790113e-06,
+        "recomputed": 4.556064712065095e-06,
+        "rel_diff": 1.2132176707045965e-08,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "level": "tpe_p30",
+        "quantity": "val_mse",
+        "source": "hpo/results/random/best_params.tpe_p30_best_val_loss",
+        "saved": 4.556064656790113e-06,
+        "recomputed": 4.556064712065095e-06,
+        "rel_diff": 1.2132176707045965e-08,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "level": "tpe_p30",
+        "quantity": "val_mse",
+        "source": "hpo/models/deep_mlp_hpo_p30_best.pt:val_loss",
+        "saved": 4.556064656790113e-06,
+        "recomputed": 4.556064712065095e-06,
+        "rel_diff": 1.2132176707045965e-08,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "level": "rs_p30",
+        "quantity": "test_rmse",
+        "source": "hpo/results/random/best_params.final_test_metrics",
+        "saved": 0.0029456864576786757,
+        "recomputed": 0.0029456864576786757,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "level": "rs_p30",
+        "quantity": "val_mse",
+        "source": "hpo/results/random/best_params.final_retrain_best_val_loss",
+        "saved": 8.6134515038187e-06,
+        "recomputed": 8.613451437374279e-06,
+        "rel_diff": 7.714029666032394e-09,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "level": "rs_p30",
+        "quantity": "val_mse",
+        "source": "hpo/models/random/deep_mlp_random_p30_best.pt:val_loss",
+        "saved": 8.6134515038187e-06,
+        "recomputed": 8.613451437374279e-06,
+        "rel_diff": 7.714029666032394e-09,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "level": "onlab_v2",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.onlab_v2_test_metrics",
+        "saved": 0.006060663145035505,
+        "recomputed": 0.006060663145035505,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "level": "onlab_v2",
+        "quantity": "val_mse",
+        "source": "Önlab training_history_v2.best_val_loss",
+        "saved": 3.6346939804886156e-05,
+        "recomputed": 3.6346938043010923e-05,
+        "rel_diff": 4.8473825905439054e-08,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "level": "onlab_v2",
+        "quantity": "val_mse",
+        "source": "Önlab eredmények/models/deep_mlp_v2_best.pt:val_loss",
+        "saved": 3.6346939804886156e-05,
+        "recomputed": 3.6346938043010923e-05,
+        "rel_diff": 4.8473825905439054e-08,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "level": "onlab_best (v1)",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.onlab_best_test_metrics",
+        "saved": 0.006060663145035505,
+        "recomputed": 0.006060663145035505,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "level": "onlab_best (v1)",
+        "quantity": "val_mse",
+        "source": "hpo/results/p30/best_params.onlab_best_val_loss",
+        "saved": 3.6346939804886156e-05,
+        "recomputed": 3.6346938043010923e-05,
+        "rel_diff": 4.8473825905439054e-08,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "level": "onlab_v1",
+        "quantity": "test_rmse",
+        "source": "hpo/results/best_params.baseline_test_metrics",
+        "saved": 0.018042145296931267,
+        "recomputed": 0.018042145296931267,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "level": "onlab_v1",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.baseline_test_metrics",
+        "saved": 0.018042145296931267,
+        "recomputed": 0.018042145296931267,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "level": "onlab_v1",
+        "quantity": "val_mse",
+        "source": "Önlab training_history.best_val_loss",
+        "saved": 0.00032282644992694256,
+        "recomputed": 0.0003228264972898742,
+        "rel_diff": 1.467132933979097e-07,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "level": "onlab_v1",
+        "quantity": "val_mse",
+        "source": "hpo/results/best_params.baseline_val_loss",
+        "saved": 0.00032282644992694256,
+        "recomputed": 0.0003228264972898742,
+        "rel_diff": 1.467132933979097e-07,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "level": "onlab_v1",
+        "quantity": "val_mse",
+        "source": "Önlab eredmények/models/dense_mlp_best.pt:val_loss",
+        "saved": 0.00032282644992694256,
+        "recomputed": 0.0003228264972898742,
+        "rel_diff": 1.467132933979097e-07,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "level": "tpe_p10",
+        "quantity": "test_rmse",
+        "source": "hpo/results/best_params.hpo_test_metrics",
+        "saved": 0.002041273983195424,
+        "recomputed": 0.002041273983195424,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "level": "tpe_p10",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.p10_test_metrics",
+        "saved": 0.002041273983195424,
+        "recomputed": 0.002041273983195424,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "level": "tpe_p10",
+        "quantity": "val_mse",
+        "source": "hpo/results/best_params.final_retrain_best_val_loss",
+        "saved": 4.0593225682581155e-06,
+        "recomputed": 4.059322303187932e-06,
+        "rel_diff": 6.52991179152694e-08,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "level": "tpe_p10",
+        "quantity": "val_mse",
+        "source": "hpo/results/p30/best_params.p10_best_val_loss",
+        "saved": 4.0593225682581155e-06,
+        "recomputed": 4.059322303187932e-06,
+        "rel_diff": 6.52991179152694e-08,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "level": "tpe_p10",
+        "quantity": "val_mse",
+        "source": "hpo/models/dense_mlp_hpo_best.pt:val_loss",
+        "saved": 4.0593225682581155e-06,
+        "recomputed": 4.059322303187932e-06,
+        "rel_diff": 6.52991179152694e-08,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "level": "tpe_p30",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.hpo_test_metrics",
+        "saved": 0.002034768695011735,
+        "recomputed": 0.002034768695011735,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "level": "tpe_p30",
+        "quantity": "test_rmse",
+        "source": "hpo/results/random/best_params.tpe_p30_test_metrics",
+        "saved": 0.002034768695011735,
+        "recomputed": 0.002034768695011735,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "level": "tpe_p30",
+        "quantity": "val_mse",
+        "source": "hpo/results/p30/best_params.final_retrain_best_val_loss",
+        "saved": 4.030238107273666e-06,
+        "recomputed": 4.030237749448574e-06,
+        "rel_diff": 8.878509959550496e-08,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "level": "tpe_p30",
+        "quantity": "val_mse",
+        "source": "hpo/results/random/best_params.tpe_p30_best_val_loss",
+        "saved": 4.030238107273666e-06,
+        "recomputed": 4.030237749448574e-06,
+        "rel_diff": 8.878509959550496e-08,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "level": "tpe_p30",
+        "quantity": "val_mse",
+        "source": "hpo/models/dense_mlp_hpo_p30_best.pt:val_loss",
+        "saved": 4.030238107273666e-06,
+        "recomputed": 4.030237749448574e-06,
+        "rel_diff": 8.878509959550496e-08,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "level": "rs_p30",
+        "quantity": "test_rmse",
+        "source": "hpo/results/random/best_params.final_test_metrics",
+        "saved": 0.004373347386717796,
+        "recomputed": 0.004373347386717796,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "level": "rs_p30",
+        "quantity": "val_mse",
+        "source": "hpo/results/random/best_params.final_retrain_best_val_loss",
+        "saved": 1.8591735319932922e-05,
+        "recomputed": 1.8591735721123223e-05,
+        "rel_diff": 2.1578959380206886e-08,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "level": "rs_p30",
+        "quantity": "val_mse",
+        "source": "hpo/models/random/dense_mlp_random_p30_best.pt:val_loss",
+        "saved": 1.8591735319932922e-05,
+        "recomputed": 1.8591735721123223e-05,
+        "rel_diff": 2.1578959380206886e-08,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "level": "onlab_v2",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.onlab_v2_test_metrics",
+        "saved": 0.018042145296931267,
+        "recomputed": 0.018042145296931267,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "level": "onlab_v2",
+        "quantity": "val_mse",
+        "source": "Önlab training_history_v2.best_val_loss",
+        "saved": 0.00032282644992694256,
+        "recomputed": 0.0003228264972898742,
+        "rel_diff": 1.467132933979097e-07,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "level": "onlab_v2",
+        "quantity": "val_mse",
+        "source": "Önlab eredmények/models/dense_mlp_v2_best.pt:val_loss",
+        "saved": 0.00032282644992694256,
+        "recomputed": 0.0003228264972898742,
+        "rel_diff": 1.467132933979097e-07,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "level": "onlab_best (v1)",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.onlab_best_test_metrics",
+        "saved": 0.018042145296931267,
+        "recomputed": 0.018042145296931267,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "level": "onlab_best (v1)",
+        "quantity": "val_mse",
+        "source": "hpo/results/p30/best_params.onlab_best_val_loss",
+        "saved": 0.00032282644992694256,
+        "recomputed": 0.0003228264972898742,
+        "rel_diff": 1.467132933979097e-07,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "level": "onlab_v1",
+        "quantity": "test_rmse",
+        "source": "hpo/results/best_params.baseline_test_metrics",
+        "saved": 0.0062165530398488045,
+        "recomputed": 0.0062165530398488045,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "level": "onlab_v1",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.baseline_test_metrics",
+        "saved": 0.0062165530398488045,
+        "recomputed": 0.0062165530398488045,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "level": "onlab_v1",
+        "quantity": "val_mse",
+        "source": "Önlab training_history.best_val_loss",
+        "saved": 3.846234431723133e-05,
+        "recomputed": 3.846234583427047e-05,
+        "rel_diff": 3.944219121574926e-08,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "level": "onlab_v1",
+        "quantity": "val_mse",
+        "source": "hpo/results/best_params.baseline_val_loss",
+        "saved": 3.846234431723133e-05,
+        "recomputed": 3.846234583427047e-05,
+        "rel_diff": 3.944219121574926e-08,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "level": "onlab_v1",
+        "quantity": "val_mse",
+        "source": "Önlab eredmények/models/resnet_best.pt:val_loss",
+        "saved": 3.846234431723133e-05,
+        "recomputed": 3.846234583427047e-05,
+        "rel_diff": 3.944219121574926e-08,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "level": "tpe_p10",
+        "quantity": "test_rmse",
+        "source": "hpo/results/best_params.hpo_test_metrics",
+        "saved": 0.004282673820853233,
+        "recomputed": 0.004282673820853233,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "level": "tpe_p10",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.p10_test_metrics",
+        "saved": 0.004282673820853233,
+        "recomputed": 0.004282673820853233,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "level": "tpe_p10",
+        "quantity": "val_mse",
+        "source": "hpo/results/best_params.final_retrain_best_val_loss",
+        "saved": 1.807980308289795e-05,
+        "recomputed": 1.8079803093665192e-05,
+        "rel_diff": 5.955397975724967e-10,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "level": "tpe_p10",
+        "quantity": "val_mse",
+        "source": "hpo/results/p30/best_params.p10_best_val_loss",
+        "saved": 1.807980308289795e-05,
+        "recomputed": 1.8079803093665192e-05,
+        "rel_diff": 5.955397975724967e-10,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "level": "tpe_p10",
+        "quantity": "val_mse",
+        "source": "hpo/models/resnet_hpo_best.pt:val_loss",
+        "saved": 1.807980308289795e-05,
+        "recomputed": 1.8079803093665192e-05,
+        "rel_diff": 5.955397975724967e-10,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "level": "tpe_p30",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.hpo_test_metrics",
+        "saved": 0.00203717197291553,
+        "recomputed": 0.00203717197291553,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "level": "tpe_p30",
+        "quantity": "test_rmse",
+        "source": "hpo/results/random/best_params.tpe_p30_test_metrics",
+        "saved": 0.00203717197291553,
+        "recomputed": 0.00203717197291553,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "level": "tpe_p30",
+        "quantity": "val_mse",
+        "source": "hpo/results/p30/best_params.final_retrain_best_val_loss",
+        "saved": 3.995346991699383e-06,
+        "recomputed": 3.995346983699333e-06,
+        "rel_diff": 2.002341729162576e-09,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "level": "tpe_p30",
+        "quantity": "val_mse",
+        "source": "hpo/results/random/best_params.tpe_p30_best_val_loss",
+        "saved": 3.995346991699383e-06,
+        "recomputed": 3.995346983699333e-06,
+        "rel_diff": 2.002341729162576e-09,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "level": "tpe_p30",
+        "quantity": "val_mse",
+        "source": "hpo/models/resnet_hpo_p30_best.pt:val_loss",
+        "saved": 3.995346991699383e-06,
+        "recomputed": 3.995346983699333e-06,
+        "rel_diff": 2.002341729162576e-09,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "level": "rs_p30",
+        "quantity": "test_rmse",
+        "source": "hpo/results/random/best_params.final_test_metrics",
+        "saved": 0.003982672467827797,
+        "recomputed": 0.003982672467827797,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "level": "rs_p30",
+        "quantity": "val_mse",
+        "source": "hpo/results/random/best_params.final_retrain_best_val_loss",
+        "saved": 1.5492238594645946e-05,
+        "recomputed": 1.5492236621416668e-05,
+        "rel_diff": 1.273688929128123e-07,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "level": "rs_p30",
+        "quantity": "val_mse",
+        "source": "hpo/models/random/resnet_random_p30_best.pt:val_loss",
+        "saved": 1.5492238594645946e-05,
+        "recomputed": 1.5492236621416668e-05,
+        "rel_diff": 1.273688929128123e-07,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "level": "onlab_v2",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.onlab_v2_test_metrics",
+        "saved": 0.002912694588303566,
+        "recomputed": 0.002912694588303566,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "level": "onlab_v2",
+        "quantity": "val_mse",
+        "source": "Önlab training_history_v2.best_val_loss",
+        "saved": 8.347535429347772e-06,
+        "recomputed": 8.347535148895433e-06,
+        "rel_diff": 3.359702296002528e-08,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "level": "onlab_v2",
+        "quantity": "val_mse",
+        "source": "Önlab eredmények/models/resnet_v2_best.pt:val_loss",
+        "saved": 8.347535429347772e-06,
+        "recomputed": 8.347535148895433e-06,
+        "rel_diff": 3.359702296002528e-08,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "level": "onlab_best (v2)",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.onlab_best_test_metrics",
+        "saved": 0.002912694588303566,
+        "recomputed": 0.002912694588303566,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "level": "onlab_best (v2)",
+        "quantity": "val_mse",
+        "source": "hpo/results/p30/best_params.onlab_best_val_loss",
+        "saved": 8.347535429347772e-06,
+        "recomputed": 8.347535148895433e-06,
+        "rel_diff": 3.359702296002528e-08,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "level": "onlab_v1",
+        "quantity": "test_rmse",
+        "source": "hpo/results/best_params.baseline_test_metrics",
+        "saved": 0.009293452836573124,
+        "recomputed": 0.009293452836573124,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "level": "onlab_v1",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.baseline_test_metrics",
+        "saved": 0.009293452836573124,
+        "recomputed": 0.009293452836573124,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "level": "onlab_v1",
+        "quantity": "val_mse",
+        "source": "Önlab training_history.best_val_loss",
+        "saved": 8.49894749194694e-05,
+        "recomputed": 8.49894651593153e-05,
+        "rel_diff": 1.1483956226806927e-07,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "level": "onlab_v1",
+        "quantity": "val_mse",
+        "source": "hpo/results/best_params.baseline_val_loss",
+        "saved": 8.49894749194694e-05,
+        "recomputed": 8.49894651593153e-05,
+        "rel_diff": 1.1483956226806927e-07,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "level": "onlab_v1",
+        "quantity": "val_mse",
+        "source": "Önlab eredmények/models/gelu_resnet_best.pt:val_loss",
+        "saved": 8.49894749194694e-05,
+        "recomputed": 8.49894651593153e-05,
+        "rel_diff": 1.1483956226806927e-07,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "level": "tpe_p10",
+        "quantity": "test_rmse",
+        "source": "hpo/results/best_params.hpo_test_metrics",
+        "saved": 0.003877681912854314,
+        "recomputed": 0.003877681912854314,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "level": "tpe_p10",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.p10_test_metrics",
+        "saved": 0.003877681912854314,
+        "recomputed": 0.003877681912854314,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "level": "tpe_p10",
+        "quantity": "val_mse",
+        "source": "hpo/results/best_params.final_retrain_best_val_loss",
+        "saved": 1.4779457620267445e-05,
+        "recomputed": 1.4779457416670217e-05,
+        "rel_diff": 1.3775690134093843e-08,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "level": "tpe_p10",
+        "quantity": "val_mse",
+        "source": "hpo/results/p30/best_params.p10_best_val_loss",
+        "saved": 1.4779457620267445e-05,
+        "recomputed": 1.4779457416670217e-05,
+        "rel_diff": 1.3775690134093843e-08,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "level": "tpe_p10",
+        "quantity": "val_mse",
+        "source": "hpo/models/gelu_resnet_hpo_best.pt:val_loss",
+        "saved": 1.4779457620267445e-05,
+        "recomputed": 1.4779457416670217e-05,
+        "rel_diff": 1.3775690134093843e-08,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "level": "tpe_p30",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.hpo_test_metrics",
+        "saved": 0.003877681912854314,
+        "recomputed": 0.003877681912854314,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "level": "tpe_p30",
+        "quantity": "test_rmse",
+        "source": "hpo/results/random/best_params.tpe_p30_test_metrics",
+        "saved": 0.003877681912854314,
+        "recomputed": 0.003877681912854314,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "level": "tpe_p30",
+        "quantity": "val_mse",
+        "source": "hpo/results/p30/best_params.final_retrain_best_val_loss",
+        "saved": 1.4779457620267445e-05,
+        "recomputed": 1.4779457416670217e-05,
+        "rel_diff": 1.3775690134093843e-08,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "level": "tpe_p30",
+        "quantity": "val_mse",
+        "source": "hpo/results/random/best_params.tpe_p30_best_val_loss",
+        "saved": 1.4779457620267445e-05,
+        "recomputed": 1.4779457416670217e-05,
+        "rel_diff": 1.3775690134093843e-08,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "level": "tpe_p30",
+        "quantity": "val_mse",
+        "source": "hpo/models/gelu_resnet_hpo_p30_best.pt:val_loss",
+        "saved": 1.4779457620267445e-05,
+        "recomputed": 1.4779457416670217e-05,
+        "rel_diff": 1.3775690134093843e-08,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "level": "rs_p30",
+        "quantity": "test_rmse",
+        "source": "hpo/results/random/best_params.final_test_metrics",
+        "saved": 0.003972660284489393,
+        "recomputed": 0.003972660284489393,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "level": "rs_p30",
+        "quantity": "val_mse",
+        "source": "hpo/results/random/best_params.final_retrain_best_val_loss",
+        "saved": 1.5449940599501133e-05,
+        "recomputed": 1.5449941329796074e-05,
+        "rel_diff": 4.7268462703746106e-08,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "level": "rs_p30",
+        "quantity": "val_mse",
+        "source": "hpo/models/random/gelu_resnet_random_p30_best.pt:val_loss",
+        "saved": 1.5449940599501133e-05,
+        "recomputed": 1.5449941329796074e-05,
+        "rel_diff": 4.7268462703746106e-08,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "level": "onlab_v2",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.onlab_v2_test_metrics",
+        "saved": 0.009293452836573124,
+        "recomputed": 0.009293452836573124,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "level": "onlab_v2",
+        "quantity": "val_mse",
+        "source": "Önlab training_history_v2.best_val_loss",
+        "saved": 8.49894749194694e-05,
+        "recomputed": 8.49894651593153e-05,
+        "rel_diff": 1.1483956226806927e-07,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "level": "onlab_v2",
+        "quantity": "val_mse",
+        "source": "Önlab eredmények/models/gelu_resnet_v2_best.pt:val_loss",
+        "saved": 8.49894749194694e-05,
+        "recomputed": 8.49894651593153e-05,
+        "rel_diff": 1.1483956226806927e-07,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "level": "onlab_best (v1)",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.onlab_best_test_metrics",
+        "saved": 0.009293452836573124,
+        "recomputed": 0.009293452836573124,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "level": "onlab_best (v1)",
+        "quantity": "val_mse",
+        "source": "hpo/results/p30/best_params.onlab_best_val_loss",
+        "saved": 8.49894749194694e-05,
+        "recomputed": 8.49894651593153e-05,
+        "rel_diff": 1.1483956226806927e-07,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "level": "onlab_v1",
+        "quantity": "test_rmse",
+        "source": "hpo/results/best_params.baseline_test_metrics",
+        "saved": 0.014884491451084614,
+        "recomputed": 0.014884491451084614,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "level": "onlab_v1",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.baseline_test_metrics",
+        "saved": 0.014884491451084614,
+        "recomputed": 0.014884491451084614,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "level": "onlab_v1",
+        "quantity": "val_mse",
+        "source": "Önlab training_history.best_val_loss",
+        "saved": 0.00021953723330050707,
+        "recomputed": 0.0002195372349821402,
+        "rel_diff": 7.659899444275228e-09,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "level": "onlab_v1",
+        "quantity": "val_mse",
+        "source": "hpo/results/best_params.baseline_val_loss",
+        "saved": 0.00021953723330050707,
+        "recomputed": 0.0002195372349821402,
+        "rel_diff": 7.659899444275228e-09,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "level": "onlab_v1",
+        "quantity": "val_mse",
+        "source": "Önlab eredmények/models/highway_best.pt:val_loss",
+        "saved": 0.00021953723330050707,
+        "recomputed": 0.0002195372349821402,
+        "rel_diff": 7.659899444275228e-09,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "level": "tpe_p10",
+        "quantity": "test_rmse",
+        "source": "hpo/results/best_params.hpo_test_metrics",
+        "saved": 0.002951303031295538,
+        "recomputed": 0.002951303031295538,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "level": "tpe_p10",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.p10_test_metrics",
+        "saved": 0.002951303031295538,
+        "recomputed": 0.002951303031295538,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "level": "tpe_p10",
+        "quantity": "val_mse",
+        "source": "hpo/results/best_params.final_retrain_best_val_loss",
+        "saved": 8.553786329575815e-06,
+        "recomputed": 8.553785854649757e-06,
+        "rel_diff": 5.5522319502486445e-08,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "level": "tpe_p10",
+        "quantity": "val_mse",
+        "source": "hpo/results/p30/best_params.p10_best_val_loss",
+        "saved": 8.553786329575815e-06,
+        "recomputed": 8.553785854649757e-06,
+        "rel_diff": 5.5522319502486445e-08,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "level": "tpe_p10",
+        "quantity": "val_mse",
+        "source": "hpo/models/highway_hpo_best.pt:val_loss",
+        "saved": 8.553786329575815e-06,
+        "recomputed": 8.553785854649757e-06,
+        "rel_diff": 5.5522319502486445e-08,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "level": "tpe_p30",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.hpo_test_metrics",
+        "saved": 0.002944914624094963,
+        "recomputed": 0.002944914624094963,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "level": "tpe_p30",
+        "quantity": "test_rmse",
+        "source": "hpo/results/random/best_params.tpe_p30_test_metrics",
+        "saved": 0.002944914624094963,
+        "recomputed": 0.002944914624094963,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "level": "tpe_p30",
+        "quantity": "val_mse",
+        "source": "hpo/results/p30/best_params.final_retrain_best_val_loss",
+        "saved": 8.526690297682459e-06,
+        "recomputed": 8.526691658910775e-06,
+        "rel_diff": 1.5964322247980613e-07,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "level": "tpe_p30",
+        "quantity": "val_mse",
+        "source": "hpo/results/random/best_params.tpe_p30_best_val_loss",
+        "saved": 8.526690297682459e-06,
+        "recomputed": 8.526691658910775e-06,
+        "rel_diff": 1.5964322247980613e-07,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "level": "tpe_p30",
+        "quantity": "val_mse",
+        "source": "hpo/models/highway_hpo_p30_best.pt:val_loss",
+        "saved": 8.526690297682459e-06,
+        "recomputed": 8.526691658910775e-06,
+        "rel_diff": 1.5964322247980613e-07,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "level": "rs_p30",
+        "quantity": "test_rmse",
+        "source": "hpo/results/random/best_params.final_test_metrics",
+        "saved": 0.0030620249453932047,
+        "recomputed": 0.0030620249453932047,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "level": "rs_p30",
+        "quantity": "val_mse",
+        "source": "hpo/results/random/best_params.final_retrain_best_val_loss",
+        "saved": 9.21287110094757e-06,
+        "recomputed": 9.212870496442269e-06,
+        "rel_diff": 6.561530007199363e-08,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "level": "rs_p30",
+        "quantity": "val_mse",
+        "source": "hpo/models/random/highway_random_p30_best.pt:val_loss",
+        "saved": 9.21287110094757e-06,
+        "recomputed": 9.212870496442269e-06,
+        "rel_diff": 6.561530007199363e-08,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "level": "onlab_v2",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.onlab_v2_test_metrics",
+        "saved": 0.014884491451084614,
+        "recomputed": 0.014884491451084614,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "level": "onlab_v2",
+        "quantity": "val_mse",
+        "source": "Önlab training_history_v2.best_val_loss",
+        "saved": 0.00021953723330050707,
+        "recomputed": 0.0002195372349821402,
+        "rel_diff": 7.659899444275228e-09,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "level": "onlab_v2",
+        "quantity": "val_mse",
+        "source": "Önlab eredmények/models/highway_v2_best.pt:val_loss",
+        "saved": 0.00021953723330050707,
+        "recomputed": 0.0002195372349821402,
+        "rel_diff": 7.659899444275228e-09,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "level": "onlab_best (v1)",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.onlab_best_test_metrics",
+        "saved": 0.014884491451084614,
+        "recomputed": 0.014884491451084614,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "level": "onlab_best (v1)",
+        "quantity": "val_mse",
+        "source": "hpo/results/p30/best_params.onlab_best_val_loss",
+        "saved": 0.00021953723330050707,
+        "recomputed": 0.0002195372349821402,
+        "rel_diff": 7.659899444275228e-09,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "level": "onlab_v1",
+        "quantity": "test_rmse",
+        "source": "hpo/results/best_params.baseline_test_metrics",
+        "saved": 0.00914283748716116,
+        "recomputed": 0.00914283748716116,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "level": "onlab_v1",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.baseline_test_metrics",
+        "saved": 0.00914283748716116,
+        "recomputed": 0.00914283748716116,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "level": "onlab_v1",
+        "quantity": "val_mse",
+        "source": "Önlab training_history.best_val_loss",
+        "saved": 8.240615842631087e-05,
+        "recomputed": 8.240615643197169e-05,
+        "rel_diff": 2.4201336657548998e-08,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "level": "onlab_v1",
+        "quantity": "val_mse",
+        "source": "hpo/results/best_params.baseline_val_loss",
+        "saved": 8.240615842631087e-05,
+        "recomputed": 8.240615643197169e-05,
+        "rel_diff": 2.4201336657548998e-08,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "level": "onlab_v1",
+        "quantity": "val_mse",
+        "source": "Önlab eredmények/models/finn_best.pt:val_loss",
+        "saved": 8.240615842631087e-05,
+        "recomputed": 8.240615643197169e-05,
+        "rel_diff": 2.4201336657548998e-08,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "level": "tpe_p10",
+        "quantity": "test_rmse",
+        "source": "hpo/results/best_params.hpo_test_metrics",
+        "saved": 0.0029768540989607573,
+        "recomputed": 0.0029768540989607573,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "level": "tpe_p10",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.p10_test_metrics",
+        "saved": 0.0029768540989607573,
+        "recomputed": 0.0029768540989607573,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "level": "tpe_p10",
+        "quantity": "val_mse",
+        "source": "hpo/results/best_params.final_retrain_best_val_loss",
+        "saved": 8.673012522631325e-06,
+        "recomputed": 8.673013087275245e-06,
+        "rel_diff": 6.510355173403069e-08,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "level": "tpe_p10",
+        "quantity": "val_mse",
+        "source": "hpo/results/p30/best_params.p10_best_val_loss",
+        "saved": 8.673012522631325e-06,
+        "recomputed": 8.673013087275245e-06,
+        "rel_diff": 6.510355173403069e-08,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "level": "tpe_p10",
+        "quantity": "val_mse",
+        "source": "hpo/models/finn_hpo_best.pt:val_loss",
+        "saved": 8.673012522631325e-06,
+        "recomputed": 8.673013087275245e-06,
+        "rel_diff": 6.510355173403069e-08,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "level": "tpe_p30",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.hpo_test_metrics",
+        "saved": 0.0029768540989607573,
+        "recomputed": 0.0029768540989607573,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "level": "tpe_p30",
+        "quantity": "test_rmse",
+        "source": "hpo/results/random/best_params.tpe_p30_test_metrics",
+        "saved": 0.0029768540989607573,
+        "recomputed": 0.0029768540989607573,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "level": "tpe_p30",
+        "quantity": "val_mse",
+        "source": "hpo/results/p30/best_params.final_retrain_best_val_loss",
+        "saved": 8.673012522631325e-06,
+        "recomputed": 8.673013087275245e-06,
+        "rel_diff": 6.510355173403069e-08,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "level": "tpe_p30",
+        "quantity": "val_mse",
+        "source": "hpo/results/random/best_params.tpe_p30_best_val_loss",
+        "saved": 8.673012522631325e-06,
+        "recomputed": 8.673013087275245e-06,
+        "rel_diff": 6.510355173403069e-08,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "level": "tpe_p30",
+        "quantity": "val_mse",
+        "source": "hpo/models/finn_hpo_p30_best.pt:val_loss",
+        "saved": 8.673012522631325e-06,
+        "recomputed": 8.673013087275245e-06,
+        "rel_diff": 6.510355173403069e-08,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "level": "rs_p30",
+        "quantity": "test_rmse",
+        "source": "hpo/results/random/best_params.final_test_metrics",
+        "saved": 0.003810486989095807,
+        "recomputed": 0.003810486989095807,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "level": "rs_p30",
+        "quantity": "val_mse",
+        "source": "hpo/results/random/best_params.final_retrain_best_val_loss",
+        "saved": 1.448127835552441e-05,
+        "recomputed": 1.4481277288565806e-05,
+        "rel_diff": 7.367848184390813e-08,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "level": "rs_p30",
+        "quantity": "val_mse",
+        "source": "hpo/models/random/finn_random_p30_best.pt:val_loss",
+        "saved": 1.448127835552441e-05,
+        "recomputed": 1.4481277288565806e-05,
+        "rel_diff": 7.367848184390813e-08,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "level": "onlab_v2",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.onlab_v2_test_metrics",
+        "saved": 0.00914283748716116,
+        "recomputed": 0.00914283748716116,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "level": "onlab_v2",
+        "quantity": "val_mse",
+        "source": "Önlab training_history_v2.best_val_loss",
+        "saved": 8.240615842631087e-05,
+        "recomputed": 8.240615643197169e-05,
+        "rel_diff": 2.4201336657548998e-08,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "level": "onlab_v2",
+        "quantity": "val_mse",
+        "source": "Önlab eredmények/models/finn_v2_best.pt:val_loss",
+        "saved": 8.240615842631087e-05,
+        "recomputed": 8.240615643197169e-05,
+        "rel_diff": 2.4201336657548998e-08,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "level": "onlab_best (v1)",
+        "quantity": "test_rmse",
+        "source": "hpo/results/p30/best_params.onlab_best_test_metrics",
+        "saved": 0.00914283748716116,
+        "recomputed": 0.00914283748716116,
+        "rel_diff": 0.0,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "level": "onlab_best (v1)",
+        "quantity": "val_mse",
+        "source": "hpo/results/p30/best_params.onlab_best_val_loss",
+        "saved": 8.240615842631087e-05,
+        "recomputed": 8.240615643197169e-05,
+        "rel_diff": 2.4201336657548998e-08,
+        "ok": true
+      }
+    ],
+    "onlab_best_ref_check": {
+      "mlp": {
+        "mine": "v1",
+        "saved": "v1",
+        "ok": true
+      },
+      "deep_mlp": {
+        "mine": "v1",
+        "saved": "v1",
+        "ok": true
+      },
+      "dense_mlp": {
+        "mine": "v1",
+        "saved": "v1",
+        "ok": true
+      },
+      "resnet": {
+        "mine": "v2",
+        "saved": "v2",
+        "ok": true
+      },
+      "gelu_resnet": {
+        "mine": "v1",
+        "saved": "v1",
+        "ok": true
+      },
+      "highway": {
+        "mine": "v1",
+        "saved": "v1",
+        "ok": true
+      },
+      "finn": {
+        "mine": "v1",
+        "saved": "v1",
+        "ok": true
+      }
+    },
+    "random_vs_tpe_table_check": {
+      "n": 42,
+      "n_failed": 0,
+      "max_rel_diff": 0.0
+    },
+    "param_count_check": [
+      {
+        "arch": "mlp",
+        "count_parameters_per_checkpoint": {
+          "onlab_v1": 30901,
+          "tpe_p10": 30901,
+          "tpe_p30": 30901,
+          "rs_p30": 30901
+        },
+        "saved": {
+          "hpo/results/param_count_check_mlp.json.baseline_param_count": 30901,
+          "hpo/results/param_count_check_mlp.json.hpo_param_count": 30901,
+          "hpo/results/p30/param_count_check_mlp.json.baseline_param_count": 30901,
+          "hpo/results/p30/param_count_check_mlp.json.hpo_param_count": 30901,
+          "hpo/results/random/param_count_check_mlp.json.baseline_param_count": 30901,
+          "hpo/results/random/param_count_check_mlp.json.random_param_count": 30901,
+          "hpo/results/best_params.param_count": 30901,
+          "hpo/results/p30/best_params.param_count": 30901,
+          "hpo/results/random/best_params.param_count": 30901
+        },
+        "match_flags": {
+          "hpo/results/param_count_check_mlp.json.match": true,
+          "hpo/results/p30/param_count_check_mlp.json.match": true,
+          "hpo/results/random/param_count_check_mlp.json.match": true
+        },
+        "param_count": 30901,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "count_parameters_per_checkpoint": {
+          "onlab_v1": 267265,
+          "tpe_p10": 267265,
+          "tpe_p30": 267265,
+          "rs_p30": 267265,
+          "onlab_v2": 267265
+        },
+        "saved": {
+          "hpo/results/param_count_check_deep_mlp.json.baseline_param_count": 267265,
+          "hpo/results/param_count_check_deep_mlp.json.hpo_param_count": 267265,
+          "hpo/results/p30/param_count_check_deep_mlp.json.baseline_param_count": 267265,
+          "hpo/results/p30/param_count_check_deep_mlp.json.hpo_param_count": 267265,
+          "hpo/results/random/param_count_check_deep_mlp.json.baseline_param_count": 267265,
+          "hpo/results/random/param_count_check_deep_mlp.json.random_param_count": 267265,
+          "hpo/results/best_params.param_count": 267265,
+          "hpo/results/p30/best_params.param_count": 267265,
+          "hpo/results/random/best_params.param_count": 267265
+        },
+        "match_flags": {
+          "hpo/results/param_count_check_deep_mlp.json.match": true,
+          "hpo/results/p30/param_count_check_deep_mlp.json.match": true,
+          "hpo/results/random/param_count_check_deep_mlp.json.match": true
+        },
+        "param_count": 267265,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "count_parameters_per_checkpoint": {
+          "onlab_v1": 101381,
+          "tpe_p10": 101381,
+          "tpe_p30": 101381,
+          "rs_p30": 101381,
+          "onlab_v2": 101381
+        },
+        "saved": {
+          "hpo/results/param_count_check_dense_mlp.json.baseline_param_count": 101381,
+          "hpo/results/param_count_check_dense_mlp.json.hpo_param_count": 101381,
+          "hpo/results/p30/param_count_check_dense_mlp.json.baseline_param_count": 101381,
+          "hpo/results/p30/param_count_check_dense_mlp.json.hpo_param_count": 101381,
+          "hpo/results/random/param_count_check_dense_mlp.json.baseline_param_count": 101381,
+          "hpo/results/random/param_count_check_dense_mlp.json.random_param_count": 101381,
+          "hpo/results/best_params.param_count": 101381,
+          "hpo/results/p30/best_params.param_count": 101381,
+          "hpo/results/random/best_params.param_count": 101381
+        },
+        "match_flags": {
+          "hpo/results/param_count_check_dense_mlp.json.match": true,
+          "hpo/results/p30/param_count_check_dense_mlp.json.match": true,
+          "hpo/results/random/param_count_check_dense_mlp.json.match": true
+        },
+        "param_count": 101381,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "count_parameters_per_checkpoint": {
+          "onlab_v1": 399873,
+          "tpe_p10": 399873,
+          "tpe_p30": 399873,
+          "rs_p30": 399873,
+          "onlab_v2": 399873
+        },
+        "saved": {
+          "hpo/results/param_count_check_resnet.json.baseline_param_count": 399873,
+          "hpo/results/param_count_check_resnet.json.hpo_param_count": 399873,
+          "hpo/results/p30/param_count_check_resnet.json.baseline_param_count": 399873,
+          "hpo/results/p30/param_count_check_resnet.json.hpo_param_count": 399873,
+          "hpo/results/random/param_count_check_resnet.json.baseline_param_count": 399873,
+          "hpo/results/random/param_count_check_resnet.json.random_param_count": 399873,
+          "hpo/results/best_params.param_count": 399873,
+          "hpo/results/p30/best_params.param_count": 399873,
+          "hpo/results/random/best_params.param_count": 399873
+        },
+        "match_flags": {
+          "hpo/results/param_count_check_resnet.json.match": true,
+          "hpo/results/p30/param_count_check_resnet.json.match": true,
+          "hpo/results/random/param_count_check_resnet.json.match": true
+        },
+        "param_count": 399873,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "count_parameters_per_checkpoint": {
+          "onlab_v1": 398337,
+          "tpe_p10": 398337,
+          "tpe_p30": 398337,
+          "rs_p30": 398337,
+          "onlab_v2": 398337
+        },
+        "saved": {
+          "hpo/results/param_count_check_gelu_resnet.json.baseline_param_count": 398337,
+          "hpo/results/param_count_check_gelu_resnet.json.hpo_param_count": 398337,
+          "hpo/results/p30/param_count_check_gelu_resnet.json.baseline_param_count": 398337,
+          "hpo/results/p30/param_count_check_gelu_resnet.json.hpo_param_count": 398337,
+          "hpo/results/random/param_count_check_gelu_resnet.json.baseline_param_count": 398337,
+          "hpo/results/random/param_count_check_gelu_resnet.json.random_param_count": 398337,
+          "hpo/results/best_params.param_count": 398337,
+          "hpo/results/p30/best_params.param_count": 398337,
+          "hpo/results/random/best_params.param_count": 398337
+        },
+        "match_flags": {
+          "hpo/results/param_count_check_gelu_resnet.json.match": true,
+          "hpo/results/p30/param_count_check_gelu_resnet.json.match": true,
+          "hpo/results/random/param_count_check_gelu_resnet.json.match": true
+        },
+        "param_count": 398337,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "count_parameters_per_checkpoint": {
+          "onlab_v1": 527873,
+          "tpe_p10": 527873,
+          "tpe_p30": 527873,
+          "rs_p30": 527873,
+          "onlab_v2": 527873
+        },
+        "saved": {
+          "hpo/results/param_count_check_highway.json.baseline_param_count": 527873,
+          "hpo/results/param_count_check_highway.json.hpo_param_count": 527873,
+          "hpo/results/p30/param_count_check_highway.json.baseline_param_count": 527873,
+          "hpo/results/p30/param_count_check_highway.json.hpo_param_count": 527873,
+          "hpo/results/random/param_count_check_highway.json.baseline_param_count": 527873,
+          "hpo/results/random/param_count_check_highway.json.random_param_count": 527873,
+          "hpo/results/best_params.param_count": 527873,
+          "hpo/results/p30/best_params.param_count": 527873,
+          "hpo/results/random/best_params.param_count": 527873
+        },
+        "match_flags": {
+          "hpo/results/param_count_check_highway.json.match": true,
+          "hpo/results/p30/param_count_check_highway.json.match": true,
+          "hpo/results/random/param_count_check_highway.json.match": true
+        },
+        "param_count": 527873,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "count_parameters_per_checkpoint": {
+          "onlab_v1": 402882,
+          "tpe_p10": 402882,
+          "tpe_p30": 402882,
+          "rs_p30": 402882,
+          "onlab_v2": 402882
+        },
+        "saved": {
+          "hpo/results/param_count_check_finn.json.baseline_param_count": 402882,
+          "hpo/results/param_count_check_finn.json.hpo_param_count": 402882,
+          "hpo/results/p30/param_count_check_finn.json.baseline_param_count": 402882,
+          "hpo/results/p30/param_count_check_finn.json.hpo_param_count": 402882,
+          "hpo/results/random/param_count_check_finn.json.baseline_param_count": 402882,
+          "hpo/results/random/param_count_check_finn.json.random_param_count": 402882,
+          "hpo/results/best_params.param_count": 402882,
+          "hpo/results/p30/best_params.param_count": 402882,
+          "hpo/results/random/best_params.param_count": 402882
+        },
+        "match_flags": {
+          "hpo/results/param_count_check_finn.json.match": true,
+          "hpo/results/p30/param_count_check_finn.json.match": true,
+          "hpo/results/random/param_count_check_finn.json.match": true
+        },
+        "param_count": 402882,
+        "ok": true
+      }
+    ],
+    "call_ranking_csv": {
+      "n_checked": 14,
+      "n_mismatch": 0,
+      "mismatches": [],
+      "ok": true
+    },
+    "param_ok_all": true
+  },
+  "american": {
+    "ranking_csv": {
+      "n_checked": 42,
+      "n_mismatch": 0,
+      "mismatches": [],
+      "ok": true
+    },
+    "param_count_check": [
+      {
+        "arch": "mlp",
+        "saved": {
+          "levels_table.uniform_p30": 30901,
+          "levels_table.transfer_p30": 30901,
+          "levels_table.retune_p30": 30901,
+          "direct_vs_residual.param_count": 30901,
+          "residual/param_count_check.param_count": 30901
+        },
+        "checkpoints": {
+          "uniform_p30": {
+            "checkpoint": "american-nn/models/uniform/mlp_american_p30_best.pt",
+            "count_parameters": 30901,
+            "state_dict_numel_no_bn_buffers": 30901,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 100,
+              "n_layers": 4
+            }
+          },
+          "transfer_p30": {
+            "checkpoint": "american-nn/models/transfer/mlp_american_transfer_p30_best.pt",
+            "count_parameters": 30901,
+            "state_dict_numel_no_bn_buffers": 30901,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 100,
+              "n_layers": 4
+            }
+          },
+          "retune_p30": {
+            "checkpoint": "american-nn/models/retune/mlp_american_retune_p30_best.pt",
+            "count_parameters": 30901,
+            "state_dict_numel_no_bn_buffers": 30901,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 100,
+              "n_layers": 4
+            }
+          },
+          "r1": {
+            "checkpoint": "american-nn/models/residual/mlp_residual_retune_p30_best.pt",
+            "count_parameters": 30901,
+            "state_dict_numel_no_bn_buffers": 30901,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 100,
+              "n_layers": 4
+            }
+          }
+        },
+        "equal_to_european_param_count": true,
+        "ok": true
+      },
+      {
+        "arch": "deep_mlp",
+        "saved": {
+          "levels_table.uniform_p30": 267265,
+          "levels_table.transfer_p30": 267265,
+          "levels_table.retune_p30": 267265,
+          "direct_vs_residual.param_count": 267265,
+          "residual/param_count_check.param_count": 267265
+        },
+        "checkpoints": {
+          "uniform_p30": {
+            "checkpoint": "american-nn/models/uniform/deep_mlp_american_p30_best.pt",
+            "count_parameters": 267265,
+            "state_dict_numel_no_bn_buffers": 267265,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 256,
+              "n_layers": 4
+            }
+          },
+          "transfer_p30": {
+            "checkpoint": "american-nn/models/transfer/deep_mlp_american_transfer_p30_best.pt",
+            "count_parameters": 267265,
+            "state_dict_numel_no_bn_buffers": 267265,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 256,
+              "n_layers": 4
+            }
+          },
+          "retune_p30": {
+            "checkpoint": "american-nn/models/retune/deep_mlp_american_retune_p30_best.pt",
+            "count_parameters": 267265,
+            "state_dict_numel_no_bn_buffers": 267265,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 256,
+              "n_layers": 4
+            }
+          },
+          "r1": {
+            "checkpoint": "american-nn/models/residual/deep_mlp_residual_retune_p30_best.pt",
+            "count_parameters": 267265,
+            "state_dict_numel_no_bn_buffers": 267265,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 256,
+              "n_layers": 4
+            }
+          }
+        },
+        "equal_to_european_param_count": true,
+        "ok": true
+      },
+      {
+        "arch": "dense_mlp",
+        "saved": {
+          "levels_table.uniform_p30": 101381,
+          "levels_table.transfer_p30": 101381,
+          "levels_table.retune_p30": 101381,
+          "direct_vs_residual.param_count": 101381,
+          "residual/param_count_check.param_count": 101381
+        },
+        "checkpoints": {
+          "uniform_p30": {
+            "checkpoint": "american-nn/models/uniform/dense_mlp_american_p30_best.pt",
+            "count_parameters": 101381,
+            "state_dict_numel_no_bn_buffers": 101381,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 128,
+              "n_layers": 4
+            }
+          },
+          "transfer_p30": {
+            "checkpoint": "american-nn/models/transfer/dense_mlp_american_transfer_p30_best.pt",
+            "count_parameters": 101381,
+            "state_dict_numel_no_bn_buffers": 101381,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 128,
+              "n_layers": 4
+            }
+          },
+          "retune_p30": {
+            "checkpoint": "american-nn/models/retune/dense_mlp_american_retune_p30_best.pt",
+            "count_parameters": 101381,
+            "state_dict_numel_no_bn_buffers": 101381,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 128,
+              "n_layers": 4
+            }
+          },
+          "r1": {
+            "checkpoint": "american-nn/models/residual/dense_mlp_residual_retune_p30_best.pt",
+            "count_parameters": 101381,
+            "state_dict_numel_no_bn_buffers": 101381,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 128,
+              "n_layers": 4
+            }
+          }
+        },
+        "equal_to_european_param_count": true,
+        "ok": true
+      },
+      {
+        "arch": "resnet",
+        "saved": {
+          "levels_table.uniform_p30": 399873,
+          "levels_table.transfer_p30": 399873,
+          "levels_table.retune_p30": 399873,
+          "direct_vs_residual.param_count": 399873,
+          "residual/param_count_check.param_count": 399873
+        },
+        "checkpoints": {
+          "uniform_p30": {
+            "checkpoint": "american-nn/models/uniform/resnet_american_p30_best.pt",
+            "count_parameters": 399873,
+            "state_dict_numel_no_bn_buffers": 399873,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 256,
+              "n_blocks": 3
+            }
+          },
+          "transfer_p30": {
+            "checkpoint": "american-nn/models/transfer/resnet_american_transfer_p30_best.pt",
+            "count_parameters": 399873,
+            "state_dict_numel_no_bn_buffers": 399873,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 256,
+              "n_blocks": 3
+            }
+          },
+          "retune_p30": {
+            "checkpoint": "american-nn/models/retune/resnet_american_retune_p30_best.pt",
+            "count_parameters": 399873,
+            "state_dict_numel_no_bn_buffers": 399873,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 256,
+              "n_blocks": 3
+            }
+          },
+          "r1": {
+            "checkpoint": "american-nn/models/residual/resnet_residual_retune_p30_best.pt",
+            "count_parameters": 399873,
+            "state_dict_numel_no_bn_buffers": 399873,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 256,
+              "n_blocks": 3
+            }
+          }
+        },
+        "equal_to_european_param_count": true,
+        "ok": true
+      },
+      {
+        "arch": "gelu_resnet",
+        "saved": {
+          "levels_table.uniform_p30": 398337,
+          "levels_table.transfer_p30": 398337,
+          "levels_table.retune_p30": 398337,
+          "direct_vs_residual.param_count": 398337,
+          "residual/param_count_check.param_count": 398337
+        },
+        "checkpoints": {
+          "uniform_p30": {
+            "checkpoint": "american-nn/models/uniform/gelu_resnet_american_p30_best.pt",
+            "count_parameters": 398337,
+            "state_dict_numel_no_bn_buffers": 398337,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 256,
+              "n_blocks": 3
+            }
+          },
+          "transfer_p30": {
+            "checkpoint": "american-nn/models/transfer/gelu_resnet_american_transfer_p30_best.pt",
+            "count_parameters": 398337,
+            "state_dict_numel_no_bn_buffers": 398337,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 256,
+              "n_blocks": 3
+            }
+          },
+          "retune_p30": {
+            "checkpoint": "american-nn/models/retune/gelu_resnet_american_retune_p30_best.pt",
+            "count_parameters": 398337,
+            "state_dict_numel_no_bn_buffers": 398337,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 256,
+              "n_blocks": 3
+            }
+          },
+          "r1": {
+            "checkpoint": "american-nn/models/residual/gelu_resnet_residual_retune_p30_best.pt",
+            "count_parameters": 398337,
+            "state_dict_numel_no_bn_buffers": 398337,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 256,
+              "n_blocks": 3
+            }
+          }
+        },
+        "equal_to_european_param_count": true,
+        "ok": true
+      },
+      {
+        "arch": "highway",
+        "saved": {
+          "levels_table.uniform_p30": 527873,
+          "levels_table.transfer_p30": 527873,
+          "levels_table.retune_p30": 527873,
+          "direct_vs_residual.param_count": 527873,
+          "residual/param_count_check.param_count": 527873
+        },
+        "checkpoints": {
+          "uniform_p30": {
+            "checkpoint": "american-nn/models/uniform/highway_american_p30_best.pt",
+            "count_parameters": 527873,
+            "state_dict_numel_no_bn_buffers": 527873,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 256,
+              "n_blocks": 4
+            }
+          },
+          "transfer_p30": {
+            "checkpoint": "american-nn/models/transfer/highway_american_transfer_p30_best.pt",
+            "count_parameters": 527873,
+            "state_dict_numel_no_bn_buffers": 527873,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 256,
+              "n_blocks": 4
+            }
+          },
+          "retune_p30": {
+            "checkpoint": "american-nn/models/retune/highway_american_retune_p30_best.pt",
+            "count_parameters": 527873,
+            "state_dict_numel_no_bn_buffers": 527873,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 256,
+              "n_blocks": 4
+            }
+          },
+          "r1": {
+            "checkpoint": "american-nn/models/residual/highway_residual_retune_p30_best.pt",
+            "count_parameters": 527873,
+            "state_dict_numel_no_bn_buffers": 527873,
+            "model_kwargs": {
+              "input_dim": 4,
+              "hidden_dim": 256,
+              "n_blocks": 4
+            }
+          }
+        },
+        "equal_to_european_param_count": true,
+        "ok": true
+      },
+      {
+        "arch": "finn",
+        "saved": {
+          "levels_table.uniform_p30": 402882,
+          "levels_table.transfer_p30": 402882,
+          "levels_table.retune_p30": 402882,
+          "direct_vs_residual.param_count": 402882,
+          "residual/param_count_check.param_count": 402882
+        },
+        "checkpoints": {
+          "uniform_p30": {
+            "checkpoint": "american-nn/models/uniform/finn_american_p30_best.pt",
+            "count_parameters": 402882,
+            "state_dict_numel_no_bn_buffers": 402882,
+            "model_kwargs": {
+              "input_dim": 4,
+              "approx_dim": 64,
+              "resnet_dim": 256,
+              "n_blocks": 3
+            }
+          },
+          "transfer_p30": {
+            "checkpoint": "american-nn/models/transfer/finn_american_transfer_p30_best.pt",
+            "count_parameters": 402882,
+            "state_dict_numel_no_bn_buffers": 402882,
+            "model_kwargs": {
+              "input_dim": 4,
+              "approx_dim": 64,
+              "resnet_dim": 256,
+              "n_blocks": 3
+            }
+          },
+          "retune_p30": {
+            "checkpoint": "american-nn/models/retune/finn_american_retune_p30_best.pt",
+            "count_parameters": 402882,
+            "state_dict_numel_no_bn_buffers": 402882,
+            "model_kwargs": {
+              "input_dim": 4,
+              "approx_dim": 64,
+              "resnet_dim": 256,
+              "n_blocks": 3
+            }
+          },
+          "r1": {
+            "checkpoint": "american-nn/models/residual/finn_residual_retune_p30_best.pt",
+            "count_parameters": 402882,
+            "state_dict_numel_no_bn_buffers": 402882,
+            "model_kwargs": {
+              "input_dim": 4,
+              "approx_dim": 64,
+              "resnet_dim": 256,
+              "n_blocks": 3
+            }
+          }
+        },
+        "equal_to_european_param_count": true,
+        "ok": true
+      }
+    ],
+    "ok": true
+  },
+  "recomputed_european": {
+    "mlp": {
+      "onlab_v1": {
+        "checkpoint": "Önlab eredmények/models/mlp_best.pt",
+        "test_rmse": 0.004602072760462761,
+        "test_mae": 0.0027880033012479544,
+        "test_r2": 0.9994487762451172,
+        "test_max_error": 0.08169036358594894,
+        "val_mse": 2.0606552839503613e-05,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 30901,
+        "model_class": "mlp",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 100,
+          "n_layers": 4
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 2.060655468298743e-05,
+        "ckpt_best_epoch": 123,
+        "seconds": 2.007141351699829
+      },
+      "tpe_p10": {
+        "checkpoint": "hpo/models/mlp_hpo_best.pt",
+        "test_rmse": 0.0009781861444935203,
+        "test_mae": 0.0006194747984409332,
+        "test_r2": 0.9999750852584839,
+        "test_max_error": 0.03474678844213486,
+        "val_mse": 9.014658253962655e-07,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 30901,
+        "model_class": "mlp",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 100,
+          "n_layers": 4
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 9.014658192306039e-07,
+        "ckpt_best_epoch": 199,
+        "seconds": 1.7245445251464844
+      },
+      "tpe_p30": {
+        "checkpoint": "hpo/models/mlp_hpo_p30_best.pt",
+        "test_rmse": 0.0009781861444935203,
+        "test_mae": 0.0006194747984409332,
+        "test_r2": 0.9999750852584839,
+        "test_max_error": 0.03474678844213486,
+        "val_mse": 9.014658253962655e-07,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 30901,
+        "model_class": "mlp",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 100,
+          "n_layers": 4
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 9.014658192306039e-07,
+        "ckpt_best_epoch": 199,
+        "seconds": 1.731917142868042
+      },
+      "rs_p30": {
+        "checkpoint": "hpo/models/random/mlp_random_p30_best.pt",
+        "test_rmse": 0.0009051295928657055,
+        "test_mae": 0.0005502801504917443,
+        "test_r2": 0.9999786615371704,
+        "test_max_error": 0.03552263230085373,
+        "val_mse": 7.730455584454042e-07,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 30901,
+        "model_class": "mlp",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 100,
+          "n_layers": 4
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 7.730454758529959e-07,
+        "ckpt_best_epoch": 198,
+        "seconds": 1.576223373413086
+      }
+    },
+    "deep_mlp": {
+      "onlab_v1": {
+        "checkpoint": "Önlab eredmények/models/deep_mlp_best.pt",
+        "test_rmse": 0.006060663145035505,
+        "test_mae": 0.004351411946117878,
+        "test_r2": 0.9990440011024475,
+        "test_max_error": 0.07147097587585449,
+        "val_mse": 3.6346938043010923e-05,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 267265,
+        "model_class": "deep_mlp",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 256,
+          "n_layers": 4,
+          "dropout": 0.1
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 3.6346939804886156e-05,
+        "ckpt_best_epoch": 27,
+        "seconds": 1.793900728225708
+      },
+      "tpe_p10": {
+        "checkpoint": "hpo/models/deep_mlp_hpo_best.pt",
+        "test_rmse": 0.002471471903845668,
+        "test_mae": 0.0017424279358237982,
+        "test_r2": 0.999841034412384,
+        "test_max_error": 0.04978907108306885,
+        "val_mse": 6.049902965916823e-06,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 267265,
+        "model_class": "deep_mlp",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 256,
+          "n_layers": 4,
+          "dropout": 0.018004535925741725
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 6.049903221331381e-06,
+        "ckpt_best_epoch": 58,
+        "seconds": 1.6278645992279053
+      },
+      "tpe_p30": {
+        "checkpoint": "hpo/models/deep_mlp_hpo_p30_best.pt",
+        "test_rmse": 0.0021395706571638584,
+        "test_mae": 0.0015267491107806563,
+        "test_r2": 0.999880850315094,
+        "test_max_error": 0.04253113269805908,
+        "val_mse": 4.556064712065095e-06,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 267265,
+        "model_class": "deep_mlp",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 256,
+          "n_layers": 4,
+          "dropout": 0.018004535925741725
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 4.556064656790113e-06,
+        "ckpt_best_epoch": 145,
+        "seconds": 1.8338825702667236
+      },
+      "rs_p30": {
+        "checkpoint": "hpo/models/random/deep_mlp_random_p30_best.pt",
+        "test_rmse": 0.0029456864576786757,
+        "test_mae": 0.002192891901358962,
+        "test_r2": 0.999774158000946,
+        "test_max_error": 0.04033946245908737,
+        "val_mse": 8.613451437374279e-06,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 267265,
+        "model_class": "deep_mlp",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 256,
+          "n_layers": 4,
+          "dropout": 0.023225206359998862
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 8.6134515038187e-06,
+        "ckpt_best_epoch": 56,
+        "seconds": 1.7545499801635742
+      },
+      "onlab_v2": {
+        "checkpoint": "Önlab eredmények/models/deep_mlp_v2_best.pt",
+        "test_rmse": 0.006060663145035505,
+        "test_mae": 0.004351411946117878,
+        "test_r2": 0.9990440011024475,
+        "test_max_error": 0.07147097587585449,
+        "val_mse": 3.6346938043010923e-05,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 267265,
+        "model_class": "deep_mlp",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 256,
+          "n_layers": 4,
+          "dropout": 0.1
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 3.6346939804886156e-05,
+        "ckpt_best_epoch": 27,
+        "seconds": 1.9982473850250244
+      }
+    },
+    "dense_mlp": {
+      "onlab_v1": {
+        "checkpoint": "Önlab eredmények/models/dense_mlp_best.pt",
+        "test_rmse": 0.018042145296931267,
+        "test_mae": 0.013093773275613785,
+        "test_r2": 0.9915280342102051,
+        "test_max_error": 0.13507458567619324,
+        "val_mse": 0.0003228264972898742,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 101381,
+        "model_class": "dense_mlp",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 128,
+          "n_layers": 4,
+          "dropout": 0.1
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 0.00032282644992694256,
+        "ckpt_best_epoch": 5,
+        "seconds": 1.878122329711914
+      },
+      "tpe_p10": {
+        "checkpoint": "hpo/models/dense_mlp_hpo_best.pt",
+        "test_rmse": 0.002041273983195424,
+        "test_mae": 0.0013330273795872927,
+        "test_r2": 0.9998915791511536,
+        "test_max_error": 0.0422397181391716,
+        "val_mse": 4.059322303187932e-06,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 101381,
+        "model_class": "dense_mlp",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 128,
+          "n_layers": 4,
+          "dropout": 0.012211737490805619
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 4.0593225682581155e-06,
+        "ckpt_best_epoch": 76,
+        "seconds": 2.0678157806396484
+      },
+      "tpe_p30": {
+        "checkpoint": "hpo/models/dense_mlp_hpo_p30_best.pt",
+        "test_rmse": 0.002034768695011735,
+        "test_mae": 0.0013203546404838562,
+        "test_r2": 0.9998922348022461,
+        "test_max_error": 0.04237445443868637,
+        "val_mse": 4.030237749448574e-06,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 101381,
+        "model_class": "dense_mlp",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 128,
+          "n_layers": 4,
+          "dropout": 0.012211737490805619
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 4.030238107273666e-06,
+        "ckpt_best_epoch": 113,
+        "seconds": 2.2366840839385986
+      },
+      "rs_p30": {
+        "checkpoint": "hpo/models/random/dense_mlp_random_p30_best.pt",
+        "test_rmse": 0.004373347386717796,
+        "test_mae": 0.00285414163954556,
+        "test_r2": 0.9995022416114807,
+        "test_max_error": 0.06928494572639465,
+        "val_mse": 1.8591735721123223e-05,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 101381,
+        "model_class": "dense_mlp",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 128,
+          "n_layers": 4,
+          "dropout": 0.07799726016810132
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 1.8591735319932922e-05,
+        "ckpt_best_epoch": 55,
+        "seconds": 2.8640856742858887
+      },
+      "onlab_v2": {
+        "checkpoint": "Önlab eredmények/models/dense_mlp_v2_best.pt",
+        "test_rmse": 0.018042145296931267,
+        "test_mae": 0.013093773275613785,
+        "test_r2": 0.9915280342102051,
+        "test_max_error": 0.13507458567619324,
+        "val_mse": 0.0003228264972898742,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 101381,
+        "model_class": "dense_mlp",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 128,
+          "n_layers": 4,
+          "dropout": 0.1
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 0.00032282644992694256,
+        "ckpt_best_epoch": 5,
+        "seconds": 2.6263954639434814
+      }
+    },
+    "resnet": {
+      "onlab_v1": {
+        "checkpoint": "Önlab eredmények/models/resnet_best.pt",
+        "test_rmse": 0.0062165530398488045,
+        "test_mae": 0.004771844949573278,
+        "test_r2": 0.9989942312240601,
+        "test_max_error": 0.06277793645858765,
+        "val_mse": 3.846234583427047e-05,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 399873,
+        "model_class": "resnet",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 256,
+          "n_blocks": 3,
+          "dropout": 0.1
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 3.846234431723133e-05,
+        "ckpt_best_epoch": 28,
+        "seconds": 2.950267791748047
+      },
+      "tpe_p10": {
+        "checkpoint": "hpo/models/resnet_hpo_best.pt",
+        "test_rmse": 0.004282673820853233,
+        "test_mae": 0.0031880030874162912,
+        "test_r2": 0.9995226263999939,
+        "test_max_error": 0.06824932247400284,
+        "val_mse": 1.8079803093665192e-05,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 399873,
+        "model_class": "resnet",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 256,
+          "n_blocks": 3,
+          "dropout": 0.3252627452605708
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 1.807980308289795e-05,
+        "ckpt_best_epoch": 29,
+        "seconds": 2.5700345039367676
+      },
+      "tpe_p30": {
+        "checkpoint": "hpo/models/resnet_hpo_p30_best.pt",
+        "test_rmse": 0.00203717197291553,
+        "test_mae": 0.0013524256646633148,
+        "test_r2": 0.999891996383667,
+        "test_max_error": 0.05217587947845459,
+        "val_mse": 3.995346983699333e-06,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 399873,
+        "model_class": "resnet",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 256,
+          "n_blocks": 3,
+          "dropout": 0.3252627452605708
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 3.995346991699383e-06,
+        "ckpt_best_epoch": 132,
+        "seconds": 2.9569597244262695
+      },
+      "rs_p30": {
+        "checkpoint": "hpo/models/random/resnet_random_p30_best.pt",
+        "test_rmse": 0.003982672467827797,
+        "test_mae": 0.0030494038946926594,
+        "test_r2": 0.9995871782302856,
+        "test_max_error": 0.0570245087146759,
+        "val_mse": 1.5492236621416668e-05,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 399873,
+        "model_class": "resnet",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 256,
+          "n_blocks": 3,
+          "dropout": 0.03177917514301182
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 1.5492238594645946e-05,
+        "ckpt_best_epoch": 178,
+        "seconds": 2.149101495742798
+      },
+      "onlab_v2": {
+        "checkpoint": "Önlab eredmények/models/resnet_v2_best.pt",
+        "test_rmse": 0.002912694588303566,
+        "test_mae": 0.0021805285941809416,
+        "test_r2": 0.999779224395752,
+        "test_max_error": 0.052702583372592926,
+        "val_mse": 8.347535148895433e-06,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 399873,
+        "model_class": "resnet",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 256,
+          "n_blocks": 3,
+          "dropout": 0.1
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 8.347535429347772e-06,
+        "ckpt_best_epoch": 182,
+        "seconds": 2.2409894466400146
+      }
+    },
+    "gelu_resnet": {
+      "onlab_v1": {
+        "checkpoint": "Önlab eredmények/models/gelu_resnet_best.pt",
+        "test_rmse": 0.009293452836573124,
+        "test_mae": 0.0062475986778736115,
+        "test_r2": 0.9977521896362305,
+        "test_max_error": 0.09721830487251282,
+        "val_mse": 8.49894651593153e-05,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 398337,
+        "model_class": "gelu_resnet",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 256,
+          "n_blocks": 3,
+          "dropout": 0.1
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 8.49894749194694e-05,
+        "ckpt_best_epoch": 31,
+        "seconds": 2.0432653427124023
+      },
+      "tpe_p10": {
+        "checkpoint": "hpo/models/gelu_resnet_hpo_best.pt",
+        "test_rmse": 0.003877681912854314,
+        "test_mae": 0.0026256765704602003,
+        "test_r2": 0.9996086359024048,
+        "test_max_error": 0.055065251886844635,
+        "val_mse": 1.4779457416670217e-05,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 398337,
+        "model_class": "gelu_resnet",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 256,
+          "n_blocks": 3,
+          "dropout": 0.122244124092866
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 1.4779457620267445e-05,
+        "ckpt_best_epoch": 21,
+        "seconds": 2.1758837699890137
+      },
+      "tpe_p30": {
+        "checkpoint": "hpo/models/gelu_resnet_hpo_p30_best.pt",
+        "test_rmse": 0.003877681912854314,
+        "test_mae": 0.0026256765704602003,
+        "test_r2": 0.9996086359024048,
+        "test_max_error": 0.055065251886844635,
+        "val_mse": 1.4779457416670217e-05,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 398337,
+        "model_class": "gelu_resnet",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 256,
+          "n_blocks": 3,
+          "dropout": 0.122244124092866
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 1.4779457620267445e-05,
+        "ckpt_best_epoch": 21,
+        "seconds": 2.073392629623413
+      },
+      "rs_p30": {
+        "checkpoint": "hpo/models/random/gelu_resnet_random_p30_best.pt",
+        "test_rmse": 0.003972660284489393,
+        "test_mae": 0.0027131298556923866,
+        "test_r2": 0.9995892643928528,
+        "test_max_error": 0.05496601015329361,
+        "val_mse": 1.5449941329796074e-05,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 398337,
+        "model_class": "gelu_resnet",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 256,
+          "n_blocks": 3,
+          "dropout": 0.144875726456884
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 1.5449940599501133e-05,
+        "ckpt_best_epoch": 21,
+        "seconds": 2.2235310077667236
+      },
+      "onlab_v2": {
+        "checkpoint": "Önlab eredmények/models/gelu_resnet_v2_best.pt",
+        "test_rmse": 0.009293452836573124,
+        "test_mae": 0.0062475986778736115,
+        "test_r2": 0.9977521896362305,
+        "test_max_error": 0.09721830487251282,
+        "val_mse": 8.49894651593153e-05,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 398337,
+        "model_class": "gelu_resnet",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 256,
+          "n_blocks": 3,
+          "dropout": 0.1
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 8.49894749194694e-05,
+        "ckpt_best_epoch": 31,
+        "seconds": 2.0560481548309326
+      }
+    },
+    "highway": {
+      "onlab_v1": {
+        "checkpoint": "Önlab eredmények/models/highway_best.pt",
+        "test_rmse": 0.014884491451084614,
+        "test_mae": 0.01058123167604208,
+        "test_r2": 0.9942339658737183,
+        "test_max_error": 0.12276598811149597,
+        "val_mse": 0.0002195372349821402,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 527873,
+        "model_class": "highway",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 256,
+          "n_blocks": 4,
+          "dropout": 0.1
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 0.00021953723330050707,
+        "ckpt_best_epoch": 9,
+        "seconds": 2.2537426948547363
+      },
+      "tpe_p10": {
+        "checkpoint": "hpo/models/highway_hpo_best.pt",
+        "test_rmse": 0.002951303031295538,
+        "test_mae": 0.0019958962220698595,
+        "test_r2": 0.9997733235359192,
+        "test_max_error": 0.04484183341264725,
+        "val_mse": 8.553785854649757e-06,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 527873,
+        "model_class": "highway",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 256,
+          "n_blocks": 4,
+          "dropout": 0.4062738450307539
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 8.553786329575815e-06,
+        "ckpt_best_epoch": 124,
+        "seconds": 2.208754539489746
+      },
+      "tpe_p30": {
+        "checkpoint": "hpo/models/highway_hpo_p30_best.pt",
+        "test_rmse": 0.002944914624094963,
+        "test_mae": 0.0019948442932218313,
+        "test_r2": 0.9997742772102356,
+        "test_max_error": 0.04461709409952164,
+        "val_mse": 8.526691658910775e-06,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 527873,
+        "model_class": "highway",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 256,
+          "n_blocks": 4,
+          "dropout": 0.4062738450307539
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 8.526690297682459e-06,
+        "ckpt_best_epoch": 179,
+        "seconds": 2.149395227432251
+      },
+      "rs_p30": {
+        "checkpoint": "hpo/models/random/highway_random_p30_best.pt",
+        "test_rmse": 0.0030620249453932047,
+        "test_mae": 0.0020077021326869726,
+        "test_r2": 0.9997559785842896,
+        "test_max_error": 0.047073572874069214,
+        "val_mse": 9.212870496442269e-06,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 527873,
+        "model_class": "highway",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 256,
+          "n_blocks": 4,
+          "dropout": 0.48495492608099716
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 9.21287110094757e-06,
+        "ckpt_best_epoch": 194,
+        "seconds": 1.9832253456115723
+      },
+      "onlab_v2": {
+        "checkpoint": "Önlab eredmények/models/highway_v2_best.pt",
+        "test_rmse": 0.014884491451084614,
+        "test_mae": 0.01058123167604208,
+        "test_r2": 0.9942339658737183,
+        "test_max_error": 0.12276598811149597,
+        "val_mse": 0.0002195372349821402,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 527873,
+        "model_class": "highway",
+        "model_kwargs": {
+          "input_dim": 4,
+          "hidden_dim": 256,
+          "n_blocks": 4,
+          "dropout": 0.1
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 0.00021953723330050707,
+        "ckpt_best_epoch": 9,
+        "seconds": 2.1371169090270996
+      }
+    },
+    "finn": {
+      "onlab_v1": {
+        "checkpoint": "Önlab eredmények/models/finn_best.pt",
+        "test_rmse": 0.00914283748716116,
+        "test_mae": 0.006133566610515118,
+        "test_r2": 0.9978244304656982,
+        "test_max_error": 0.0959678366780281,
+        "val_mse": 8.240615643197169e-05,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 402882,
+        "model_class": "finn",
+        "model_kwargs": {
+          "input_dim": 4,
+          "approx_dim": 64,
+          "resnet_dim": 256,
+          "n_blocks": 3,
+          "dropout": 0.1
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 8.240615842631087e-05,
+        "ckpt_best_epoch": 21,
+        "seconds": 1.8934085369110107
+      },
+      "tpe_p10": {
+        "checkpoint": "hpo/models/finn_hpo_best.pt",
+        "test_rmse": 0.0029768540989607573,
+        "test_mae": 0.001958235166966915,
+        "test_r2": 0.999769389629364,
+        "test_max_error": 0.04045409709215164,
+        "val_mse": 8.673013087275245e-06,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 402882,
+        "model_class": "finn",
+        "model_kwargs": {
+          "input_dim": 4,
+          "approx_dim": 64,
+          "resnet_dim": 256,
+          "n_blocks": 3,
+          "dropout": 0.02703444514824562
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 8.673012522631325e-06,
+        "ckpt_best_epoch": 77,
+        "seconds": 2.1543221473693848
+      },
+      "tpe_p30": {
+        "checkpoint": "hpo/models/finn_hpo_p30_best.pt",
+        "test_rmse": 0.0029768540989607573,
+        "test_mae": 0.001958235166966915,
+        "test_r2": 0.999769389629364,
+        "test_max_error": 0.04045409709215164,
+        "val_mse": 8.673013087275245e-06,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 402882,
+        "model_class": "finn",
+        "model_kwargs": {
+          "input_dim": 4,
+          "approx_dim": 64,
+          "resnet_dim": 256,
+          "n_blocks": 3,
+          "dropout": 0.02703444514824562
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 8.673012522631325e-06,
+        "ckpt_best_epoch": 77,
+        "seconds": 2.0480728149414062
+      },
+      "rs_p30": {
+        "checkpoint": "hpo/models/random/finn_random_p30_best.pt",
+        "test_rmse": 0.003810486989095807,
+        "test_mae": 0.0029507637955248356,
+        "test_r2": 0.999622106552124,
+        "test_max_error": 0.05150781571865082,
+        "val_mse": 1.4481277288565806e-05,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 402882,
+        "model_class": "finn",
+        "model_kwargs": {
+          "input_dim": 4,
+          "approx_dim": 64,
+          "resnet_dim": 256,
+          "n_blocks": 3,
+          "dropout": 0.3182052056318902
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 1.448127835552441e-05,
+        "ckpt_best_epoch": 33,
+        "seconds": 2.203279495239258
+      },
+      "onlab_v2": {
+        "checkpoint": "Önlab eredmények/models/finn_v2_best.pt",
+        "test_rmse": 0.00914283748716116,
+        "test_mae": 0.006133566610515118,
+        "test_r2": 0.9978244304656982,
+        "test_max_error": 0.0959678366780281,
+        "val_mse": 8.240615643197169e-05,
+        "n_test": 150000,
+        "n_val": 150000,
+        "param_count": 402882,
+        "model_class": "finn",
+        "model_kwargs": {
+          "input_dim": 4,
+          "approx_dim": 64,
+          "resnet_dim": 256,
+          "n_blocks": 3,
+          "dropout": 0.1
+        },
+        "target_col": "call_price_norm",
+        "ckpt_val_loss": 8.240615842631087e-05,
+        "ckpt_best_epoch": 21,
+        "seconds": 2.0546767711639404
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "residual_var_val": 9.07582468462115e-05,
+  "residual_var_test": 8.970045035519896e-05,
+  "source": "american-nn/results/residual/target_stats.json",
+  "note": "r1_val_mse_over_residual_var: 1 = konstans (atlag) tanulasa; collapse_criterion: a szetesesi kriterium (teszt-RMSE >= a csak-BS RMSE fele)"
+}

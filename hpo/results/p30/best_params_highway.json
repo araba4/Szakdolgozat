@@ -1,0 +1,108 @@
+{
+  "arch": "highway",
+  "model_class": "HighwayPricer",
+  "architecture_size_fixed_baseline": {
+    "input_dim": 4,
+    "hidden_dim": 256,
+    "n_blocks": 4
+  },
+  "lr": 0.0022091690943683057,
+  "weight_decay": 1.0158715496491554e-06,
+  "dropout": 0.4062738450307539,
+  "search_source": "hpo/results/best_params_highway.json",
+  "search_best_val_loss": 9.000574587941326e-06,
+  "search_best_trial_number": 38,
+  "n_trials_completed": 40,
+  "n_trials_target": 40,
+  "final_patience": 30,
+  "final_max_epochs": 200,
+  "final_batch_size": 4096,
+  "seed": 42,
+  "final_retrain_best_epoch": 179,
+  "final_retrain_n_epochs_run": 200,
+  "hit_max_epochs": true,
+  "final_retrain_best_val_loss": 8.526690297682459e-06,
+  "baseline_val_loss": 0.00021953723330050707,
+  "improvement_pct_vs_baseline_val_loss": 96.11606187729853,
+  "param_count_match": true,
+  "param_count": 527873,
+  "baseline_test_metrics": {
+    "RMSE": 0.014884491451084614,
+    "MAE": 0.01058123167604208,
+    "MAPE (%)": 6085027.34375,
+    "max_error": 0.12276598811149597,
+    "R2": 0.9942339658737183
+  },
+  "hpo_test_metrics": {
+    "RMSE": 0.002944914624094963,
+    "MAE": 0.0019948442932218313,
+    "MAPE (%)": 787097.412109375,
+    "max_error": 0.04461709409952164,
+    "R2": 0.9997742772102356
+  },
+  "retrain_seconds": 1221.010013103485,
+  "p10_patience": 10,
+  "p10_best_epoch": 124,
+  "p10_n_epochs_run": 134,
+  "p10_best_val_loss": 8.553786329575815e-06,
+  "p10_test_metrics": {
+    "RMSE": 0.002951303031295538,
+    "MAE": 0.0019958962220698595,
+    "MAPE (%)": 786287.79296875,
+    "max_error": 0.04484183341264725,
+    "R2": 0.9997733235359192
+  },
+  "p10_retrain_seconds": 1239.577936410904,
+  "improvement_pct_vs_p10_val_loss": 0.31677237248337775,
+  "onlab_best_ref": "v1",
+  "onlab_best_val_loss": 0.00021953723330050707,
+  "onlab_best_epoch": 9,
+  "onlab_best_n_epochs_run": 19,
+  "onlab_best_test_metrics": {
+    "RMSE": 0.014884491451084614,
+    "MAE": 0.01058123167604208,
+    "MAPE (%)": 6085027.34375,
+    "max_error": 0.12276598811149597,
+    "R2": 0.9942339658737183
+  },
+  "onlab_v2_test_metrics": {
+    "RMSE": 0.014884491451084614,
+    "MAE": 0.01058123167604208,
+    "MAPE (%)": 6085027.34375,
+    "max_error": 0.12276598811149597,
+    "R2": 0.9942339658737183
+  },
+  "improvement_pct_vs_onlab_best_val_loss": 96.11606187729853,
+  "val_mse_recheck": {
+    "checkpoint_val_loss": 8.526690297682459e-06,
+    "checkpoint_best_epoch": 179,
+    "evaluate_model_val_mse": 8.526691658910775e-06,
+    "rel_diff": 1.5964322247980613e-07
+  },
+  "reproducibility_check": {
+    "n_common_epochs": 134,
+    "columns": {
+      "train_loss": {
+        "max_abs_diff": 0.0,
+        "max_rel_diff": 0.0,
+        "first_differing_epoch": null,
+        "n_differing_epochs": 0
+      },
+      "val_loss": {
+        "max_abs_diff": 0.0,
+        "max_rel_diff": 0.0,
+        "first_differing_epoch": null,
+        "n_differing_epochs": 0
+      },
+      "lr": {
+        "max_abs_diff": 0.0,
+        "max_rel_diff": 0.0,
+        "first_differing_epoch": null,
+        "n_differing_epochs": 0
+      }
+    },
+    "first_differing_epoch": null,
+    "bitwise_identical": true,
+    "max_abs_diff": 0.0
+  }
+}

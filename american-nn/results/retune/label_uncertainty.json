@@ -1,0 +1,26 @@
+{
+  "reference": {
+    "crr_500_vs_1000_rel_max": 0.0004,
+    "crr_500_vs_1000_source": "CRR 500 vs. 1000 lepes (legfeljebb ~0,04%; ATM 2,3190 -> 2,3193)",
+    "crr_tree_european_error_median_usd": 0.0016,
+    "crr_tree_european_error_source": "CRR-europai vs. BS (medián 0,0016 $, max. 0,043 $)"
+  },
+  "test_file": "american-options/data/test.parquet",
+  "models": [
+    {
+      "arch": "mlp",
+      "level": "retune_p30",
+      "checkpoint": "american-nn/models/retune/mlp_american_retune_p30_best.pt",
+      "usd_rmse": 0.07550856626731765,
+      "usd_mae": 0.04023354650619696,
+      "usd_median_abs_err": 0.021910318754676972,
+      "usd_p95_abs_err": 0.13435330201734755,
+      "n_rows_price_ge_1pct_K": 133806,
+      "rel_err_median_price_ge_1pct_K": 0.0016806498801854401,
+      "rel_err_p95_price_ge_1pct_K": 0.017842808414301102,
+      "median_rel_err_over_crr_uncertainty": 4.2016247004636,
+      "median_abs_err_over_tree_eu_err_median": 13.693949221673106,
+      "frac_rows_rel_err_below_crr_uncertainty": 0.14892456242619911
+    }
+  ]
+}

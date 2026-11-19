@@ -1,0 +1,22 @@
+{
+  "arch": "resnet",
+  "target": "american",
+  "model_kwargs": {
+    "input_dim": 4,
+    "hidden_dim": 256,
+    "n_blocks": 3,
+    "dropout": 0.10380942081075883
+  },
+  "param_count": 399873,
+  "onlab_v1_checkpoint": "Önlab eredmények/models/resnet_best.pt",
+  "onlab_v1_param_count": 399873,
+  "hpo_p30_param_count_check": "hpo/results/p30/param_count_check_resnet.json",
+  "hpo_p30_param_count": 399873,
+  "uniform_p30_metrics": "american-nn/results/uniform/metrics_resnet_american_p30.json",
+  "uniform_p30_param_count": 399873,
+  "transfer_p30_metrics": "american-nn/results/transfer/metrics_resnet_american_transfer_p30.json",
+  "transfer_p30_param_count": 399873,
+  "size_kwargs_equal_baseline_arch_kwargs": true,
+  "param_count_match": true,
+  "all_ok": true
+}

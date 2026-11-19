@@ -1,0 +1,37 @@
+{
+  "arch": "deep_mlp",
+  "model_class": "DeepMLPPricer",
+  "architecture_size_fixed_baseline": {
+    "input_dim": 4,
+    "hidden_dim": 256,
+    "n_layers": 4
+  },
+  "lr": 0.0014967532544189995,
+  "weight_decay": 1.3843702561891026e-06,
+  "dropout": 0.018004535925741725,
+  "search_best_val_loss": 8.39788551054274e-06,
+  "search_best_trial_number": 19,
+  "n_trials_completed": 30,
+  "n_trials_target": 30,
+  "final_retrain_best_epoch": 58,
+  "final_retrain_best_val_loss": 6.049903221331381e-06,
+  "baseline_val_loss": 3.6346939804886156e-05,
+  "improvement_pct_vs_baseline_val_loss": 83.35512355700963,
+  "param_count_match": true,
+  "param_count": 267265,
+  "baseline_test_metrics": {
+    "RMSE": 0.006060663145035505,
+    "MAE": 0.004351411946117878,
+    "MAPE (%)": 814789.111328125,
+    "max_error": 0.07147097587585449,
+    "R2": 0.9990440011024475
+  },
+  "hpo_test_metrics": {
+    "RMSE": 0.002471471903845668,
+    "MAE": 0.0017424279358237982,
+    "MAPE (%)": 65917.38891601562,
+    "max_error": 0.04978907108306885,
+    "R2": 0.999841034412384
+  },
+  "retrain_seconds": 681.647353887558
+}

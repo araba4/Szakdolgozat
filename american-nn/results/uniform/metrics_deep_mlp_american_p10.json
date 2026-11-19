@@ -1,0 +1,89 @@
+{
+  "run": "deep_mlp_american_p10",
+  "arch": "deep_mlp",
+  "model_class": "DeepMLPPricer",
+  "target": "american",
+  "target_col": "american_put_price_norm",
+  "target_definition": "american_put_price / K",
+  "patience": 10,
+  "max_epochs": 200,
+  "seed": 42,
+  "hyperparameters": {
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 4096,
+    "dropout": 0.1
+  },
+  "model_kwargs": {
+    "input_dim": 4,
+    "hidden_dim": 256,
+    "n_layers": 4,
+    "dropout": 0.1
+  },
+  "param_count": 267265,
+  "param_count_check": {
+    "onlab_v1_checkpoint": "Önlab eredmények/models/deep_mlp_best.pt",
+    "onlab_v1_model_kwargs": {
+      "input_dim": 4,
+      "hidden_dim": 256,
+      "n_layers": 4,
+      "dropout": 0.1
+    },
+    "model_kwargs": {
+      "input_dim": 4,
+      "hidden_dim": 256,
+      "n_layers": 4,
+      "dropout": 0.1
+    },
+    "onlab_v1_param_count": 267265,
+    "param_count": 267265,
+    "param_count_match": true,
+    "model_kwargs_match": true
+  },
+  "checkpoint": "american-nn/models/uniform/deep_mlp_american_p10_best.pt",
+  "data_files": {
+    "train": "american-options/data/train.parquet",
+    "val": "american-options/data/val.parquet",
+    "test": "american-options/data/test.parquet"
+  },
+  "best_epoch": 4,
+  "n_epochs_run": 14,
+  "hit_max_epochs": false,
+  "best_val_loss": 0.00039429295361352465,
+  "train_seconds": 88.62458658218384,
+  "mean_epoch_seconds": 6.329855135508946,
+  "val_recheck": {
+    "checkpoint_val_loss": 0.00039429295361352465,
+    "checkpoint_best_epoch": 4,
+    "reloaded_val_mse": 0.0003942929561114283,
+    "rel_diff": 6.335146514812592e-09,
+    "loader": "Önlab src/evaluate.py load_model + PricingDataset"
+  },
+  "test_metrics": {
+    "RMSE": 0.01982891373336315,
+    "MAE": 0.016959141939878464,
+    "MAPE (%)": 2036522.265625,
+    "max_error": 0.08722056448459625,
+    "R2": 0.9839088916778564,
+    "MSE": 0.0003931858198451578
+  },
+  "test_metrics_usd": {
+    "RMSE": 2.1714091785184615,
+    "MAE": 1.5408583458309038,
+    "max_error": 12.013823120974422,
+    "R2": 0.9934992120622088
+  },
+  "checkpoint_target_col": "american_put_price_norm",
+  "checkpoint_model_kwargs": {
+    "input_dim": 4,
+    "hidden_dim": 256,
+    "n_layers": 4,
+    "dropout": 0.1
+  },
+  "checkpoint_feature_cols": [
+    "moneyness_norm",
+    "T_norm",
+    "r_norm",
+    "sigma_norm"
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "checked_at": "2026-10-14 02:12:55",
+  "n_runs": 14,
+  "param_count_match_all": true,
+  "hyperparameters": [
+    {
+      "run": "mlp_american_transfer_p30",
+      "source": "hpo/results/p30/best_params_mlp.json",
+      "lr_equal": true,
+      "weight_decay_equal": true,
+      "dropout_equal": true,
+      "batch_epochs_seed_patience_equal": true,
+      "target_col_ok": true,
+      "checkpoint_source_json": "hpo/results/p30/best_params_mlp.json",
+      "all_equal": true
+    },
+    {
+      "run": "mlp_european_transfer_p30",
+      "source": "hpo/results/p30/best_params_mlp.json",
+      "lr_equal": true,
+      "weight_decay_equal": true,
+      "dropout_equal": true,
+      "batch_epochs_seed_patience_equal": true,
+      "target_col_ok": true,
+      "checkpoint_source_json": "hpo/results/p30/best_params_mlp.json",
+      "all_equal": true
+    },
+    {
+      "run": "deep_mlp_american_transfer_p30",
+      "source": "hpo/results/p30/best_params_deep_mlp.json",
+      "lr_equal": true,
+      "weight_decay_equal": true,
+      "dropout_equal": true,
+      "batch_epochs_seed_patience_equal": true,
+      "target_col_ok": true,
+      "checkpoint_source_json": "hpo/results/p30/best_params_deep_mlp.json",
+      "all_equal": true
+    },
+    {
+      "run": "deep_mlp_european_transfer_p30",
+      "source": "hpo/results/p30/best_params_deep_mlp.json",
+      "lr_equal": true,
+      "weight_decay_equal": true,
+      "dropout_equal": true,
+      "batch_epochs_seed_patience_equal": true,
+      "target_col_ok": true,
+      "checkpoint_source_json": "hpo/results/p30/best_params_deep_mlp.json",
+      "all_equal": true
+    },
+    {
+      "run": "dense_mlp_american_transfer_p30",
+      "source": "hpo/results/p30/best_params_dense_mlp.json",
+      "lr_equal": true,
+      "weight_decay_equal": true,
+      "dropout_equal": true,
+      "batch_epochs_seed_patience_equal": true,
+      "target_col_ok": true,
+      "checkpoint_source_json": "hpo/results/p30/best_params_dense_mlp.json",
+      "all_equal": true
+    },
+    {
+      "run": "dense_mlp_european_transfer_p30",
+      "source": "hpo/results/p30/best_params_dense_mlp.json",
+      "lr_equal": true,
+      "weight_decay_equal": true,
+      "dropout_equal": true,
+      "batch_epochs_seed_patience_equal": true,
+      "target_col_ok": true,
+      "checkpoint_source_json": "hpo/results/p30/best_params_dense_mlp.json",
+      "all_equal": true
+    },
+    {
+      "run": "resnet_american_transfer_p30",
+      "source": "hpo/results/p30/best_params_resnet.json",
+      "lr_equal": true,
+      "weight_decay_equal": true,
+      "dropout_equal": true,
+      "batch_epochs_seed_patience_equal": true,
+      "target_col_ok": true,
+      "checkpoint_source_json": "hpo/results/p30/best_params_resnet.json",
+      "all_equal": true
+    },
+    {
+      "run": "resnet_european_transfer_p30",
+      "source": "hpo/results/p30/best_params_resnet.json",
+      "lr_equal": true,
+      "weight_decay_equal": true,
+      "dropout_equal": true,
+      "batch_epochs_seed_patience_equal": true,
+      "target_col_ok": true,
+      "checkpoint_source_json": "hpo/results/p30/best_params_resnet.json",
+      "all_equal": true
+    },
+    {
+      "run": "gelu_resnet_american_transfer_p30",
+      "source": "hpo/results/p30/best_params_gelu_resnet.json",
+      "lr_equal": true,
+      "weight_decay_equal": true,
+      "dropout_equal": true,
+      "batch_epochs_seed_patience_equal": true,
+      "target_col_ok": true,
+      "checkpoint_source_json": "hpo/results/p30/best_params_gelu_resnet.json",
+      "all_equal": true
+    },
+    {
+      "run": "gelu_resnet_european_transfer_p30",
+      "source": "hpo/results/p30/best_params_gelu_resnet.json",
+      "lr_equal": true,
+      "weight_decay_equal": true,
+      "dropout_equal": true,
+      "batch_epochs_seed_patience_equal": true,
+      "target_col_ok": true,
+      "checkpoint_source_json": "hpo/results/p30/best_params_gelu_resnet.json",
+      "all_equal": true
+    },
+    {
+      "run": "highway_american_transfer_p30",
+      "source": "hpo/results/p30/best_params_highway.json",
+      "lr_equal": true,
+      "weight_decay_equal": true,
+      "dropout_equal": true,
+      "batch_epochs_seed_patience_equal": true,
+      "target_col_ok": true,
+      "checkpoint_source_json": "hpo/results/p30/best_params_highway.json",
+      "all_equal": true
+    },
+    {
+      "run": "highway_european_transfer_p30",
+      "source": "hpo/results/p30/best_params_highway.json",
+      "lr_equal": true,
+      "weight_decay_equal": true,
+      "dropout_equal": true,
+      "batch_epochs_seed_patience_equal": true,
+      "target_col_ok": true,
+      "checkpoint_source_json": "hpo/results/p30/best_params_highway.json",
+      "all_equal": true
+    },
+    {
+      "run": "finn_american_transfer_p30",
+      "source": "hpo/results/p30/best_params_finn.json",
+      "lr_equal": true,
+      "weight_decay_equal": true,
+      "dropout_equal": true,
+      "batch_epochs_seed_patience_equal": true,
+      "target_col_ok": true,
+      "checkpoint_source_json": "hpo/results/p30/best_params_finn.json",
+      "all_equal": true
+    },
+    {
+      "run": "finn_european_transfer_p30",
+      "source": "hpo/results/p30/best_params_finn.json",
+      "lr_equal": true,
+      "weight_decay_equal": true,
+      "dropout_equal": true,
+      "batch_epochs_seed_patience_equal": true,
+      "target_col_ok": true,
+      "checkpoint_source_json": "hpo/results/p30/best_params_finn.json",
+      "all_equal": true
+    }
+  ],
+  "hyperparameters_bitwise_equal_all": true,
+  "val_recheck_max_rel_diff": 2.3774323398823983e-08,
+  "val_recheck_ok": true,
+  "uniform_rows_source": "american-nn/results/uniform/comparison_table.csv",
+  "uniform_rows_n": 14,
+  "uniform_rows_bitwise_equal": true,
+  "uniform_rows_mismatches": [],
+  "n_hit_max_epochs": 4
+}

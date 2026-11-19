@@ -1,0 +1,37 @@
+{
+  "arch": "dense_mlp",
+  "model_class": "DenseMLPPricer",
+  "architecture_size_fixed_baseline": {
+    "input_dim": 4,
+    "hidden_dim": 128,
+    "n_layers": 4
+  },
+  "lr": 0.003051542173518812,
+  "weight_decay": 1.0769800699354738e-06,
+  "dropout": 0.012211737490805619,
+  "search_best_val_loss": 5.789842803787905e-06,
+  "search_best_trial_number": 25,
+  "n_trials_completed": 30,
+  "n_trials_target": 30,
+  "final_retrain_best_epoch": 76,
+  "final_retrain_best_val_loss": 4.0593225682581155e-06,
+  "baseline_val_loss": 0.00032282644992694256,
+  "improvement_pct_vs_baseline_val_loss": 98.74256816032987,
+  "param_count_match": true,
+  "param_count": 101381,
+  "baseline_test_metrics": {
+    "RMSE": 0.018042145296931267,
+    "MAE": 0.013093773275613785,
+    "MAPE (%)": 6098425.78125,
+    "max_error": 0.13507458567619324,
+    "R2": 0.9915280342102051
+  },
+  "hpo_test_metrics": {
+    "RMSE": 0.002041273983195424,
+    "MAE": 0.0013330273795872927,
+    "MAPE (%)": 549170.5078125,
+    "max_error": 0.0422397181391716,
+    "R2": 0.9998915791511536
+  },
+  "retrain_seconds": 839.7213561534882
+}

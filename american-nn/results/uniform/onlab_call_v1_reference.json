@@ -1,0 +1,90 @@
+{
+  "note": "Önlab v1 (*_best.pt), európai CALL, call_price_norm, Önlab test.parquet; csak tájékoztató, a fő összevetés put–put.",
+  "test_file": "Önlab eredmények/data/test.parquet",
+  "archs": {
+    "mlp": {
+      "checkpoint": "Önlab eredmények/models/mlp_best.pt",
+      "val_loss": 2.060655468298743e-05,
+      "best_epoch": 123,
+      "test_metrics": {
+        "RMSE": 0.004602072760462761,
+        "MAE": 0.0027880033012479544,
+        "MAPE (%)": 66822.39990234375,
+        "max_error": 0.08169036358594894,
+        "R2": 0.9994487762451172
+      }
+    },
+    "deep_mlp": {
+      "checkpoint": "Önlab eredmények/models/deep_mlp_best.pt",
+      "val_loss": 3.6346939804886156e-05,
+      "best_epoch": 27,
+      "test_metrics": {
+        "RMSE": 0.006060663145035505,
+        "MAE": 0.004351411946117878,
+        "MAPE (%)": 814789.111328125,
+        "max_error": 0.07147097587585449,
+        "R2": 0.9990440011024475
+      }
+    },
+    "dense_mlp": {
+      "checkpoint": "Önlab eredmények/models/dense_mlp_best.pt",
+      "val_loss": 0.00032282644992694256,
+      "best_epoch": 5,
+      "test_metrics": {
+        "RMSE": 0.018042145296931267,
+        "MAE": 0.013093773275613785,
+        "MAPE (%)": 6098425.78125,
+        "max_error": 0.13507458567619324,
+        "R2": 0.9915280342102051
+      }
+    },
+    "resnet": {
+      "checkpoint": "Önlab eredmények/models/resnet_best.pt",
+      "val_loss": 3.846234431723133e-05,
+      "best_epoch": 28,
+      "test_metrics": {
+        "RMSE": 0.0062165530398488045,
+        "MAE": 0.004771844949573278,
+        "MAPE (%)": 2217483.3984375,
+        "max_error": 0.06277793645858765,
+        "R2": 0.9989942312240601
+      }
+    },
+    "gelu_resnet": {
+      "checkpoint": "Önlab eredmények/models/gelu_resnet_best.pt",
+      "val_loss": 8.49894749194694e-05,
+      "best_epoch": 31,
+      "test_metrics": {
+        "RMSE": 0.009293452836573124,
+        "MAE": 0.0062475986778736115,
+        "MAPE (%)": 3765818.75,
+        "max_error": 0.09721830487251282,
+        "R2": 0.9977521896362305
+      }
+    },
+    "highway": {
+      "checkpoint": "Önlab eredmények/models/highway_best.pt",
+      "val_loss": 0.00021953723330050707,
+      "best_epoch": 9,
+      "test_metrics": {
+        "RMSE": 0.014884491451084614,
+        "MAE": 0.01058123167604208,
+        "MAPE (%)": 6085027.34375,
+        "max_error": 0.12276598811149597,
+        "R2": 0.9942339658737183
+      }
+    },
+    "finn": {
+      "checkpoint": "Önlab eredmények/models/finn_best.pt",
+      "val_loss": 8.240615842631087e-05,
+      "best_epoch": 21,
+      "test_metrics": {
+        "RMSE": 0.00914283748716116,
+        "MAE": 0.006133566610515118,
+        "MAPE (%)": 3711508.203125,
+        "max_error": 0.0959678366780281,
+        "R2": 0.9978244304656982
+      }
+    }
+  }
+}

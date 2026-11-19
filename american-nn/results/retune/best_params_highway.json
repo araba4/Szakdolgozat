@@ -1,0 +1,130 @@
+{
+  "arch": "highway",
+  "model_class": "HighwayPricer",
+  "architecture_size_fixed_baseline": {
+    "input_dim": 4,
+    "hidden_dim": 256,
+    "n_blocks": 4
+  },
+  "lr": 0.002394165690068651,
+  "weight_decay": 1.0819294472179538e-06,
+  "dropout": 0.1282731110548368,
+  "search_source": "american-nn/optuna_studies/retune/highway.db",
+  "search_best_val_loss": 7.394304804183775e-06,
+  "search_best_trial_number": 22,
+  "n_trials_completed": 40,
+  "n_trials_target": 40,
+  "final_patience": 30,
+  "final_max_epochs": 200,
+  "final_batch_size": 4096,
+  "seed": 42,
+  "final_retrain_best_epoch": 33,
+  "final_retrain_n_epochs_run": 63,
+  "hit_max_epochs": false,
+  "final_retrain_best_val_loss": 6.715525543501523e-06,
+  "param_count_match": true,
+  "param_count": 527873,
+  "hpo_test_metrics": {
+    "RMSE": 0.0026174827944487333,
+    "MAE": 0.0017054335912689567,
+    "MAPE (%)": 557275.29296875,
+    "max_error": 0.04475533962249756,
+    "R2": 0.9997196197509766,
+    "MSE": 6.85121617923515e-06
+  },
+  "retrain_seconds": 586.6175012588501,
+  "val_mse_recheck": {
+    "checkpoint_val_loss": 6.715525543501523e-06,
+    "checkpoint_best_epoch": 33,
+    "reloaded_val_mse": 6.715525561621405e-06,
+    "rel_diff": 2.6982076091068834e-09,
+    "loader": "Önlab src/evaluate.py load_model + PricingDataset"
+  },
+  "target": "american",
+  "target_definition": "american_put_price / K",
+  "search_target": "american",
+  "study_name": "highway",
+  "study_db": "american-nn/optuna_studies/retune/highway.db",
+  "sampler": "TPESampler(seed=42)",
+  "pruner": "HyperbandPruner(min_resource=3, max_resource=40, reduction_factor=3)",
+  "search_max_epochs": 40,
+  "search_patience": 8,
+  "search_batch_size": 4096,
+  "cold_start": true,
+  "n_trials_total": 40,
+  "n_trials_valid": 40,
+  "n_trials_complete": 13,
+  "n_trials_pruned": 27,
+  "n_trials_fail": 0,
+  "fail_trial_numbers": [],
+  "resume_events": [],
+  "param_importance_ped_anova": {
+    "weight_decay": 0.7437066407818459,
+    "dropout": 0.1847581869095349,
+    "lr": 0.07153517230861917
+  },
+  "hpo_test_metrics_usd": {
+    "RMSE": 0.286982804360573,
+    "MAE": 0.15909601919383723,
+    "max_error": 5.8843971100194885,
+    "R2": 0.9998864480985569
+  },
+  "metrics_american": "american-nn/results/retune/metrics_highway_american_retune_p30.json",
+  "european_reference": {
+    "run": "highway_european_retune_p30",
+    "metrics": "american-nn/results/retune/metrics_highway_european_retune_p30.json",
+    "target_definition": "european_put_price / K",
+    "hyperparameters": {
+      "lr": 0.002394165690068651,
+      "weight_decay": 1.0819294472179538e-06,
+      "dropout": 0.1282731110548368,
+      "batch_size": 4096
+    },
+    "hyperparameters_bitwise_equal_american": true,
+    "best_epoch": 49,
+    "n_epochs_run": 79,
+    "hit_max_epochs": false,
+    "best_val_loss": 6.120041477988707e-06,
+    "test_metrics": {
+      "RMSE": 0.0024983033072203398,
+      "MAE": 0.0015971632674336433,
+      "MAPE (%)": 461367.529296875,
+      "max_error": 0.04544384777545929,
+      "R2": 0.9997318387031555,
+      "MSE": 6.2415194148680874e-06
+    },
+    "test_metrics_usd": {
+      "RMSE": 0.2715749644199657,
+      "MAE": 0.1466893527428621,
+      "max_error": 5.895765484582464,
+      "R2": 0.9998924767427788
+    },
+    "train_seconds": 774.8548636436462,
+    "val_recheck": {
+      "checkpoint_val_loss": 6.120041477988707e-06,
+      "checkpoint_best_epoch": 49,
+      "reloaded_val_mse": 6.120041507643435e-06,
+      "rel_diff": 4.84551089646721e-09,
+      "loader": "Önlab src/evaluate.py load_model + PricingDataset"
+    }
+  },
+  "european_call_tpe_reference": {
+    "search_json": "hpo/results/best_params_highway.json",
+    "p30_json": "hpo/results/p30/best_params_highway.json",
+    "lr": 0.0022091690943683057,
+    "weight_decay": 1.0158715496491554e-06,
+    "dropout": 0.4062738450307539,
+    "search_best_val_loss": 9.000574587941326e-06,
+    "search_best_trial_number": 38,
+    "p30_best_val_loss": 8.526690297682459e-06
+  },
+  "search_time_s": 760.4723477999996,
+  "search_time_s_this_run": 760.4723477999996,
+  "n_search_invocations": 1,
+  "search_trial_duration_sum_s": 758.538316,
+  "n_search_epochs": 682,
+  "final_train_time_s_american": 586.6175012588501,
+  "final_train_time_s_european": 774.8548636436462,
+  "total_time_s": 2121.944712702496,
+  "pipeline_time_s_this_run": 2129.558465100001
+}
